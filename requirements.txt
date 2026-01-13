@@ -1,0 +1,9 @@
+langchain==1.2.0
+langchain-experimental==0.4.1
+rank-bm25==0.2.2
+underthesea==8.3.0
+torch==2.9.1
+sentence_transformers==5.2.0
+protobuf==6.33.2
+sentencepiece==0.2.1
+streamlit==1.52.2
