@@ -1,0 +1,358 @@
+[
+  {
+    "Unnamed: 0": 105,
+    "index": 2707,
+    "Statement": "Các khu vực tạm ngưng cung cấp nước gồm quận 10, 11, 12, Gò Vấp, Tân Bình, Tân Phú, Bình Tân và huyện Hóc Môn, Bình Chánh để thực hiện công tác bảo trì, bảo dưỡng định kỳ Nhà máy nước Tân Hiệp.",
+    "Context": "(PLO)- Theo Tổng Công ty Cấp nước Sài Gòn (SAWACO) việc cúp nước là để thực hiện công tác bảo trì, bảo dưỡng định kỳ Nhà máy nước Tân Hiệp. SAWACO cho biết đây là phương án để đảm bảo cung cấp nước sạch an toàn, liên tục phục vụ cho người dân TP. Vì vậy, SAWACO thông báo tạm ngưng cung cấp nước để thực hiện công tác nêu trên. Thời gian thực hiện dự kiến từ 22 giờ ngày 25-3 (thứ bảy) đến 4 giờ ngày 26-3 (chủ nhật). Các khu vực tạm ngưng cung cấp nước gồm quận 6, 8, 12, Gò Vấp, Tân Bình, Tân Phú, Bình Tân và huyện Hóc Môn, Bình Chánh. SAWACO cho biết do điều kiện đặc thù của vùng cung cấp nước nên thời gian phục hồi nước trên mạng lưới cấp nước tại một số nơi xa nguồn sẽ chậm hơn so với mốc thời gian chính nêu trên. Theo đó, để hạn chế đến mức thấp nhất ảnh hưởng đến sinh hoạt của người dân, SAWACO đã có phương án tăng cường cấp nước bằng xe bồn tại các khu vực trọng yếu; điều tiết hỗ trợ từ mạng truyền tải, theo dõi chặt chẽ diễn biến trên mạng lưới cấp nước để điều phối nguồn nước theo tình hình thực tế. Đồng thời, SAWACO chủ động phối hợp giải quyết các vấn đề phát sinh xảy ra trên mạng lưới cấp nước.",
+    "annotation_id": 19807472,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/9-quan-huyen-o-tphcm-se-bi-cup-nuoc-vao-cuoi-tuan-nay-post725015.html",
+    "labels": 1,
+    "Evidence": "Các khu vực tạm ngưng cung cấp nước gồm quận 6, 8, 12, Gò Vấp, Tân Bình, Tân Phú, Bình Tân và huyện Hóc Môn, Bình Chánh. để thực hiện công tác bảo trì, bảo dưỡng định kỳ Nhà máy nước Tân Hiệp",
+    "splited_sentences": [
+      "(PLO)- Theo Tổng Công ty Cấp nước Sài Gòn (SAWACO) việc cúp nước là để thực hiện công tác bảo trì, bảo dưỡng định kỳ Nhà máy nước Tân Hiệp",
+      "SAWACO cho biết đây là phương án để đảm bảo cung cấp nước sạch an toàn, liên tục phục vụ cho người dân TP",
+      "Vì vậy, SAWACO thông báo tạm ngưng cung cấp nước để thực hiện công tác nêu trên",
+      "Thời gian thực hiện dự kiến từ 22 giờ ngày 25-3 (thứ bảy) đến 4 giờ ngày 26-3 (chủ nhật)",
+      "Các khu vực tạm ngưng cung cấp nước gồm quận 6, 8, 12, Gò Vấp, Tân Bình, Tân Phú, Bình Tân và huyện Hóc Môn, Bình Chánh",
+      "SAWACO cho biết do điều kiện đặc thù của vùng cung cấp nước nên thời gian phục hồi nước trên mạng lưới cấp nước tại một số nơi xa nguồn sẽ chậm hơn so với mốc thời gian chính nêu trên",
+      "Theo đó, để hạn chế đến mức thấp nhất ảnh hưởng đến sinh hoạt của người dân, SAWACO đã có phương án tăng cường cấp nước bằng xe bồn tại các khu vực trọng yếu; điều tiết hỗ trợ từ mạng truyền tải, theo dõi chặt chẽ diễn biến trên mạng lưới cấp nước để điều phối nguồn nước theo tình hình thực tế",
+      "Đồng thời, SAWACO chủ động phối hợp giải quyết các vấn đề phát sinh xảy ra trên mạng lưới cấp nước."
+    ],
+    "Evidence_List": [
+      "Các khu vực tạm ngưng cung cấp nước gồm quận 6, 8, 12, Gò Vấp, Tân Bình, Tân Phú, Bình Tân và huyện Hóc Môn, Bình Chánh.",
+      "để thực hiện công tác bảo trì, bảo dưỡng định kỳ Nhà máy nước Tân Hiệp"
+    ],
+    "evidence_top5": [
+      "Các khu vực tạm ngưng cung cấp nước gồm quận 6, 8, 12, Gò Vấp, Tân Bình, Tân Phú, Bình Tân và huyện Hóc Môn, Bình Chánh",
+      "(PLO)- Theo Tổng Công ty Cấp nước Sài Gòn (SAWACO) việc cúp nước là để thực hiện công tác bảo trì, bảo dưỡng định kỳ Nhà máy nước Tân Hiệp",
+      "Theo đó, để hạn chế đến mức thấp nhất ảnh hưởng đến sinh hoạt của người dân, SAWACO đã có phương án tăng cường cấp nước bằng xe bồn tại các khu vực trọng yếu; điều tiết hỗ trợ từ mạng truyền tải, theo dõi chặt chẽ diễn biến trên mạng lưới cấp nước để điều phối nguồn nước theo tình hình thực tế",
+      "SAWACO cho biết do điều kiện đặc thù của vùng cung cấp nước nên thời gian phục hồi nước trên mạng lưới cấp nước tại một số nơi xa nguồn sẽ chậm hơn so với mốc thời gian chính nêu trên",
+      "Vì vậy, SAWACO thông báo tạm ngưng cung cấp nước để thực hiện công tác nêu trên"
+    ],
+    "len_evidence": 2
+  },
+  {
+    "Unnamed: 0": 110,
+    "index": 1929,
+    "Statement": "Mọi vấn đề liên quan đến tranh chấp đất đai và đền bù cho các hộ dân bị ảnh hưởng đã được giải quyết xong, dự án Đại lộ Bắc - Nam phía Đông đang triển khai thuận lợi.",
+    "Context": "(PLO)- Hậu Giang đã bàn giao 33,68/37km mặt bằng cho dự án cao tốc Bắc - Nam đoạn Cần Thơ - Cà Mau, tuy nhiên hiện các nhà thầu mới tiếp cận để thi công được khoảng 19,5km. Ngày 22-3, ông Nguyễn Văn Thắng, Bộ trưởng Bộ GTVT có Công điện gửi UBND đề nghị đẩy nhanh tiến độ thực hiện công tác bồi thường, hỗ trợ, tái định cư dự án xây dựng công trình đường bộ cao tốc Bắc - Nam phía Đông, giai đoạn 2021-2025 đoạn qua địa bàn tỉnh. Theo đó, Bộ trưởng Bộ GTVT cho biết Bộ đang quyết liệt chỉ đạo Ban Quản lý dự án Mỹ Thuận (chủ đầu tư) và nhà thầu tập trung thi công ngay từ giai đoạn đầu của dự án. Đến nay, các nhà thầu đã xây dựng xong lán trại, huy động máy móc, thiết bị và đã triển khai thi công đồng loạt trên tất cả các gói thầu theo tiến độ chi tiết cho từng tháng, từng quý. Tuy nhiên, thực tế phạm vi mặt bằng để nhà thầu có thể thi công tại đoạn Cần Thơ - Hậu Giang chỉ khoảng 19,5/37km và đoạn Hậu Giang - Cà Mau khoảng 15/26,6km. Từ đó, làm ảnh hưởng đến công tác tổ chức thi công theo kế hoạch. Cao tốc Bắc - Nam phía Đông, giai đoạn 2021-2025 đoạn qua địa bàn tỉnh Hậu Giang hiện còn 20 đoạn tuyến mặt bằng \"xôi đỗ\" và vướng đường tiếp cận nên chưa triển khai thi công được, tổng chiều dài hơn 10,5km. Nguyên nhân do một số trường hợp người dân chưa nhận tiền đền bù, hoặc còn khiếu nại về giá đền bù. Ngoài ra, một số vị trí đường tiếp cận công trường chưa được bàn giao mặt bằng; đang chờ thực hiện thủ tục di dời công trình hạ tầng kỹ thuật, chưa hoàn thành xây dựng khu tái định cư... Để đáp ứng tiến độ dự án, Bộ trưởng Bộ GTVT đề nghị UBND tỉnh Hậu Giang chỉ đạo các chủ đầu tư tiểu dự án giải phóng mặt bằng (GPMB), các cơ quan đơn vị khẩn trương triển khai công tác bồi thường, hỗ trợ, tái định cư đảm bảo lộ trình, kế hoạch đã đặt ra. Trong đó, cần tập trung giải quyết khó khăn, vướng mắc GPMB tại các vị trí đường găng của dự án. Đảm bảo mặt bằng bàn giao liên tục tạo thuận lợi cho công tác huy động thiết bị máy móc triển khai thi công. Cụ thể, đối với các khu vực đã bàn giao mặt bằng nhưng còn vướng mắc, chưa thể thi công Bộ GTVT đề nghị tỉnh Hậu Giang tăng cường lực lượng đẩy nhanh việc chi trả, đền bù; tập trung giải quyết các khiếu nại của người dân về giá đền bù. Cạnh đó, thực hiện di dời các công trình hạ tầng kỹ thuật trong phạm vi đã GPMB; ưu tiên GPMB đường tiếp cận, đường công vụ, các vị trí xen kẹp, “xôi đỗ”... Bộ GTVT cũng yêu phải hoàn thành trong tháng 3-2023 để các nhà thầu tổ chức thi công theo đúng kế hoạch. Đối với các vị trí chưa bàn giao mặt bằng, Bộ GTVT đề nghị Hậu Giang ưu tiên GPMB trong tháng 3-2023 đối với các vị trí đường tiếp cận công trường, đường công vụ, các vị trí cần xử lý nền đất yếu, vị trí công trình cầu để tổ chức thi công ngay. Ngoài ra, đẩy nhanh công tác xây dựng hạ tầng kỹ thuật các khu tái định cư để tổ chức tái định cư cho người dân. Trong khi chưa hoàn thành, cần có phương án bố trí tạm cư để các hộ dân sớm bàn giao mặt bằng cho dự án. Bộ GTVT cũng đề nghị Hậu Giang đẩy nhanh tiến độ phê duyệt phương án đền bù, thực hiện chi trả cho các hộ dân. Đồng thời, di dời các công trình hạ kỹ thuật để hoàn thành bàn giao toàn bộ mặt bằng cho Ban Quản lý dự án Mỹ Thuận trước ngày 30-6. Dự án cao tốc Bắc - Nam đoạn Cần Thơ - Cà Mau có chiều dài gần 111km, tổng mức đầu tư hơn 27.500 tỉ đồng. Dự án đi qua địa bàn TP Cần Thơ và bốn tỉnh Hậu Giang, Bạc Liêu, Kiên Giang, Cà Mau, với hơn 4.000 hộ dân bị ảnh hưởng. Hậu Giang đã bàn giao 33,68/37km mặt bằng cho dự án, tuy nhiên, hiện các nhà thầu mới tiếp cận để thi công được khoảng 19,5km. Nguyên nhân là chưa có đường vào để tiếp cận thi công; mặt bằng nhận được chưa liên tục nên không thể triển khai toàn bộ; chưa di dời công trình hạ tầng kỹ thuật; người dân cản trở chưa cho thi công do giá đền bù, hỗ trợ cây mai vàng, cống bọng...",
+    "annotation_id": 18806995,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/bo-truong-gtvt-thuc-tien-do-cao-toc-can-tho-ca-mau-post725114.html",
+    "labels": 1,
+    "Evidence": "một số trường hợp người dân chưa nhận tiền đền bù, hoặc còn khiếu nại về giá đền bù.",
+    "splited_sentences": [
+      "(PLO)- Hậu Giang đã bàn giao 33,68/37km mặt bằng cho dự án cao tốc Bắc - Nam đoạn Cần Thơ - Cà Mau, tuy nhiên hiện các nhà thầu mới tiếp cận để thi công được khoảng 19,5km",
+      "Ngày 22-3, ông Nguyễn Văn Thắng, Bộ trưởng Bộ GTVT có Công điện gửi UBND đề nghị đẩy nhanh tiến độ thực hiện công tác bồi thường, hỗ trợ, tái định cư dự án xây dựng công trình đường bộ cao tốc Bắc - Nam phía Đông, giai đoạn 2021-2025 đoạn qua địa bàn tỉnh",
+      "Theo đó, Bộ trưởng Bộ GTVT cho biết Bộ đang quyết liệt chỉ đạo Ban Quản lý dự án Mỹ Thuận (chủ đầu tư) và nhà thầu tập trung thi công ngay từ giai đoạn đầu của dự án",
+      "Đến nay, các nhà thầu đã xây dựng xong lán trại, huy động máy móc, thiết bị và đã triển khai thi công đồng loạt trên tất cả các gói thầu theo tiến độ chi tiết cho từng tháng, từng quý",
+      "Tuy nhiên, thực tế phạm vi mặt bằng để nhà thầu có thể thi công tại đoạn Cần Thơ - Hậu Giang chỉ khoảng 19,5/37km và đoạn Hậu Giang - Cà Mau khoảng 15/26,6km",
+      "Từ đó, làm ảnh hưởng đến công tác tổ chức thi công theo kế hoạch",
+      "Cao tốc Bắc - Nam phía Đông, giai đoạn 2021-2025 đoạn qua địa bàn tỉnh Hậu Giang hiện còn 20 đoạn tuyến mặt bằng \"xôi đỗ\" và vướng đường tiếp cận nên chưa triển khai thi công được, tổng chiều dài hơn 10,5km",
+      "Nguyên nhân do một số trường hợp người dân chưa nhận tiền đền bù, hoặc còn khiếu nại về giá đền bù",
+      "Ngoài ra, một số vị trí đường tiếp cận công trường chưa được bàn giao mặt bằng; đang chờ thực hiện thủ tục di dời công trình hạ tầng kỹ thuật, chưa hoàn thành xây dựng khu tái định cư..",
+      "Để đáp ứng tiến độ dự án, Bộ trưởng Bộ GTVT đề nghị UBND tỉnh Hậu Giang chỉ đạo các chủ đầu tư tiểu dự án giải phóng mặt bằng (GPMB), các cơ quan đơn vị khẩn trương triển khai công tác bồi thường, hỗ trợ, tái định cư đảm bảo lộ trình, kế hoạch đã đặt ra",
+      "Trong đó, cần tập trung giải quyết khó khăn, vướng mắc GPMB tại các vị trí đường găng của dự án",
+      "Đảm bảo mặt bằng bàn giao liên tục tạo thuận lợi cho công tác huy động thiết bị máy móc triển khai thi công",
+      "Cụ thể, đối với các khu vực đã bàn giao mặt bằng nhưng còn vướng mắc, chưa thể thi công Bộ GTVT đề nghị tỉnh Hậu Giang tăng cường lực lượng đẩy nhanh việc chi trả, đền bù; tập trung giải quyết các khiếu nại của người dân về giá đền bù",
+      "Cạnh đó, thực hiện di dời các công trình hạ tầng kỹ thuật trong phạm vi đã GPMB; ưu tiên GPMB đường tiếp cận, đường công vụ, các vị trí xen kẹp, “xôi đỗ”..",
+      "Bộ GTVT cũng yêu phải hoàn thành trong tháng 3-2023 để các nhà thầu tổ chức thi công theo đúng kế hoạch",
+      "Đối với các vị trí chưa bàn giao mặt bằng, Bộ GTVT đề nghị Hậu Giang ưu tiên GPMB trong tháng 3-2023 đối với các vị trí đường tiếp cận công trường, đường công vụ, các vị trí cần xử lý nền đất yếu, vị trí công trình cầu để tổ chức thi công ngay",
+      "Ngoài ra, đẩy nhanh công tác xây dựng hạ tầng kỹ thuật các khu tái định cư để tổ chức tái định cư cho người dân",
+      "Trong khi chưa hoàn thành, cần có phương án bố trí tạm cư để các hộ dân sớm bàn giao mặt bằng cho dự án",
+      "Bộ GTVT cũng đề nghị Hậu Giang đẩy nhanh tiến độ phê duyệt phương án đền bù, thực hiện chi trả cho các hộ dân",
+      "Đồng thời, di dời các công trình hạ kỹ thuật để hoàn thành bàn giao toàn bộ mặt bằng cho Ban Quản lý dự án Mỹ Thuận trước ngày 30-6",
+      "Dự án cao tốc Bắc - Nam đoạn Cần Thơ - Cà Mau có chiều dài gần 111km, tổng mức đầu tư hơn 27.500 tỉ đồng",
+      "Dự án đi qua địa bàn TP Cần Thơ và bốn tỉnh Hậu Giang, Bạc Liêu, Kiên Giang, Cà Mau, với hơn 4.000 hộ dân bị ảnh hưởng",
+      "Hậu Giang đã bàn giao 33,68/37km mặt bằng cho dự án, tuy nhiên, hiện các nhà thầu mới tiếp cận để thi công được khoảng 19,5km",
+      "Nguyên nhân là chưa có đường vào để tiếp cận thi công; mặt bằng nhận được chưa liên tục nên không thể triển khai toàn bộ; chưa di dời công trình hạ tầng kỹ thuật; người dân cản trở chưa cho thi công do giá đền bù, hỗ trợ cây mai vàng, cống bọng..."
+    ],
+    "Evidence_List": [
+      "một số trường hợp người dân chưa nhận tiền đền bù, hoặc còn khiếu nại về giá đền bù."
+    ],
+    "evidence_top5": [
+      "Ngoài ra, một số vị trí đường tiếp cận công trường chưa được bàn giao mặt bằng; đang chờ thực hiện thủ tục di dời công trình hạ tầng kỹ thuật, chưa hoàn thành xây dựng khu tái định cư..",
+      "Đồng thời, di dời các công trình hạ kỹ thuật để hoàn thành bàn giao toàn bộ mặt bằng cho Ban Quản lý dự án Mỹ Thuận trước ngày 30-6",
+      "Trong khi chưa hoàn thành, cần có phương án bố trí tạm cư để các hộ dân sớm bàn giao mặt bằng cho dự án",
+      "Dự án đi qua địa bàn TP Cần Thơ và bốn tỉnh Hậu Giang, Bạc Liêu, Kiên Giang, Cà Mau, với hơn 4.000 hộ dân bị ảnh hưởng",
+      "Nguyên nhân do một số trường hợp người dân chưa nhận tiền đền bù, hoặc còn khiếu nại về giá đền bù"
+    ],
+    "len_evidence": 1
+  },
+  {
+    "Unnamed: 0": 188,
+    "index": 2820,
+    "Statement": "Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị bằng cách tối ưu hoạt động của hệ thống đèn tín hiệu giao thông khu vực trung tâm TP với Trung tâm Quản lý điều hành giao thông đô thị.",
+    "Context": "(PLO)- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị với hàng loạt tuyến đường như Phạm Văn Đồng, quốc lộ 1, Xa lộ Hà Nội... Sở GTVT TP vừa đưa ra nhiều kế hoạch để chuyển đổi số ngành giao thông TP. Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc. Đồng thời, TP sẽ ứng dụng trí tuệ nhân tạo AI và dữ liệu lớn nhằm phân tích, tối ưu hóa dòng giao thông, hướng tới điều khiển giao thông thích ứng theo thời gian thực. Hiện nay, thông qua hệ thống đèn tín hiệu, từ Trung tâm có thể điều khiển đèn tín hiệu theo từng kịch bản khác nhau để dòng xe được lưu thông nhanh chóng, giảm thiểu ùn ứ theo từng khu vực. Mặt khác, Sở GTVT TP sẽ đầu tư, bổ sung hệ thống camera giám sát giao thông (tập trung các khu vực cầu yếu). Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP. Đồng thời, triển khai xử phạt theo quy trình thí điểm xử phạt vi phạm hành chính đối với các cá nhân, tổ chức vận tải hàng hóa bằng xe ô tô thông qua việc sử dụng thiết bị cân tải trọng tự động. Về các phương tiện công cộng, Sở GTVT TP sẽ triển khai hệ thống vé điện tử liên thông cho giao thông công cộng. Trong đó, triển khai mở rộng thí điểm vé điện tử cho hệ thống giao thông công cộng bằng xe buýt. TP cũng sẽ tiến hành nâng cấp phần mềm Go!Bus phục vụ hành khách đi xe buýt; Triển khai phần mềm quản lý, thống kê sản lượng vận tải hành khách công cộng phục vụ công tác quản lý, điều hành. Sở GTVT TP cũng nghiên cứu, kiến nghị Bộ GTVT thí điểm cấp phù hiệu phương tiện kinh doanh vận tải theo hình thức trực tuyến. Đồng thời, Sở GTVT sẽ tuyên truyền, hướng dẫn người dân thực hiện Dịch vụ công để đổi giấy phép lái xe do ngành giao thông vận tải cấp trên Cổng dịch vụ công quốc gia. Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông. Đồng thời, TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP. Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số. Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông.",
+    "annotation_id": 18245671,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/tphcm-dieu-khien-giao-thong-tu-xa-voi-hang-loat-tuyen-duong-lon-post725066.html",
+    "labels": 0,
+    "Evidence": ")- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị",
+    "splited_sentences": [
+      "(PLO)- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị với hàng loạt tuyến đường như Phạm Văn Đồng, quốc lộ 1, Xa lộ Hà Nội..",
+      "Sở GTVT TP vừa đưa ra nhiều kế hoạch để chuyển đổi số ngành giao thông TP",
+      "Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc",
+      "Đồng thời, TP sẽ ứng dụng trí tuệ nhân tạo AI và dữ liệu lớn nhằm phân tích, tối ưu hóa dòng giao thông, hướng tới điều khiển giao thông thích ứng theo thời gian thực",
+      "Hiện nay, thông qua hệ thống đèn tín hiệu, từ Trung tâm có thể điều khiển đèn tín hiệu theo từng kịch bản khác nhau để dòng xe được lưu thông nhanh chóng, giảm thiểu ùn ứ theo từng khu vực",
+      "Mặt khác, Sở GTVT TP sẽ đầu tư, bổ sung hệ thống camera giám sát giao thông (tập trung các khu vực cầu yếu)",
+      "Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP",
+      "Đồng thời, triển khai xử phạt theo quy trình thí điểm xử phạt vi phạm hành chính đối với các cá nhân, tổ chức vận tải hàng hóa bằng xe ô tô thông qua việc sử dụng thiết bị cân tải trọng tự động",
+      "Về các phương tiện công cộng, Sở GTVT TP sẽ triển khai hệ thống vé điện tử liên thông cho giao thông công cộng",
+      "Trong đó, triển khai mở rộng thí điểm vé điện tử cho hệ thống giao thông công cộng bằng xe buýt",
+      "TP cũng sẽ tiến hành nâng cấp phần mềm Go!Bus phục vụ hành khách đi xe buýt; Triển khai phần mềm quản lý, thống kê sản lượng vận tải hành khách công cộng phục vụ công tác quản lý, điều hành",
+      "Sở GTVT TP cũng nghiên cứu, kiến nghị Bộ GTVT thí điểm cấp phù hiệu phương tiện kinh doanh vận tải theo hình thức trực tuyến",
+      "Đồng thời, Sở GTVT sẽ tuyên truyền, hướng dẫn người dân thực hiện Dịch vụ công để đổi giấy phép lái xe do ngành giao thông vận tải cấp trên Cổng dịch vụ công quốc gia",
+      "Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông",
+      "Đồng thời, TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP",
+      "Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số",
+      "Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông."
+    ],
+    "Evidence_List": [
+      ")- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị"
+    ],
+    "evidence_top5": [
+      "(PLO)- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị với hàng loạt tuyến đường như Phạm Văn Đồng, quốc lộ 1, Xa lộ Hà Nội..",
+      "Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP",
+      "Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc",
+      "Mặt khác, Sở GTVT TP sẽ đầu tư, bổ sung hệ thống camera giám sát giao thông (tập trung các khu vực cầu yếu)",
+      "Sở GTVT TP vừa đưa ra nhiều kế hoạch để chuyển đổi số ngành giao thông TP"
+    ],
+    "len_evidence": 1
+  },
+  {
+    "Unnamed: 0": 204,
+    "index": 6837,
+    "Statement": "TP dự định triển khai phầm mềm quản lý tiến độ công trình giao thông trọng điểm trong TP và phối hợp với các trường đại học, viện ngiên cứu, đẩy mạnh hợp tác liên kết giữa các đối tác liên quan để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác điều hành giao thông cũng như các chương trình giáo dục đại chúng.",
+    "Context": "(PLO)- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị với hàng loạt tuyến đường như Phạm Văn Đồng, quốc lộ 1, Xa lộ Hà Nội... Sở GTVT TP vừa đưa ra nhiều kế hoạch để chuyển đổi số ngành giao thông TP. Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc. Đồng thời, TP sẽ ứng dụng trí tuệ nhân tạo AI và dữ liệu lớn nhằm phân tích, tối ưu hóa dòng giao thông, hướng tới điều khiển giao thông thích ứng theo thời gian thực. Hiện nay, thông qua hệ thống đèn tín hiệu, từ Trung tâm có thể điều khiển đèn tín hiệu theo từng kịch bản khác nhau để dòng xe được lưu thông nhanh chóng, giảm thiểu ùn ứ theo từng khu vực. Mặt khác, Sở GTVT TP sẽ đầu tư, bổ sung hệ thống camera giám sát giao thông (tập trung các khu vực cầu yếu). Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP. Đồng thời, triển khai xử phạt theo quy trình thí điểm xử phạt vi phạm hành chính đối với các cá nhân, tổ chức vận tải hàng hóa bằng xe ô tô thông qua việc sử dụng thiết bị cân tải trọng tự động. Về các phương tiện công cộng, Sở GTVT TP sẽ triển khai hệ thống vé điện tử liên thông cho giao thông công cộng. Trong đó, triển khai mở rộng thí điểm vé điện tử cho hệ thống giao thông công cộng bằng xe buýt. TP cũng sẽ tiến hành nâng cấp phần mềm Go!Bus phục vụ hành khách đi xe buýt; Triển khai phần mềm quản lý, thống kê sản lượng vận tải hành khách công cộng phục vụ công tác quản lý, điều hành. Sở GTVT TP cũng nghiên cứu, kiến nghị Bộ GTVT thí điểm cấp phù hiệu phương tiện kinh doanh vận tải theo hình thức trực tuyến. Đồng thời, Sở GTVT sẽ tuyên truyền, hướng dẫn người dân thực hiện Dịch vụ công để đổi giấy phép lái xe do ngành giao thông vận tải cấp trên Cổng dịch vụ công quốc gia. Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông. Đồng thời, TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP. Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số. Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông.",
+    "annotation_id": 18303389,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/tphcm-dieu-khien-giao-thong-tu-xa-voi-hang-loat-tuyen-duong-lon-post725066.html",
+    "labels": 2,
+    "Evidence": "TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông.",
+    "splited_sentences": [
+      "(PLO)- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị với hàng loạt tuyến đường như Phạm Văn Đồng, quốc lộ 1, Xa lộ Hà Nội..",
+      "Sở GTVT TP vừa đưa ra nhiều kế hoạch để chuyển đổi số ngành giao thông TP",
+      "Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc",
+      "Đồng thời, TP sẽ ứng dụng trí tuệ nhân tạo AI và dữ liệu lớn nhằm phân tích, tối ưu hóa dòng giao thông, hướng tới điều khiển giao thông thích ứng theo thời gian thực",
+      "Hiện nay, thông qua hệ thống đèn tín hiệu, từ Trung tâm có thể điều khiển đèn tín hiệu theo từng kịch bản khác nhau để dòng xe được lưu thông nhanh chóng, giảm thiểu ùn ứ theo từng khu vực",
+      "Mặt khác, Sở GTVT TP sẽ đầu tư, bổ sung hệ thống camera giám sát giao thông (tập trung các khu vực cầu yếu)",
+      "Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP",
+      "Đồng thời, triển khai xử phạt theo quy trình thí điểm xử phạt vi phạm hành chính đối với các cá nhân, tổ chức vận tải hàng hóa bằng xe ô tô thông qua việc sử dụng thiết bị cân tải trọng tự động",
+      "Về các phương tiện công cộng, Sở GTVT TP sẽ triển khai hệ thống vé điện tử liên thông cho giao thông công cộng",
+      "Trong đó, triển khai mở rộng thí điểm vé điện tử cho hệ thống giao thông công cộng bằng xe buýt",
+      "TP cũng sẽ tiến hành nâng cấp phần mềm Go!Bus phục vụ hành khách đi xe buýt; Triển khai phần mềm quản lý, thống kê sản lượng vận tải hành khách công cộng phục vụ công tác quản lý, điều hành",
+      "Sở GTVT TP cũng nghiên cứu, kiến nghị Bộ GTVT thí điểm cấp phù hiệu phương tiện kinh doanh vận tải theo hình thức trực tuyến",
+      "Đồng thời, Sở GTVT sẽ tuyên truyền, hướng dẫn người dân thực hiện Dịch vụ công để đổi giấy phép lái xe do ngành giao thông vận tải cấp trên Cổng dịch vụ công quốc gia",
+      "Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông",
+      "Đồng thời, TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP",
+      "Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số",
+      "Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông."
+    ],
+    "Evidence_List": [
+      "TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông."
+    ],
+    "evidence_top5": [
+      "Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số",
+      "Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông.",
+      "Đồng thời, TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP",
+      "Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông",
+      "Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP"
+    ],
+    "len_evidence": 1
+  },
+  {
+    "Unnamed: 0": 332,
+    "index": 2538,
+    "Statement": "Dự án đang gặp nhiều khó khắn theo thông tin từ Sở GTVT TP Cần Thơ khi có 1.380 số lượng các hộ bị ảnh hưởng bởi dự án, nhưng chỉ có 416 trường hợp được phê duyệt.",
+    "Context": "(PLO)- Sau hơn bốn tháng khởi công, dự án đường vành đai phía Tây TP Cần Thơ gặp nhiều vướng mắc liên quan đến bồi thường, hỗ trợ, tái định cư nên chỉ có 17% mặt bằng để thi công Ngày 22-3, UBND TP Cần Thơ có buổi làm việc cùng các đơn vị liên quan về tình hình thi công dự án đường vành đai phía Tây TP Cần Thơ (nối Quốc lộ 91 và Quốc lộ 61C). Dự án có chiều dài hơn 19,2km, tổng mức đầu tư hơn 3.837 tỉ đồng, do Sở GTVT TP làm chủ đầu tư. Điểm đầu giao với Quốc lộ 91 đoạn sau cầu Ô Môn, điểm cuối giao với Quốc lộ 61C. Đường vành đai phía Tây TP Cần Thơ đi qua địa bàn huyện Phong Điền và các quận Ninh Kiều, Ô Môn, Bình Thủy và Cái Răng, ảnh hưởng khoảng 1.380 hộ dân. Đến nay, các địa phương có dự án đi qua chỉ mới ban hành các quyết định phê duyệt, chi trả bồi thường cho khoảng 419 trường hợp. Thống kê đến nay, tổng chiều dài mặt bằng đã bàn giao có thể triển khai thi công tính chỉ được 17%. Đối với gói thầu xây lắp, ngày 18-3 chỉ có một nhà thầu tập kết được hai xe cuốc, tiến hành phát quang, đào khuôn đường được khoảng 680m. Hai nhà thầu còn lại hiện vẫn chưa có mặt bằng thi công. Do đó, các đơn vị này đang tập trung hoàn thiện thủ tục liên quan đến nhân sự, đầu vào nguồn vật liệu... Năm 2022, dự án được bố trí hơn 1.187 tỉ đồng, giải ngân đạt 100%. Theo Sở GTVT TP Cần Thơ, dự án hiện đang gặp nhiều khó khăn. Cụ thể, số lượng các hộ bị ảnh hưởng bởi dự án khoảng 1.380 trường hợp, nhưng đến thời điểm này các địa phương chỉ phê duyệt được 416 trường hợp. Cạnh đó, các khu tái định cư của các quận, huyện đang trong giai đoạn hoàn thiện và chưa áp giá nền tái định cư nên chưa đủ điều kiện để bàn giao nền cho các hộ dân. Điều này đã ảnh hưởng rất lớn đến công tác bồi thường, hỗ trợ và tái định cư. Một vấn đề nữa là theo khái toán sơ bộ của các địa phương tính theo giá đất năm 2022 thì kinh phí công tác bồi thường, hỗ trợ và tái định cư toàn bộ dự án dự kiến tăng. Tuy nhiên, với kinh phí được duyệt ban đầu chỉ giải quyết cho khoảng 40% số hộ, còn lại 60% phải chờ điều chỉnh chủ trương đầu tư mới triển khai tiếp tục được. Phát biểu tại buổi làm việc, ông Dương Tấn Hiển Phó Chủ tịch Thường trực UBND TP Cần Thơ yêu cầu Sở GTVT xây dựng kế hoạch chi tiết để có lộ trình cụ thể triển khai thi công dự án và giải quyết các khó khăn, vướng mắc. Đối với việc bố trí tái định cư, ông Hiển cho rằng có thể tổ chức bốc thăm giao nền trước khi có quyết định. “Thực tế một số người dân nhận nền tái định cư nhưng xây nhà chỉ khoảng 30%, còn lại là bán nền, do đó, có thể đẩy mạnh phương án tái định cư phân tán. Ngoài ra, cần tính thêm phương án xây chung cư tái định cư thì mới đủ để bố trí” - Phó Chủ tịch Thường trực UBND TP Cần Thơ lưu ý. Thủ tướng giao rút ngắn thời gian thi công từ 900 ngày xuống còn hai năm Dự án đường vành đai phía tây TP Cần Thơ nối Quốc lộ 91 và Quốc lộ 61C khởi công ngày 17-11-2022. Phát biểu chỉ đạo tại buổi lễ khởi công, Thủ tướng Chính phủ Phạm Minh Chính khẳng định dự án sẽ tạo ra không gian phát triển rất lớn, kết nối các kênh rạch lại với nhau, tạo ra quỹ đất phát triển khu công nghiệp, đô thị và các dịch vụ khác kèm theo. Thủ tướng Chính phủ Phạm Minh Chính cũng yêu cầu nghiên cứu thêm để rút ngắn thời gian thi công từ 900 ngày xuống còn khoảng hai năm, vì tuyến đường chỉ dài khoảng 20km.",
+    "annotation_id": 18597071,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/can-tho-nhieu-vuong-mac-khi-lam-du-an-vanh-dai-ngan-ti-post725096.html",
+    "labels": 0,
+    "Evidence": "Theo Sở GTVT TP Cần Thơ, dự án hiện đang gặp nhiều khó khăn. số lượng các hộ bị ảnh hưởng bởi dự án khoảng 1.380 trường hợp, nhưng đến thời điểm này các địa phương chỉ phê duyệt được 416 trường hợp.",
+    "splited_sentences": [
+      "(PLO)- Sau hơn bốn tháng khởi công, dự án đường vành đai phía Tây TP Cần Thơ gặp nhiều vướng mắc liên quan đến bồi thường, hỗ trợ, tái định cư nên chỉ có 17% mặt bằng để thi công Ngày 22-3, UBND TP Cần Thơ có buổi làm việc cùng các đơn vị liên quan về tình hình thi công dự án đường vành đai phía Tây TP Cần Thơ (nối Quốc lộ 91 và Quốc lộ 61C)",
+      "Dự án có chiều dài hơn 19,2km, tổng mức đầu tư hơn 3.837 tỉ đồng, do Sở GTVT TP làm chủ đầu tư",
+      "Điểm đầu giao với Quốc lộ 91 đoạn sau cầu Ô Môn, điểm cuối giao với Quốc lộ 61C",
+      "Đường vành đai phía Tây TP Cần Thơ đi qua địa bàn huyện Phong Điền và các quận Ninh Kiều, Ô Môn, Bình Thủy và Cái Răng, ảnh hưởng khoảng 1.380 hộ dân",
+      "Đến nay, các địa phương có dự án đi qua chỉ mới ban hành các quyết định phê duyệt, chi trả bồi thường cho khoảng 419 trường hợp",
+      "Thống kê đến nay, tổng chiều dài mặt bằng đã bàn giao có thể triển khai thi công tính chỉ được 17%",
+      "Đối với gói thầu xây lắp, ngày 18-3 chỉ có một nhà thầu tập kết được hai xe cuốc, tiến hành phát quang, đào khuôn đường được khoảng 680m",
+      "Hai nhà thầu còn lại hiện vẫn chưa có mặt bằng thi công",
+      "Do đó, các đơn vị này đang tập trung hoàn thiện thủ tục liên quan đến nhân sự, đầu vào nguồn vật liệu..",
+      "Năm 2022, dự án được bố trí hơn 1.187 tỉ đồng, giải ngân đạt 100%",
+      "Theo Sở GTVT TP Cần Thơ, dự án hiện đang gặp nhiều khó khăn",
+      "Cụ thể, số lượng các hộ bị ảnh hưởng bởi dự án khoảng 1.380 trường hợp, nhưng đến thời điểm này các địa phương chỉ phê duyệt được 416 trường hợp",
+      "Cạnh đó, các khu tái định cư của các quận, huyện đang trong giai đoạn hoàn thiện và chưa áp giá nền tái định cư nên chưa đủ điều kiện để bàn giao nền cho các hộ dân",
+      "Điều này đã ảnh hưởng rất lớn đến công tác bồi thường, hỗ trợ và tái định cư",
+      "Một vấn đề nữa là theo khái toán sơ bộ của các địa phương tính theo giá đất năm 2022 thì kinh phí công tác bồi thường, hỗ trợ và tái định cư toàn bộ dự án dự kiến tăng",
+      "Tuy nhiên, với kinh phí được duyệt ban đầu chỉ giải quyết cho khoảng 40% số hộ, còn lại 60% phải chờ điều chỉnh chủ trương đầu tư mới triển khai tiếp tục được",
+      "Phát biểu tại buổi làm việc, ông Dương Tấn Hiển Phó Chủ tịch Thường trực UBND TP Cần Thơ yêu cầu Sở GTVT xây dựng kế hoạch chi tiết để có lộ trình cụ thể triển khai thi công dự án và giải quyết các khó khăn, vướng mắc",
+      "Đối với việc bố trí tái định cư, ông Hiển cho rằng có thể tổ chức bốc thăm giao nền trước khi có quyết định",
+      "“Thực tế một số người dân nhận nền tái định cư nhưng xây nhà chỉ khoảng 30%, còn lại là bán nền, do đó, có thể đẩy mạnh phương án tái định cư phân tán",
+      "Ngoài ra, cần tính thêm phương án xây chung cư tái định cư thì mới đủ để bố trí” - Phó Chủ tịch Thường trực UBND TP Cần Thơ lưu ý",
+      "Thủ tướng giao rút ngắn thời gian thi công từ 900 ngày xuống còn hai năm Dự án đường vành đai phía tây TP Cần Thơ nối Quốc lộ 91 và Quốc lộ 61C khởi công ngày 17-11-2022",
+      "Phát biểu chỉ đạo tại buổi lễ khởi công, Thủ tướng Chính phủ Phạm Minh Chính khẳng định dự án sẽ tạo ra không gian phát triển rất lớn, kết nối các kênh rạch lại với nhau, tạo ra quỹ đất phát triển khu công nghiệp, đô thị và các dịch vụ khác kèm theo",
+      "Thủ tướng Chính phủ Phạm Minh Chính cũng yêu cầu nghiên cứu thêm để rút ngắn thời gian thi công từ 900 ngày xuống còn khoảng hai năm, vì tuyến đường chỉ dài khoảng 20km."
+    ],
+    "Evidence_List": [
+      "Theo Sở GTVT TP Cần Thơ, dự án hiện đang gặp nhiều khó khăn.",
+      "số lượng các hộ bị ảnh hưởng bởi dự án khoảng 1.380 trường hợp, nhưng đến thời điểm này các địa phương chỉ phê duyệt được 416 trường hợp."
+    ],
+    "evidence_top5": [
+      "Cụ thể, số lượng các hộ bị ảnh hưởng bởi dự án khoảng 1.380 trường hợp, nhưng đến thời điểm này các địa phương chỉ phê duyệt được 416 trường hợp",
+      "Theo Sở GTVT TP Cần Thơ, dự án hiện đang gặp nhiều khó khăn",
+      "(PLO)- Sau hơn bốn tháng khởi công, dự án đường vành đai phía Tây TP Cần Thơ gặp nhiều vướng mắc liên quan đến bồi thường, hỗ trợ, tái định cư nên chỉ có 17% mặt bằng để thi công Ngày 22-3, UBND TP Cần Thơ có buổi làm việc cùng các đơn vị liên quan về tình hình thi công dự án đường vành đai phía Tây TP Cần Thơ (nối Quốc lộ 91 và Quốc lộ 61C)",
+      "Đến nay, các địa phương có dự án đi qua chỉ mới ban hành các quyết định phê duyệt, chi trả bồi thường cho khoảng 419 trường hợp",
+      "Dự án có chiều dài hơn 19,2km, tổng mức đầu tư hơn 3.837 tỉ đồng, do Sở GTVT TP làm chủ đầu tư"
+    ],
+    "len_evidence": 2
+  },
+  {
+    "Unnamed: 0": 479,
+    "index": 1579,
+    "Statement": "Các hạng mục như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023 nhưng hiện chưa rõ thời gian thi công các hạng mục còn lại của đoạn Dầu Giây-Phan Thiết.",
+    "Context": "(PLO)- Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây. Bộ trưởng GTVT Nguyễn Văn Thắng đã ký ban hành Công điện gửi các chủ đầu tư, nhà thầu và tư vấn giám sát tập trung thi công, hoàn thành các thủ tục, đảm bảo đưa vào khai thác theo kế hoạch đối với các dự án thành phần đoạn Dầu Giây - Phan Thiết, Mai Sơn - quốc lộ 45, Vĩnh Hảo - Phan Thiết thuộc dự án Xây dựng công trình đường bộ cao tốc Bắc - Nam. Theo đó, Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu tổ chức thi công hoàn thành công tác thảm bê tông nhựa mặt đường và hoàn thiện các hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023. Những hình ảnh đường Cao tốc đoạn Dầu Giây - Phan Thiết đi ngang qua huyện Xuân Lộc (Đồng Nai).",
+    "annotation_id": 18993160,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/hinh-anh-duong-cao-toc-phan-thiet-dau-giay-chuan-bi-dua-vao-su-dung-post725194.html",
+    "labels": 2,
+    "Evidence": "hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023",
+    "splited_sentences": [
+      "(PLO)- Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây",
+      "Bộ trưởng GTVT Nguyễn Văn Thắng đã ký ban hành Công điện gửi các chủ đầu tư, nhà thầu và tư vấn giám sát tập trung thi công, hoàn thành các thủ tục, đảm bảo đưa vào khai thác theo kế hoạch đối với các dự án thành phần đoạn Dầu Giây - Phan Thiết, Mai Sơn - quốc lộ 45, Vĩnh Hảo - Phan Thiết thuộc dự án Xây dựng công trình đường bộ cao tốc Bắc - Nam",
+      "Theo đó, Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu tổ chức thi công hoàn thành công tác thảm bê tông nhựa mặt đường và hoàn thiện các hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023",
+      "Những hình ảnh đường Cao tốc đoạn Dầu Giây - Phan Thiết đi ngang qua huyện Xuân Lộc (Đồng Nai)."
+    ],
+    "Evidence_List": [
+      "hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023"
+    ],
+    "evidence_top5": [
+      "Theo đó, Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu tổ chức thi công hoàn thành công tác thảm bê tông nhựa mặt đường và hoàn thiện các hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023",
+      "(PLO)- Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây",
+      "Những hình ảnh đường Cao tốc đoạn Dầu Giây - Phan Thiết đi ngang qua huyện Xuân Lộc (Đồng Nai).",
+      "Bộ trưởng GTVT Nguyễn Văn Thắng đã ký ban hành Công điện gửi các chủ đầu tư, nhà thầu và tư vấn giám sát tập trung thi công, hoàn thành các thủ tục, đảm bảo đưa vào khai thác theo kế hoạch đối với các dự án thành phần đoạn Dầu Giây - Phan Thiết, Mai Sơn - quốc lộ 45, Vĩnh Hảo - Phan Thiết thuộc dự án Xây dựng công trình đường bộ cao tốc Bắc - Nam"
+    ],
+    "len_evidence": 1
+  },
+  {
+    "Unnamed: 0": 495,
+    "index": 6728,
+    "Statement": "Sở giao thông vận tải thành phố sẽ phối hợp với các trường đại học, viện nghiên cứu để quản lý, giám sát xây dựng các cơ sở hạ tầng giao thông.",
+    "Context": "(PLO)- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị với hàng loạt tuyến đường như Phạm Văn Đồng, quốc lộ 1, Xa lộ Hà Nội... Sở GTVT TP vừa đưa ra nhiều kế hoạch để chuyển đổi số ngành giao thông TP. Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc. Đồng thời, TP sẽ ứng dụng trí tuệ nhân tạo AI và dữ liệu lớn nhằm phân tích, tối ưu hóa dòng giao thông, hướng tới điều khiển giao thông thích ứng theo thời gian thực. Hiện nay, thông qua hệ thống đèn tín hiệu, từ Trung tâm có thể điều khiển đèn tín hiệu theo từng kịch bản khác nhau để dòng xe được lưu thông nhanh chóng, giảm thiểu ùn ứ theo từng khu vực. Mặt khác, Sở GTVT TP sẽ đầu tư, bổ sung hệ thống camera giám sát giao thông (tập trung các khu vực cầu yếu). Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP. Đồng thời, triển khai xử phạt theo quy trình thí điểm xử phạt vi phạm hành chính đối với các cá nhân, tổ chức vận tải hàng hóa bằng xe ô tô thông qua việc sử dụng thiết bị cân tải trọng tự động. Về các phương tiện công cộng, Sở GTVT TP sẽ triển khai hệ thống vé điện tử liên thông cho giao thông công cộng. Trong đó, triển khai mở rộng thí điểm vé điện tử cho hệ thống giao thông công cộng bằng xe buýt. TP cũng sẽ tiến hành nâng cấp phần mềm Go!Bus phục vụ hành khách đi xe buýt; Triển khai phần mềm quản lý, thống kê sản lượng vận tải hành khách công cộng phục vụ công tác quản lý, điều hành. Sở GTVT TP cũng nghiên cứu, kiến nghị Bộ GTVT thí điểm cấp phù hiệu phương tiện kinh doanh vận tải theo hình thức trực tuyến. Đồng thời, Sở GTVT sẽ tuyên truyền, hướng dẫn người dân thực hiện Dịch vụ công để đổi giấy phép lái xe do ngành giao thông vận tải cấp trên Cổng dịch vụ công quốc gia. Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông. Đồng thời, TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP. Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số. Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông.",
+    "annotation_id": 18222894,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/tphcm-dieu-khien-giao-thong-tu-xa-voi-hang-loat-tuyen-duong-lon-post725066.html",
+    "labels": 1,
+    "Evidence": "Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông. Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số. Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông.",
+    "splited_sentences": [
+      "(PLO)- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị với hàng loạt tuyến đường như Phạm Văn Đồng, quốc lộ 1, Xa lộ Hà Nội..",
+      "Sở GTVT TP vừa đưa ra nhiều kế hoạch để chuyển đổi số ngành giao thông TP",
+      "Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc",
+      "Đồng thời, TP sẽ ứng dụng trí tuệ nhân tạo AI và dữ liệu lớn nhằm phân tích, tối ưu hóa dòng giao thông, hướng tới điều khiển giao thông thích ứng theo thời gian thực",
+      "Hiện nay, thông qua hệ thống đèn tín hiệu, từ Trung tâm có thể điều khiển đèn tín hiệu theo từng kịch bản khác nhau để dòng xe được lưu thông nhanh chóng, giảm thiểu ùn ứ theo từng khu vực",
+      "Mặt khác, Sở GTVT TP sẽ đầu tư, bổ sung hệ thống camera giám sát giao thông (tập trung các khu vực cầu yếu)",
+      "Bên cạnh đó, TP sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị đối với các tuyến đường Quốc lộ 1, Phạm Văn Đồng, Xa lộ Hà Nội, Võ Văn Kiệt, Mai Chí Thọ… TP cũng sẽ nâng cấp mô hình mô phỏng dự báo giao thông phục vụ công tác quản lý, điều hành giao thông đô thị trên địa bàn TP",
+      "Đồng thời, triển khai xử phạt theo quy trình thí điểm xử phạt vi phạm hành chính đối với các cá nhân, tổ chức vận tải hàng hóa bằng xe ô tô thông qua việc sử dụng thiết bị cân tải trọng tự động",
+      "Về các phương tiện công cộng, Sở GTVT TP sẽ triển khai hệ thống vé điện tử liên thông cho giao thông công cộng",
+      "Trong đó, triển khai mở rộng thí điểm vé điện tử cho hệ thống giao thông công cộng bằng xe buýt",
+      "TP cũng sẽ tiến hành nâng cấp phần mềm Go!Bus phục vụ hành khách đi xe buýt; Triển khai phần mềm quản lý, thống kê sản lượng vận tải hành khách công cộng phục vụ công tác quản lý, điều hành",
+      "Sở GTVT TP cũng nghiên cứu, kiến nghị Bộ GTVT thí điểm cấp phù hiệu phương tiện kinh doanh vận tải theo hình thức trực tuyến",
+      "Đồng thời, Sở GTVT sẽ tuyên truyền, hướng dẫn người dân thực hiện Dịch vụ công để đổi giấy phép lái xe do ngành giao thông vận tải cấp trên Cổng dịch vụ công quốc gia",
+      "Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông",
+      "Đồng thời, TP sẽ triển khai phần mềm quản lý, theo dõi tiến độ các công trình giao thông trọng điểm trên địa bàn TP",
+      "Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số",
+      "Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông."
+    ],
+    "Evidence_List": [
+      "Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông.",
+      "Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số.",
+      "Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông."
+    ],
+    "evidence_top5": [
+      "Theo đó, Sở này sẽ tối ưu hoạt động của hệ thống điều khiển đèn tín hiệu giao thông khu vực trung tâm TP đã kết nối về Trung tâm Quản lý điều hành giao thông đô thị để bổ sung cảm biến đo đếm lưu lượng, vận tốc",
+      "Sở GTVT TP sẽ phối hợp với các trường đại học, Viện Nghiên cứu triển khai các chương trình đào tạo dành cho cán bộ ngành giao thông vận tải để bồi dưỡng nâng cao kỹ năng số, bổ sung kiến thức về chuyển đổi số",
+      "Đối với hạ tầng xây dựng, Sở GTVT TP sẽ phối hợp với các chủ đầu tư ứng dụng nền tảng số mô hình thông tin xây dựng BIM trong quản lý, giám sát xây dựng công trình giao thông",
+      "Bên cạnh đó là đẩy mạnh hợp tác, liên kết giữa các đối tác liên quan, giữa các Trung tâm Quản lý điều hành giao thông để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác quản lý, điều hành giao thông.",
+      "Đồng thời, Sở GTVT sẽ tuyên truyền, hướng dẫn người dân thực hiện Dịch vụ công để đổi giấy phép lái xe do ngành giao thông vận tải cấp trên Cổng dịch vụ công quốc gia"
+    ],
+    "len_evidence": 3
+  },
+  {
+    "Unnamed: 0": 544,
+    "index": 1756,
+    "Statement": "Bộ Giao thông vận tải yêu cầu các chủ quản lý dự án chỉ đạo các nhà thầu hoàn thành công tác thảm bê tông nhựa mặt đường trước ngày 30 tháng 4 năm 2023.",
+    "Context": "(PLO)- Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây. Bộ trưởng GTVT Nguyễn Văn Thắng đã ký ban hành Công điện gửi các chủ đầu tư, nhà thầu và tư vấn giám sát tập trung thi công, hoàn thành các thủ tục, đảm bảo đưa vào khai thác theo kế hoạch đối với các dự án thành phần đoạn Dầu Giây - Phan Thiết, Mai Sơn - quốc lộ 45, Vĩnh Hảo - Phan Thiết thuộc dự án Xây dựng công trình đường bộ cao tốc Bắc - Nam. Theo đó, Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu tổ chức thi công hoàn thành công tác thảm bê tông nhựa mặt đường và hoàn thiện các hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023. Những hình ảnh đường Cao tốc đoạn Dầu Giây - Phan Thiết đi ngang qua huyện Xuân Lộc (Đồng Nai).",
+    "annotation_id": 18993160,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/hinh-anh-duong-cao-toc-phan-thiet-dau-giay-chuan-bi-dua-vao-su-dung-post725194.html",
+    "labels": 0,
+    "Evidence": "Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây.",
+    "splited_sentences": [
+      "(PLO)- Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây",
+      "Bộ trưởng GTVT Nguyễn Văn Thắng đã ký ban hành Công điện gửi các chủ đầu tư, nhà thầu và tư vấn giám sát tập trung thi công, hoàn thành các thủ tục, đảm bảo đưa vào khai thác theo kế hoạch đối với các dự án thành phần đoạn Dầu Giây - Phan Thiết, Mai Sơn - quốc lộ 45, Vĩnh Hảo - Phan Thiết thuộc dự án Xây dựng công trình đường bộ cao tốc Bắc - Nam",
+      "Theo đó, Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu tổ chức thi công hoàn thành công tác thảm bê tông nhựa mặt đường và hoàn thiện các hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023",
+      "Những hình ảnh đường Cao tốc đoạn Dầu Giây - Phan Thiết đi ngang qua huyện Xuân Lộc (Đồng Nai)."
+    ],
+    "Evidence_List": [
+      "Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây."
+    ],
+    "evidence_top5": [
+      "(PLO)- Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu thi công hoàn thành công tác thảm bê tông nhựa mặt đường để đưa sử dụng trước ngày 30-4 tới đây",
+      "Theo đó, Bộ GTVT yêu cầu các ban quản lý dự án chỉ đạo các nhà thầu tổ chức thi công hoàn thành công tác thảm bê tông nhựa mặt đường và hoàn thiện các hạng mục còn lại như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023",
+      "Bộ trưởng GTVT Nguyễn Văn Thắng đã ký ban hành Công điện gửi các chủ đầu tư, nhà thầu và tư vấn giám sát tập trung thi công, hoàn thành các thủ tục, đảm bảo đưa vào khai thác theo kế hoạch đối với các dự án thành phần đoạn Dầu Giây - Phan Thiết, Mai Sơn - quốc lộ 45, Vĩnh Hảo - Phan Thiết thuộc dự án Xây dựng công trình đường bộ cao tốc Bắc - Nam",
+      "Những hình ảnh đường Cao tốc đoạn Dầu Giây - Phan Thiết đi ngang qua huyện Xuân Lộc (Đồng Nai)."
+    ],
+    "len_evidence": 1
+  },
+  {
+    "Unnamed: 0": 704,
+    "index": 2810,
+    "Statement": "Trong văn bản khẩn của UBNA Hà Nội, UBND yêu cầu các đơn vị phải bàn giao mặt bằng đúng cam kết và khởi công dự án vành đai 3 TP.HCM đúng tiến độ.",
+    "Context": "(PLO)- UBND TP.HCM yêu cầu các đơn vị phải bàn giao mặt bằng đúng cam kết và khởi công dự án vành đai 3 TP.HCM đúng tiến độ. Mới đây, UBND TP.HCM vừa có văn bản khẩn về việc thực hiện chỉ đạo của Thủ tướng Chính phủ triển khai các dự án giao thông trọng điểm ngành giao thông vận tải. Theo đó, UBND TP.HCM chỉ đạo Thủ trưởng các Sở, ban, ngành TP và các quận huyện quán triệt thực hiện đúng chỉ đạo của Ban Thường vụ Thành ủy tại Chỉ thị số 18-CT/TU năm 2022. Trong đó, Thủ trưởng các đơn vị cần nâng cao kỷ cương, kỷ luật, tính chủ động phối hợp giữa các Sở ban, ngành. Đồng thời, các đơn vị cần chủ động xử lý dứt điểm các vướng mắc, khó khăn không để kéo dài. Ban Quản lý dự án đầu tư xây dựng các công trình giao thông (Ban Giao thông) cần khẩn trương rà soát, triển khai các công việc được giao về phê duyệt dự án thành phần 1 - dự án vành đai 3 đoạn qua TP. Đối với công tác lựa chọn nhà thầu, Ban Giao thông cần xác định các tiêu chuẩn, tiêu chí, điều kiện để lựa chọn nhà thầu phù hợp với thực tế và quy định của pháp luật. Từ đó, bảo đảm công khai, minh bạch, tuyệt đối không để lợi ích cá nhân, lợi ích nhóm; lựa chọn các nhà thầu thực sự có năng lực, uy tín, kinh nghiệm, năng lực quản lý thực hiện các dự án có quy mô lớn. Ban Giao thông cũng cần chủ động phối hợp với chủ đầu tư các dự án thành phần thuộc dự án vành đai 3 TP.HCM như Đồng Nai, Bình Dương, Long An. Trong đó, các địa phương phải thực hiện các giải pháp đảm bảo nguồn vật liệu xây dựng cung cấp cho dự án; kịp thời báo cáo khó khăn, vướng mắc để không ảnh hưởng đến tiến độ triển khai dự án. Song song đó, Ban Giao thông cần chủ động phối hợp các Sở ngành, đơn vị liên quan hoàn tất các thủ tục, đôn đốc các địa phương bàn giao mặt bằng theo kế hoạch và khởi công công trình trong tháng 6. Đối với công tác bồi thường, hỗ trợ, tái định cư, Chủ tịch chịu trách nhiệm trước UBND TP và Chủ tịch UBND TP việc hoàn thành đúng tiến độ bàn giao mặt bằng cho chủ đầu tư, nhà thầu thi công theo đúng kế hoạch. UBND TP.HCM giao Sở GTVT và Sở TN&MT chủ trì, phối hợp Ban Giao thông và các cơ quan liên quan tham mưu đề xuất UBND TP kịp thời giải quyết các khó khăn, vướng mắc vượt thẩm quyền. Đồng thời, các đơn vị không để tồn đọng, ảnh hưởng đến tiến độ triển khai dự án theo Kế hoạch đề ra.",
+    "annotation_id": 18800585,
+    "Topic": "ĐÔ THỊ",
+    "Author": "Báo Pháp Luật HCM",
+    "Url": "https://plo.vn/tphcm-ra-van-ban-khan-ve-du-an-vanh-dai-3-post724955.html",
+    "labels": 1,
+    "Evidence": "UBND TP.HCM yêu cầu các đơn vị phải bàn giao mặt bằng đúng cam kết và khởi công dự án vành đai 3 TP.HCM đúng tiến độ. văn bản khẩn về việc thực hiện chỉ đạo của Thủ tướng Chính phủ triển khai các dự án giao thông trọng điểm ngành giao thông vận tải.",
+    "splited_sentences": [
+      "(PLO)- UBND TP.HCM yêu cầu các đơn vị phải bàn giao mặt bằng đúng cam kết và khởi công dự án vành đai 3 TP.HCM đúng tiến độ",
+      "Mới đây, UBND TP.HCM vừa có văn bản khẩn về việc thực hiện chỉ đạo của Thủ tướng Chính phủ triển khai các dự án giao thông trọng điểm ngành giao thông vận tải",
+      "Theo đó, UBND TP.HCM chỉ đạo Thủ trưởng các Sở, ban, ngành TP và các quận huyện quán triệt thực hiện đúng chỉ đạo của Ban Thường vụ Thành ủy tại Chỉ thị số 18-CT/TU năm 2022",
+      "Trong đó, Thủ trưởng các đơn vị cần nâng cao kỷ cương, kỷ luật, tính chủ động phối hợp giữa các Sở ban, ngành",
+      "Đồng thời, các đơn vị cần chủ động xử lý dứt điểm các vướng mắc, khó khăn không để kéo dài",
+      "Ban Quản lý dự án đầu tư xây dựng các công trình giao thông (Ban Giao thông) cần khẩn trương rà soát, triển khai các công việc được giao về phê duyệt dự án thành phần 1 - dự án vành đai 3 đoạn qua TP",
+      "Đối với công tác lựa chọn nhà thầu, Ban Giao thông cần xác định các tiêu chuẩn, tiêu chí, điều kiện để lựa chọn nhà thầu phù hợp với thực tế và quy định của pháp luật",
+      "Từ đó, bảo đảm công khai, minh bạch, tuyệt đối không để lợi ích cá nhân, lợi ích nhóm; lựa chọn các nhà thầu thực sự có năng lực, uy tín, kinh nghiệm, năng lực quản lý thực hiện các dự án có quy mô lớn",
+      "Ban Giao thông cũng cần chủ động phối hợp với chủ đầu tư các dự án thành phần thuộc dự án vành đai 3 TP.HCM như Đồng Nai, Bình Dương, Long An",
+      "Trong đó, các địa phương phải thực hiện các giải pháp đảm bảo nguồn vật liệu xây dựng cung cấp cho dự án; kịp thời báo cáo khó khăn, vướng mắc để không ảnh hưởng đến tiến độ triển khai dự án",
+      "Song song đó, Ban Giao thông cần chủ động phối hợp các Sở ngành, đơn vị liên quan hoàn tất các thủ tục, đôn đốc các địa phương bàn giao mặt bằng theo kế hoạch và khởi công công trình trong tháng 6",
+      "Đối với công tác bồi thường, hỗ trợ, tái định cư, Chủ tịch chịu trách nhiệm trước UBND TP và Chủ tịch UBND TP việc hoàn thành đúng tiến độ bàn giao mặt bằng cho chủ đầu tư, nhà thầu thi công theo đúng kế hoạch",
+      "UBND TP.HCM giao Sở GTVT và Sở TN&MT chủ trì, phối hợp Ban Giao thông và các cơ quan liên quan tham mưu đề xuất UBND TP kịp thời giải quyết các khó khăn, vướng mắc vượt thẩm quyền",
+      "Đồng thời, các đơn vị không để tồn đọng, ảnh hưởng đến tiến độ triển khai dự án theo Kế hoạch đề ra."
+    ],
+    "Evidence_List": [
+      "UBND TP.HCM yêu cầu các đơn vị phải bàn giao mặt bằng đúng cam kết và khởi công dự án vành đai 3 TP.HCM đúng tiến độ.",
+      "văn bản khẩn về việc thực hiện chỉ đạo của Thủ tướng Chính phủ triển khai các dự án giao thông trọng điểm ngành giao thông vận tải."
+    ],
+    "evidence_top5": [
+      "(PLO)- UBND TP.HCM yêu cầu các đơn vị phải bàn giao mặt bằng đúng cam kết và khởi công dự án vành đai 3 TP.HCM đúng tiến độ",
+      "Mới đây, UBND TP.HCM vừa có văn bản khẩn về việc thực hiện chỉ đạo của Thủ tướng Chính phủ triển khai các dự án giao thông trọng điểm ngành giao thông vận tải",
+      "Ban Quản lý dự án đầu tư xây dựng các công trình giao thông (Ban Giao thông) cần khẩn trương rà soát, triển khai các công việc được giao về phê duyệt dự án thành phần 1 - dự án vành đai 3 đoạn qua TP",
+      "UBND TP.HCM giao Sở GTVT và Sở TN&MT chủ trì, phối hợp Ban Giao thông và các cơ quan liên quan tham mưu đề xuất UBND TP kịp thời giải quyết các khó khăn, vướng mắc vượt thẩm quyền",
+      "Theo đó, UBND TP.HCM chỉ đạo Thủ trưởng các Sở, ban, ngành TP và các quận huyện quán triệt thực hiện đúng chỉ đạo của Ban Thường vụ Thành ủy tại Chỉ thị số 18-CT/TU năm 2022"
+    ],
+    "len_evidence": 2
+  }
+]

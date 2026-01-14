@@ -1,0 +1,124 @@
+[
+  {
+    "index": 1,
+    "Statement": "Học trực tuyến đã trở thành phương pháp học tập chính thức ở hầu hết các trường đại học tại Việt Nam kể từ sau đại dịch COVID-19, thay thế hoàn toàn phương pháp giảng dạy truyền thống trên lớp.",
+    "Context": "Phát biểu của một chuyên gia giáo dục trong buổi tọa đàm về tương lai của giáo dục đại học.",
+    "Evidence_list": [
+      "Bộ Giáo dục và Đào tạo vẫn quy định học trực tiếp là hình thức giảng dạy chính thức cho các chương trình đào tạo đại học.",
+      "Thống kê từ các trường đại học cho thấy tỷ lệ tín chỉ học trực tuyến dao động tùy ngành và trường, nhưng chưa chiếm đa số so với học trực tiếp.",
+      "Nhiều trường áp dụng mô hình học tập kết hợp (blended learning) thay vì hoàn toàn trực tuyến.",
+      "Khảo sát sinh viên cho thấy họ vẫn ưa chuộng việc học trực tiếp để tương tác tốt hơn với giảng viên và bạn bè."
+    ],
+    "labels": 0,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 2,
+    "Statement": "Hệ thống giáo dục Phần Lan nổi tiếng toàn cầu vì có chương trình học kéo dài và áp lực thi cử cao, tương tự như một số nước châu Á.",
+    "Context": "Một cuộc thảo luận trên diễn đàn giáo dục về các mô hình giáo dục thành công trên thế giới.",
+    "Evidence_list": [
+      "Phần Lan được biết đến với hệ thống giáo dục ít áp lực, ít bài tập về nhà và kỳ thi chuẩn hóa, tập trung vào sự phát triển toàn diện của học sinh.",
+      "Thời gian học trong ngày của học sinh Phần Lan thường ngắn hơn so với nhiều quốc gia khác.",
+      "Báo cáo của OECD thường xuyên xếp hạng Phần Lan trong nhóm các quốc gia có chất lượng giáo dục cao, nhấn mạnh vào sự công bằng và tính cá nhân hóa trong giảng dạy."
+    ],
+    "labels": 0,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 3,
+    "Statement": "Kỹ năng mềm như làm việc nhóm, tư duy phản biện và khả năng giao tiếp đang ngày càng được các nhà tuyển dụng coi trọng ngang bằng hoặc hơn kiến thức chuyên môn đối với sinh viên mới tốt nghiệp.",
+    "Context": "Báo cáo của một tổ chức nghiên cứu thị trường lao động về yêu cầu tuyển dụng trong thập kỷ tới.",
+    "Evidence_list": [
+      "Khảo sát từ các doanh nghiệp lớn cho thấy 80% nhà tuyển dụng đánh giá cao kỹ năng mềm của ứng viên.",
+      "Nhiều chương trình đại học hiện nay đã tích hợp các môn học và hoạt động ngoại khóa nhằm nâng cao kỹ năng mềm cho sinh viên.",
+      "Diễn đàn Kinh tế Thế giới (WEF) dự báo các kỹ năng mềm sẽ trở thành yếu tố cốt lõi trong lực lượng lao động tương lai.",
+      "Một số trường đại học đã bắt đầu đưa tiêu chí đánh giá kỹ năng mềm vào quá trình tốt nghiệp của sinh viên."
+    ],
+    "labels": 1,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 4,
+    "Statement": "Ở Việt Nam, tất cả các trường đại học công lập đều áp dụng một mức học phí thống nhất theo quy định chung của Bộ Giáo dục và Đào tạo.",
+    "Context": "Một cuộc tranh luận trên mạng xã hội về chi phí giáo dục đại học.",
+    "Evidence_list": [
+      "Mức học phí của các trường đại học công lập ở Việt Nam có sự khác biệt rõ rệt tùy thuộc vào cơ chế tự chủ, ngành học và chương trình đào tạo.",
+      "Nghị định của Chính phủ cho phép các trường đại học tự chủ có quyền quy định mức học phí riêng trong khung nhất định.",
+      "Thông báo tuyển sinh hàng năm của các trường đều công khai mức học phí riêng biệt, không có sự đồng nhất."
+    ],
+    "labels": 0,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 5,
+    "Statement": "Việc áp dụng giáo dục STEM vào chương trình tiểu học trên toàn quốc đã dẫn đến sự cải thiện rõ rệt và đồng đều về kết quả học tập môn Khoa học của học sinh Việt Nam so với các nước trong khu vực.",
+    "Context": "Một bài phát biểu tại hội nghị quốc tế về đổi mới giáo dục ở châu Á.",
+    "Evidence_list": [
+      "Bộ Giáo dục và Đào tạo đã triển khai thí điểm chương trình STEM tại một số trường tiểu học, nhưng chưa phải là toàn quốc.",
+      "Dữ liệu về điểm số môn Khoa học của học sinh Việt Nam trong các kỳ thi quốc tế như TIMSS cần được phân tích kỹ lưỡng về sự tác động trực tiếp của STEM.",
+      "Hiệu quả của giáo dục STEM còn phụ thuộc vào nhiều yếu tố như cơ sở vật chất, năng lực giáo viên và phương pháp giảng dạy.",
+      "Việc so sánh với các nước trong khu vực đòi hỏi nghiên cứu chuyên sâu với dữ liệu đầy đủ và cập nhật, điều này chưa được công bố rộng rãi."
+    ],
+    "labels": 2,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 6,
+    "Statement": "Đại học Quốc gia Hà Nội là một trong những cơ sở giáo dục đại học đầu tiên ở Việt Nam áp dụng thành công mô hình đại học nghiên cứu với nhiều trường thành viên chuyên sâu.",
+    "Context": "Một bài báo khoa học phân tích về sự phát triển của các đại học hàng đầu Việt Nam.",
+    "Evidence_list": [
+      "Đại học Quốc gia Hà Nội đã và đang hoạt động theo mô hình đại học đa ngành, đa lĩnh vực với các trường, khoa thành viên có tính độc lập cao trong nghiên cứu và đào tạo.",
+      "Đại học Quốc gia Hà Nội liên tục nằm trong top các trường đại học hàng đầu Việt Nam và khu vực về chất lượng nghiên cứu khoa học.",
+      "Nhiều công trình nghiên cứu cấp quốc gia và quốc tế của Đại học Quốc gia Hà Nội đã được công bố trên các tạp chí uy tín.",
+      "Đại học Quốc gia Hà Nội thường xuyên hợp tác với các viện nghiên cứu và doanh nghiệp để đẩy mạnh hoạt động chuyển giao công nghệ và đổi mới sáng tạo."
+    ],
+    "labels": 1,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 7,
+    "Statement": "Giáo dục bắt buộc ở Việt Nam hiện nay chỉ bao gồm cấp tiểu học (từ lớp 1 đến lớp 5).",
+    "Context": "Một cuộc trò chuyện giữa phụ huynh về luật giáo dục của trẻ em.",
+    "Evidence_list": [
+      "Theo Luật Giáo dục 2019, giáo dục tiểu học là giáo dục bắt buộc và Nhà nước bảo đảm các điều kiện để thực hiện phổ cập giáo dục tiểu học.",
+      "Tuy nhiên, Luật cũng nhấn mạnh mục tiêu phổ cập giáo dục trung học cơ sở và đang tiến tới phổ cập giáo dục trung học phổ thông, cho thấy sự cam kết của Nhà nước vượt ra ngoài cấp tiểu học.",
+      "Thực tế, gần như 100% trẻ em Việt Nam hoàn thành cấp tiểu học và tiếp tục học lên cấp trung học cơ sở."
+    ],
+    "labels": 0,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 8,
+    "Statement": "Mục tiêu chính của giáo dục mầm non là chuẩn bị kiến thức đọc, viết và làm toán cho trẻ em trước khi vào lớp một.",
+    "Context": "Một cuộc hội thảo về phương pháp giáo dục sớm.",
+    "Evidence_list": [
+      "Chương trình giáo dục mầm non của Bộ Giáo dục và Đào tạo Việt Nam nhấn mạnh vào sự phát triển toàn diện của trẻ về thể chất, tình cảm, kỹ năng xã hội, ngôn ngữ và nhận thức.",
+      "Các chuyên gia giáo dục mầm non khuyến nghị việc học chữ, học số quá sớm có thể gây áp lực và làm mất đi sự hứng thú tự nhiên của trẻ.",
+      "Trẻ mầm non nên được ưu tiên phát triển thông qua vui chơi, khám phá và tương tác xã hội để hình thành nền tảng vững chắc cho các cấp học sau."
+    ],
+    "labels": 0,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 9,
+    "Statement": "Việc tăng cường giảng dạy các môn khoa học tự nhiên và công nghệ ở cấp trung học phổ thông là yếu tố then chốt giúp nâng cao năng lực cạnh tranh quốc gia trong kỷ nguyên 4.0.",
+    "Context": "Một hội nghị quốc gia về định hướng giáo dục trong bối cảnh cách mạng công nghiệp 4.0.",
+    "Evidence_list": [
+      "Nhiều quốc gia phát triển đã và đang đầu tư mạnh vào giáo dục STEM (Khoa học, Công nghệ, Kỹ thuật và Toán học) để chuẩn bị cho lực lượng lao động tương lai.",
+      "Các nghiên cứu chỉ ra rằng những người có nền tảng vững chắc về khoa học và công nghệ có khả năng thích ứng tốt hơn với sự thay đổi của thị trường lao động.",
+      "Các doanh nghiệp công nghệ lớn liên tục kêu gọi các chính phủ và cơ sở giáo dục chú trọng hơn nữa vào các môn học liên quan đến STEM."
+    ],
+    "labels": 1,
+    "Topic": "Giáo dục"
+  },
+  {
+    "index": 10,
+    "Statement": "Trẻ em bắt đầu học ngoại ngữ sau 10 tuổi sẽ có khả năng phát âm chuẩn xác và tiếp thu ngữ pháp nhanh hơn đáng kể so với những trẻ học từ khi còn nhỏ.",
+    "Context": "Một bà mẹ trẻ đang tìm kiếm lời khuyên về thời điểm thích hợp cho con học ngoại ngữ.",
+    "Evidence_list": [
+      "Nhiều nghiên cứu về sự phát triển ngôn ngữ chỉ ra rằng trẻ em ở độ tuổi mầm non và tiểu học có 'giai đoạn vàng' để tiếp thu ngôn ngữ thứ hai một cách tự nhiên và có khả năng phát âm gần như người bản xứ."
+    ],
+    "labels": 0,
+    "Topic": "Giáo dục"
+  }
+]

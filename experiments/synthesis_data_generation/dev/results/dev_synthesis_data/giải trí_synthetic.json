@@ -1,0 +1,126 @@
+[
+  {
+    "index": 1,
+    "Statement": "Sơn Tùng M-TP sẽ phát hành album mới \"Chúng Ta Của Tương Lai\" vào tháng 11 năm nay.",
+    "Context": "Tin tức âm nhạc Việt Nam.",
+    "Evidence_list": [
+      "Sơn Tùng M-TP đã công bố tên album \"Chúng Ta Của Tương Lai\" nhưng chưa ấn định ngày phát hành cụ thể.",
+      "Ca khúc chủ đề cùng tên đã ra mắt vào tháng 3, nhưng thông tin về album đầy đủ vẫn chưa được xác nhận.",
+      "Theo công ty quản lý M-TP Entertainment, kế hoạch cho album vẫn đang trong giai đoạn hoàn thiện và chưa có lịch cụ thể."
+    ],
+    "labels": 1,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 2,
+    "Statement": "Bộ phim \"Mai\" của Trấn Thành đã vượt mốc 600 tỷ đồng doanh thu phòng vé chỉ sau 2 tuần công chiếu.",
+    "Context": "Doanh thu phim điện ảnh Việt Nam.",
+    "Evidence_list": [
+      "Phim \"Mai\" của Trấn Thành ra mắt vào dịp Tết Giáp Thìn 2024.",
+      "Bộ phim đạt 550 tỷ đồng sau hơn một tháng công chiếu, trở thành phim Việt có doanh thu cao nhất mọi thời đại.",
+      "Con số 600 tỷ đồng được ghi nhận sau khoảng 1 tháng rưỡi phát hành chứ không phải 2 tuần."
+    ],
+    "labels": 1,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 3,
+    "Statement": "Nữ diễn viên Ninh Dương Lan Ngọc vừa nhận giải \"Nữ diễn viên chính xuất sắc nhất\" tại Liên hoan phim Quốc tế Tokyo.",
+    "Context": "Giải thưởng điện ảnh quốc tế.",
+    "Evidence_list": [
+      "Ninh Dương Lan Ngọc là một trong những nữ diễn viên hàng đầu của điện ảnh Việt Nam với nhiều vai diễn ấn tượng.",
+      "Cô từng đoạt nhiều giải thưởng trong nước như Cánh Diều Vàng, Mai Vàng cho các vai diễn của mình.",
+      "Tính đến thời điểm hiện tại, chưa có bất kỳ thông tin chính thức nào về việc Ninh Dương Lan Ngọc nhận giải tại Liên hoan phim Quốc tế Tokyo."
+    ],
+    "labels": 2,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 4,
+    "Statement": "Chương trình truyền hình thực tế \"Rap Việt\" mùa 4 sẽ chính thức trở lại với MC Trấn Thành.",
+    "Context": "Tin tức truyền hình giải trí.",
+    "Evidence_list": [
+      "\"Rap Việt\" đã trở thành một trong những chương trình giải trí ăn khách nhất Việt Nam trong nhiều năm qua.",
+      "MC Trấn Thành là gương mặt quen thuộc đã dẫn dắt thành công 3 mùa trước của \"Rap Việt\" và được khán giả yêu mến.",
+      "VieON đã xác nhận \"Rap Việt\" mùa 4 sẽ lên sóng vào năm 2025, nhưng thông tin về MC chính thức cho mùa mới vẫn chưa được tiết lộ."
+    ],
+    "labels": 2,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 5,
+    "Statement": "Nhóm nhạc Blackpink sẽ tổ chức đêm diễn encore tại Hà Nội vào cuối năm 2024 do nhu cầu vé quá cao.",
+    "Context": "Buổi hòa nhạc K-pop tại Việt Nam.",
+    "Evidence_list": [
+      "Blackpink đã có hai đêm diễn \"Born Pink\" rất thành công tại Hà Nội vào tháng 7 năm 2023, thu hút hàng chục nghìn khán giả.",
+      "Vé cho hai đêm diễn đó đã cháy hàng trong thời gian rất ngắn sau khi mở bán.",
+      "Hiện tại, YG Entertainment, công ty quản lý của Blackpink, chưa công bố bất kỳ lịch trình encore nào của nhóm tại Việt Nam hay bất cứ quốc gia nào khác trong năm 2024.",
+      "Các thành viên Blackpink đang tập trung vào các hoạt động cá nhân và chưa có thông tin về chuyến lưu diễn nhóm mới."
+    ],
+    "labels": 1,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 6,
+    "Statement": "Streamer Độ Mixi đã tổ chức thành công chương trình từ thiện \"Đặc nhiệm Blvck\" quyên góp được hơn 1 tỷ đồng.",
+    "Context": "Hoạt động từ thiện của giới streamer.",
+    "Evidence_list": [
+      "Độ Mixi thường xuyên tổ chức các buổi livestream từ thiện vào cuối năm để kêu gọi cộng đồng ủng hộ các hoàn cảnh khó khăn.",
+      "Chương trình từ thiện mang tên \"Đặc nhiệm Blvck\" là một trong những hoạt động gây quỹ được anh triển khai.",
+      "Vào tháng 12 năm 2023, Độ Mixi cùng \"Bộ tộc MixiGaming\" đã quyên góp được hơn 1,5 tỷ đồng để xây trường học và giúp đỡ trẻ em vùng cao, vượt mục tiêu ban đầu."
+    ],
+    "labels": 0,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 7,
+    "Statement": "Hãng phim hoạt hình Pixar đã xác nhận bộ phim \"Inside Out 3\" sẽ ra mắt vào năm 2026.",
+    "Context": "Lịch phát hành phim hoạt hình.",
+    "Evidence_list": [
+      "\"Inside Out 2\" (Những Mảnh Ghép Cảm Xúc 2) đã được phát hành vào tháng 6 năm 2024 và nhận được nhiều đánh giá tích cực từ giới phê bình và khán giả.",
+      "Pixar thường có khoảng cách vài năm giữa các phần tiếp theo của một series thành công để đảm bảo chất lượng nội dung.",
+      "Tuy nhiên, Disney và Pixar vẫn chưa đưa ra bất kỳ thông báo chính thức nào về việc sản xuất hoặc ngày phát hành cụ thể của \"Inside Out 3\" tính đến thời điểm hiện tại."
+    ],
+    "labels": 2,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 8,
+    "Statement": "Diễn viên hài Trường Giang sẽ ra mắt chương trình hài độc thoại mới trên Netflix vào tháng 8 tới.",
+    "Context": "Hài kịch độc thoại, nền tảng streaming.",
+    "Evidence_list": [
+      "Trường Giang là một trong những danh hài được yêu thích nhất Việt Nam, nổi tiếng với nhiều tiểu phẩm hài và các chương trình gameshow truyền hình.",
+      "Anh cũng đã có kinh nghiệm biểu diễn hài độc thoại trên sân khấu và nhận được sự ủng hộ của khán giả.",
+      "Netflix Việt Nam đã công bố một số chương trình hài độc thoại Việt Nam mới sẽ lên sóng trong thời gian tới, nhưng danh sách cụ thể vẫn chưa có tên Trường Giang.",
+      "Thông tin chính thức từ Trường Giang hoặc đại diện Netflix về một chương trình hài độc thoại đặc biệt vào tháng 8 vẫn chưa được công bố rộng rãi."
+    ],
+    "labels": 1,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 9,
+    "Statement": "Nhóm nhạc nữ NewJeans sẽ biểu diễn tại lễ hội âm nhạc Coachella 2025 với tư cách headliner.",
+    "Context": "Lễ hội âm nhạc quốc tế.",
+    "Evidence_list": [
+      "NewJeans là một nhóm nhạc K-pop nổi tiếng toàn cầu, đã có màn ra mắt ấn tượng tại lễ hội âm nhạc Lollapalooza 2023.",
+      "Coachella là một trong những lễ hội âm nhạc lớn nhất thế giới, thu hút hàng trăm nghìn người tham dự mỗi năm.",
+      "Danh sách các nghệ sĩ biểu diễn cho Coachella 2025 thường được công bố vào đầu năm 2025, chưa có thông tin chính thức nào về headliner cho sự kiện này.",
+      "Việc một nhóm nhạc K-pop làm headliner là một cột mốc lớn, thường được các công ty quản lý và ban tổ chức thông báo rất sớm và rầm rộ."
+    ],
+    "labels": 2,
+    "Topic": "GIẢI TRÍ"
+  },
+  {
+    "index": 10,
+    "Statement": "Ca sĩ Hòa Minzy đã xác nhận tổ chức liveshow cá nhân đầu tiên trong sự nghiệp vào cuối năm 2024.",
+    "Context": "Liveshow âm nhạc.",
+    "Evidence_list": [
+      "Hòa Minzy là một giọng ca đầy nội lực và có lượng fan hâm mộ lớn tại Việt Nam, sở hữu nhiều bản hit.",
+      "Cô đã có nhiều kinh nghiệm biểu diễn trên các sân khấu lớn và tham gia nhiều chương trình ca nhạc.",
+      "Trong một buổi phỏng vấn gần đây, Hòa Minzy bày tỏ mong muốn được làm liveshow riêng nhưng chưa ấn định thời gian cụ thể hay công bố kế hoạch chi tiết.",
+      "Phía quản lý của Hòa Minzy cho biết ý tưởng về liveshow vẫn đang được ấp ủ và chưa có thông báo chính thức nào về việc tổ chức vào cuối năm 2024."
+    ],
+    "labels": 2,
+    "Topic": "GIẢI TRÍ"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "index": 1,
+    "Statement": "Các thông tin do bạn đọc cung cấp luôn có độ tin cậy cao hơn báo chí chính thống vì họ là nhân chứng trực tiếp.",
+    "Context": "Một cuộc thảo luận trên diễn đàn về vai trò của bạn đọc trong việc đưa tin về các sự kiện địa phương.",
+    "Evidence_list": [
+      "Nghiên cứu của Đại học Truyền thông XYZ năm 2022 cho thấy 60% thông tin ban đầu từ bạn đọc cần được xác minh thêm trước khi đăng tải.",
+      "Trong nhiều trường hợp, bạn đọc chỉ cung cấp một góc nhìn hạn chế, thiếu cái nhìn tổng thể về sự kiện hoặc bối cảnh xung quanh.",
+      "Các nhà báo chuyên nghiệp được đào tạo bài bản về kỹ năng kiểm chứng thông tin và tuân thủ đạo đức nghề nghiệp nghiêm ngặt.",
+      "Mặc dù bạn đọc có thể là nhân chứng trực tiếp, họ thường thiếu kỹ năng phân tích, tổng hợp thông tin phức tạp và đa chiều.",
+      "Một số sự kiện nóng hổi đã được bạn đọc ghi lại, nhưng việc kiểm tra tính xác thực sau đó vẫn là trách nhiệm chính của các tòa soạn."
+    ],
+    "labels": 0,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 2,
+    "Statement": "Việc khuyến khích bạn đọc gửi tin bài giúp đa dạng hóa góc nhìn và nội dung cho các tòa soạn báo điện tử, đặc biệt là tin tức địa phương.",
+    "Context": "Ban biên tập một tờ báo trực tuyến đang xem xét chính sách cộng tác với bạn đọc để tăng cường nội dung và sự tương tác.",
+    "Evidence_list": [
+      "Nhiều tòa soạn đã thành công trong việc thu hút bạn đọc đóng góp các bài viết về đời sống, văn hóa, ẩm thực và các vấn đề xã hội ở cấp độ địa phương.",
+      "Các đóng góp từ bạn đọc thường mang đến những câu chuyện cá nhân, độc đáo hoặc các sự kiện nhỏ mà phóng viên chuyên nghiệp khó có thể tiếp cận kịp thời.",
+      "Báo cáo thường niên của Hiệp hội Báo chí số (Digital Journalism Association) năm 2023 chỉ ra rằng 70% các tòa soạn có chương trình cộng tác với bạn đọc ghi nhận sự gia tăng về độ phong phú của nội dung.",
+      "Góc nhìn từ người dân địa phương giúp báo chí phản ánh sát hơn thực tế cộng đồng và tạo sự gắn kết với độc giả.",
+      "Dù vậy, chất lượng và tính nhất quán về phong cách viết cần được ban biên tập kiểm soát chặt chẽ để đảm bảo uy tín."
+    ],
+    "labels": 1,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 3,
+    "Statement": "Kỷ nguyên \"bạn đọc làm báo\" khiến vai trò của các phóng viên chuyên nghiệp trở nên lỗi thời và không còn cần thiết trong ngành truyền thông.",
+    "Context": "Một bình luận trên mạng xã hội về sự phát triển của báo chí công dân và tác động của nó đến nghề báo chí truyền thống.",
+    "Evidence_list": [
+      "Phóng viên chuyên nghiệp được đào tạo bài bản về đạo đức nghề nghiệp, kỹ năng phỏng vấn sâu, điều tra, phân tích và viết bài chuẩn mực.",
+      "Báo chí công dân thường tập trung vào việc ghi nhận sự kiện nhanh chóng, nhưng thiếu đi sự phân tích chuyên sâu, bối cảnh toàn diện và tính khách quan cần thiết.",
+      "Nhiều hãng tin vẫn duy trì và thậm chí mở rộng đội ngũ phóng viên để sản xuất các nội dung chất lượng cao, có chiều sâu.",
+      "Báo cáo của Viện Reuters năm 2024 chỉ rõ rằng độc giả vẫn đánh giá cao sự uy tín, độ chính xác và khả năng diễn giải tin tức phức tạp của báo chí chuyên nghiệp.",
+      "Phóng viên chuyên nghiệp đóng vai trò quan trọng trong việc kiểm chứng, biên tập và xác minh thông tin do bạn đọc cung cấp, biến nó thành tin tức đáng tin cậy.",
+      "Sự hợp tác giữa bạn đọc và phóng viên được xem là mô hình lý tưởng để tạo ra tin tức toàn diện, chứ không phải sự thay thế hoàn toàn."
+    ],
+    "labels": 0,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 4,
+    "Statement": "Mọi thông tin sai lệch do bạn đọc đăng tải trên các nền tảng mạng xã hội đều phải được báo chí chính thống chịu trách nhiệm đính chính và xử lý.",
+    "Context": "Một cuộc tranh luận về trách nhiệm của truyền thông chính thống trong việc xử lý tin giả lan truyền bởi người dùng cá nhân trên mạng xã hội.",
+    "Evidence_list": [
+      "Báo chí chính thống có trách nhiệm kiểm tra thông tin và đưa tin chính xác, nhưng không trực tiếp chịu trách nhiệm về nội dung do cá nhân đăng tải trên các nền tảng mạng xã hội không thuộc quyền quản lý của họ.",
+      "Các nền tảng mạng xã hội có điều khoản sử dụng và cơ chế báo cáo riêng để xử lý thông tin sai lệch do người dùng của họ đăng tải.",
+      "Trách nhiệm pháp lý đối với nội dung sai lệch thường thuộc về người đăng tải ban đầu theo quy định của pháp luật về an ninh mạng và thông tin.",
+      "Báo chí có thể chọn đính chính hoặc vạch trần tin giả, nhưng đó là một phần của nhiệm vụ thông tin và bảo vệ công chúng, chứ không phải nghĩa vụ pháp lý cho mọi trường hợp tin giả do người dùng tạo ra."
+    ],
+    "labels": 0,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 5,
+    "Statement": "Các tòa soạn nên có chính sách trả phí cho những đóng góp tin bài chất lượng cao từ bạn đọc để khuyến khích họ tham gia và nâng cao nội dung.",
+    "Context": "Một tòa soạn đang nghiên cứu cách tăng cường sự tương tác và chất lượng nội dung từ cộng đồng độc giả của mình.",
+    "Evidence_list": [
+      "Một số tờ báo quốc tế lớn như The Guardian hay The New York Times đã áp dụng mô hình trả phí cho các bài viết của bạn đọc có chất lượng cao, đặc biệt là các bài phân tích hoặc điều tra nhỏ.",
+      "Việc trả phí có thể thúc đẩy bạn đọc đầu tư thời gian, công sức và sự nghiêm túc vào việc tìm hiểu, viết bài thay vì chỉ gửi thông tin sơ sài.",
+      "Chính sách này giúp các tòa soạn sàng lọc và nâng cao chất lượng nội dung nhận được, biến bạn đọc thành những \"cộng tác viên không chính thức\" đáng tin cậy.",
+      "Tuy nhiên, việc quản lý, đánh giá chất lượng và quy trình trả phí đòi hỏi nguồn lực đáng kể từ phía tòa soạn và một hệ thống biên tập hiệu quả."
+    ],
+    "labels": 1,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 6,
+    "Statement": "Bạn đọc làm báo chủ yếu là chia sẻ các video ngắn về tai nạn giao thông hoặc các vụ việc gây sốc, thiếu các nội dung mang tính xây dựng.",
+    "Context": "Một nhận định về xu hướng nội dung của báo chí công dân trên các nền tảng số và mạng xã hội hiện nay.",
+    "Evidence_list": [
+      "Nhiều bạn đọc thường xuyên chia sẻ các thông tin về các sự kiện nhỏ trong cộng đồng, như lễ hội địa phương, hoạt động thiện nguyện, thành tích học tập của học sinh.",
+      "Ngoài các sự cố tiêu cực, bạn đọc còn đóng góp các bài viết về kinh nghiệm sống, du lịch, ẩm thực, văn hóa và sáng kiến cộng đồng.",
+      "Báo cáo từ Trung tâm Nghiên cứu Pew cho thấy các chủ đề đa dạng như môi trường, giáo dục, chính sách địa phương và văn hóa cũng nhận được sự quan tâm đáng kể từ bạn đọc.",
+      "Các clip về tai nạn hay sự cố gây sốc chỉ là một phần nhỏ trong bức tranh tổng thể về đóng góp thông tin của bạn đọc, và nhiều người hướng đến việc cung cấp thông tin hữu ích."
+    ],
+    "labels": 0,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 7,
+    "Statement": "Mạng xã hội là kênh duy nhất mà bạn đọc có thể sử dụng để đóng góp nội dung cho các tờ báo điện tử và báo chí nói chung.",
+    "Context": "Một người mới tìm hiểu về báo chí công dân đang thắc mắc về các phương tiện để có thể tham gia đóng góp thông tin cho báo chí.",
+    "Evidence_list": [
+      "Nhiều tòa soạn có các chuyên mục \"Gửi bài viết\" hoặc \"Ý kiến bạn đọc\" trực tiếp trên website chính thức của họ, cho phép độc giả gửi nội dung một cách dễ dàng.",
+      "Email vẫn là một phương tiện phổ biến và hiệu quả để bạn đọc gửi tin bài, hình ảnh, video hoặc phản hồi chi tiết đến các tòa soạn.",
+      "Một số báo lớn còn có đường dây nóng hoặc ứng dụng di động riêng cho phép bạn đọc gửi thông tin và bằng chứng nhanh chóng từ hiện trường.",
+      "Các diễn đàn trực tuyến và nhóm cộng đồng được quản lý bởi tòa soạn cũng là nơi để bạn đọc chia sẻ thông tin, thảo luận và đóng góp ý kiến."
+    ],
+    "labels": 0,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 8,
+    "Statement": "Tất cả các bài viết do bạn đọc gửi đến đều được tòa soạn đăng tải nguyên văn mà không cần bất kỳ sự chỉnh sửa nào.",
+    "Context": "Một người đọc đang phàn nàn về việc bài viết của mình bị chỉnh sửa khi được đăng tải trên một tờ báo trực tuyến.",
+    "Evidence_list": [
+      "Các tòa soạn thường có quy trình biên tập chặt chẽ để đảm bảo tính chính xác, phù hợp với văn phong và chính sách biên tập của tờ báo trước khi xuất bản.",
+      "Việc chỉnh sửa bao gồm sửa lỗi chính tả, ngữ pháp, sắp xếp lại ý, cắt bớt các phần không cần thiết hoặc điều chỉnh ngôn từ để đảm bảo sự khách quan.",
+      "Mục đích của việc biên tập là nâng cao chất lượng bài viết, đảm bảo thông tin được truyền tải hiệu quả và tránh các vấn đề pháp lý tiềm ẩn.",
+      "Trừ khi có thỏa thuận đặc biệt rõ ràng giữa bạn đọc và tòa soạn, quyền biên tập và quyết định đăng tải nội dung thuộc về tòa soạn."
+    ],
+    "labels": 0,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 9,
+    "Statement": "Báo chí công dân làm giảm chi phí sản xuất tin tức cho các tổ chức truyền thông truyền thống một cách đáng kể.",
+    "Context": "Một phân tích kinh tế về mô hình hoạt động của báo chí trong thời đại số và sự tham gia của bạn đọc.",
+    "Evidence_list": [
+      "Khi bạn đọc cung cấp tin tức, hình ảnh hoặc video từ hiện trường, các tòa soạn có thể tiết kiệm được chi phí cử phóng viên đến địa điểm hoặc mua nguồn tin.",
+      "Các đóng góp từ cộng đồng giúp bổ sung nội dung mà không cần đầu tư thêm vào đội ngũ nhân sự phóng viên, đặc biệt là ở các khu vực xa xôi.",
+      "Tuy nhiên, chi phí cho việc kiểm duyệt, biên tập, xác minh thông tin từ bạn đọc và xử lý các vấn đề pháp lý phát sinh vẫn là một khoản đáng kể.",
+      "Mặc dù có tiềm năng giảm chi phí ở một số khía cạnh, tổng thể chi phí sản xuất tin tức chất lượng cao vẫn đòi hỏi đầu tư đáng kể vào công nghệ, nhân lực chuyên môn và quy trình kiểm soát chất lượng."
+    ],
+    "labels": 2,
+    "Topic": "Bạn đọc làm báo"
+  },
+  {
+    "index": 10,
+    "Statement": "Việc đào tạo kỹ năng báo chí cơ bản cho bạn đọc là cần thiết để nâng cao chất lượng và độ tin cậy của những đóng góp từ họ.",
+    "Context": "Một hội thảo về việc phát triển báo chí cộng đồng và vai trò của người dân trong việc sản xuất tin tức.",
+    "Evidence_list": [
+      "Nhiều chương trình tập huấn về thu thập thông tin, kiểm chứng nguồn tin, đạo đức báo chí và kỹ năng phỏng vấn cơ bản đã được triển khai cho công dân tại nhiều quốc gia.",
+      "Kiến thức về cách viết tin bài, chụp ảnh, quay video một cách chuyên nghiệp giúp bạn đọc tạo ra nội dung chất lượng cao hơn và dễ dàng được các tòa soạn chấp nhận.",
+      "Các tổ chức phi chính phủ và trường đại học cũng tổ chức các khóa học ngắn hạn cho những người muốn tham gia báo chí công dân để trang bị kỹ năng cần thiết.",
+      "Nâng cao kỹ năng giúp bạn đọc tránh được việc đưa tin sai lệch, thiếu khách quan hoặc vi phạm các quy tắc đạo đức thông tin.",
+      "Những đóng góp được đào tạo tốt sẽ giảm gánh nặng biên tập và xác minh thông tin cho tòa soạn, đồng thời tăng cường uy tín chung của báo chí công dân."
+    ],
+    "labels": 1,
+    "Topic": "Bạn đọc làm báo"
+  }
+]
