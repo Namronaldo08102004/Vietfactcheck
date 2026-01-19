@@ -35,7 +35,8 @@ def run_integrated_rerank_verification():
         db_name=db_name,
         storage_dir=settings.STORAGE_DIR,
         model_name=settings.EMBEDDING_MODEL,
-        truncation_dim=settings.TRUNCATION_DIM
+        truncation_dim=settings.TRUNCATION_DIM,
+        device="cuda" if torch.cuda.is_available() else "cpu"
     )
     retrieval_module = DocumentRetrievalModule(db)
     reranker = VietnameseReranker(model_name='AITeamVN/Vietnamese_Reranker')

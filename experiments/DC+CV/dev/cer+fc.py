@@ -35,7 +35,8 @@ def run_integrated_rerank_verification():
         db_name=db_name,
         storage_dir=settings.STORAGE_DIR,
         model_name=settings.EMBEDDING_MODEL,
-        truncation_dim=settings.TRUNCATION_DIM
+        truncation_dim=settings.TRUNCATION_DIM,
+        device="cuda" if torch.cuda.is_available() else "cpu"
     )
     retrieval_module = DocumentRetrievalModule(db)
     reranker = VietnameseReranker(model_name='AITeamVN/Vietnamese_Reranker')
@@ -73,9 +74,8 @@ def run_integrated_rerank_verification():
     for model_path in plm_models:
         model_name_safe = model_path.replace("/", "_")
         print(f"\n🚀 Pipeline với Verifier: {model_path}")
-        
+        verifier = ClaimVerificationModule(model_path=model_path)
         try:
-            verifier = ClaimVerificationModule(model_path=model_path)
             y_true, y_pred = [], []
             details = []
 
@@ -122,8 +122,8 @@ def run_integrated_rerank_verification():
             output_file = os.path.join(current_dir, "results", f"cer+fc_{model_name_safe}.json")
             with open(output_file, "w", encoding="utf-8") as f_out:
                 json.dump({"verification_model": model_path, 
-                           "metrics": {"acc": acc, "f1": f1}, 
-                           "details": details}, f_out, ensure_ascii=False, indent=4)
+                        "metrics": {"acc": acc, "f1": f1}, 
+                        "details": details}, f_out, ensure_ascii=False, indent=4)
 
             del verifier
             if torch.cuda.is_available(): torch.cuda.empty_cache()

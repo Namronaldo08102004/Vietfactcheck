@@ -21,7 +21,9 @@ class PLMHandler:
             truncation=True,
             return_attention_mask=True,
             return_tensors="pt"
-        ).to(self.device)
+        )
+        
+        inputs = {k: v.to(self.device) for k, v in inputs.items()}
         
         with torch.no_grad():
             # Model trả về logits trực tiếp
