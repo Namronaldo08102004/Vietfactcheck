@@ -209,6 +209,37 @@ def evaluate_single_record(
         "rank": best_rank,
     }
 
+def evaluate_single_record(
+    statement: str,
+    extracted_claims: List[str],
+    threshold: float = 0.75,
+    ks=(1, 3, 5),
+):
+    if not extracted_claims:
+        return {
+            "best_sim": 0.0,
+            "rank": None,
+            **{f"hit@{k}": 0 for k in ks}
+        }
+
+    sims = [
+        semantic_similarity(statement, c)
+        for c in extracted_claims
+    ]
+
+    best_sim = max(sims)
+    best_rank = sims.index(best_sim) + 1
+
+    hits = {
+        f"hit@{k}": int(best_rank <= k and best_sim >= threshold)
+        for k in ks
+    }
+
+    return {
+        "best_sim": best_sim,
+        "rank": best_rank,
+        **hits
+    }
 
 def evaluate_and_log_claim_extraction_semantic(
     records,
@@ -221,10 +252,9 @@ def evaluate_and_log_claim_extraction_semantic(
     """
     Semantic evaluation + detailed JSON logging
     """
-
+    hit_counts = {1: 0, 3: 0, 5: 0}
     document_results = []
 
-    hits = 0
     total = 0
     sims = []
     ranks = []
@@ -247,7 +277,9 @@ def evaluate_and_log_claim_extraction_semantic(
             threshold=threshold
         )
 
-        hits += eval_result["hit"]
+        for k in hit_counts:
+            hit_counts[k] += eval_result[f"hit@{k}"]
+
         total += 1
         total_claims += len(pred_claims)
 
@@ -256,18 +288,29 @@ def evaluate_and_log_claim_extraction_semantic(
         if eval_result["rank"] is not None:
             ranks.append(eval_result["rank"])
 
+        claim_details = []
+        for c in pred_claims:
+            claim_details.append({
+                "text": c,
+                "similarity_to_statement": semantic_similarity(statement, c)
+            })
+
         document_results.append({
             "index": index,
             "statement": statement,
-            "predicted_claims": pred_claims,
+            "predicted_claims": claim_details,
             "num_predicted_claims": len(pred_claims),
-            "hit": eval_result["hit"],
             "best_similarity": eval_result["best_sim"],
             "rank": eval_result["rank"],
+            "hit@1": eval_result["hit@1"],
+            "hit@3": eval_result["hit@3"],
+            "hit@5": eval_result["hit@5"],
         })
 
     dataset_metrics = {
-        "claim_hit_rate": hits / max(total, 1),
+        "hit@1": hit_counts[1] / max(total, 1),
+        "hit@3": hit_counts[3] / max(total, 1),
+        "hit@5": hit_counts[5] / max(total, 1),
         "avg_best_similarity": sum(sims) / max(len(sims), 1),
         "mean_rank": sum(ranks) / max(len(ranks), 1),
         "avg_claims_per_doc": total_claims / max(total, 1),
@@ -327,7 +370,9 @@ if __name__ == "__main__":
         evaluate_model="semantic_simcse_phobert"
     )
 
-    print(f"Claim Hit Rate        : {metrics['claim_hit_rate']:.2%}")
+    print(f"Claim Hit@1           : {metrics['hit@1']:.2%}")
+    print(f"Claim Hit@3           : {metrics['hit@3']:.2%}")
+    print(f"Claim Hit@5           : {metrics['hit@5']:.2%}")
     print(f"Avg Best Similarity   : {metrics['avg_best_similarity']:.4f}")
     print(f"Mean Rank             : {metrics['mean_rank']:.2f}")
     print(f"Avg Claims / Document : {metrics['avg_claims_per_doc']:.2f}")
