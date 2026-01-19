@@ -14,7 +14,7 @@ class VietnameseVectorDB:
         storage_dir: str,
         model_name: str,
         truncation_dim: int,
-        device: str = None
+        device: str | None = None
     ):
         self.db_path = Path(storage_dir) / f"{db_name}.pkl"
         self.model_name = model_name

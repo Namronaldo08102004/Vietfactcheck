@@ -1,6 +1,5 @@
 import torch
 from typing import List, Optional, Dict, Any
-# Lưu ý: Đảm bảo đường dẫn import đúng với cấu trúc thư mục của bạn
 from src.components.PLM import PLMHandler 
 
 class ClaimVerificationModule:
@@ -32,7 +31,7 @@ class ClaimVerificationModule:
                     
         return {
             "label_code": prediction,
-            "label_name": self.label_map.get(prediction) or self.label_map.get(str(prediction)),
+            "label_name": self.label_map.get(prediction) or self.label_map.get(prediction),
             "claim": claim,
             "context_used": "Evidence-based" if evidences else "Full-context"
         }

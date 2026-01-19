@@ -39,8 +39,7 @@ def run_retrieval_verification_pipeline():
         db_name = db_name,
         storage_dir = settings.STORAGE_DIR,
         model_name = settings.EMBEDDING_MODEL,
-        truncation_dim = settings.TRUNCATION_DIM,
-        device="cuda" if torch.cuda.is_available() else "cpu"
+        truncation_dim = settings.TRUNCATION_DIM
     )
     retrieval_module = DocumentRetrievalModule(db)
 
