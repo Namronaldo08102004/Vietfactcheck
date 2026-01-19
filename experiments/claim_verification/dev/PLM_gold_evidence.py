@@ -27,12 +27,12 @@ def run_all_plm_gold_evidence():
         return
 
     plm_models = [
-        "tranthaihoa/xlm_base_full",
-        "tranthaihoa/xlm_large_full",
-        "tranthaihoa/ViBERT_Full",
-        "tranthaihoa/mBert_Full",
-        "tranthaihoa/phobert_base_Context",
-        "tranthaihoa/phobert_large_Context"
+        "Namronaldo2004/Vifactcheck-xlm-roberta-base-gold-evidence",
+        "Namronaldo2004/Vifactcheck-xlm-roberta-large-gold-evidence",
+        "Namronaldo2004/Vifactcheck-ViBERT-gold-evidence",
+        "Namronaldo2004/Vifactcheck-mBERT-gold-evidence",
+        "Namronaldo2004/Vifactcheck-phoBERT-base-gold-evidence",
+        "Namronaldo2004/Vifactcheck-phoBERT-large-gold-evidence"
     ]
 
     with open(data_path, "r", encoding="utf-8") as f:

@@ -151,7 +151,7 @@ if show_ev:
             **ℹ️ Cơ chế Rerank Phân cấp (Hierarchical):**
             1. Hệ thống lấy **Top K** ứng viên ban đầu.
             2. Nếu có bằng chứng đạt điểm tín nhiệm > **T1**, lấy tất cả các bằng chứng đó.
-            3. Ngược lại, hệ thống sắp xếp giảm dần và lấy bằng chứng đầu tiên. Các bằng chứng tiếp theo sẽ được chọn nếu khoảng cách điểm so với thằng liền trước nhỏ hơn **T2**.
+            3. Ngược lại, hệ thống sắp xếp giảm dần và lấy bằng chứng đầu tiên. Các bằng chứng tiếp theo sẽ được chọn nếu khoảng cách điểm so với ứng viên liền trước nhỏ hơn **T2**.
             """)
             ev_top_k_input = st.number_input("Số lượng bằng chứng lấy ra trước khi Rerank:", 3, 20, 10)
             t1 = st.slider("Confidence Threshold (T1)", 0.6, 1.0, 0.75)
