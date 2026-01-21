@@ -34,7 +34,7 @@ CONTEXT_GENERATION_PROMPT = """
 Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.
 Chủ đề: {topic}
 Cho các CÂU TUYÊN BỐ:
-{statements} và nhãn của chúng {labels}
+{statements}
 
 Hãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:
 - Phù hợp với chủ đề
@@ -49,12 +49,11 @@ KHÔNG JSON, KHÔNG markdown, KHÔNG giải thích.
 # UTILITY FUNCTIONS
 # ======================================================================
 
-def generate_fake_context(topic: str, statements: List[str], labels: List[int]) -> str:
+def generate_fake_context(topic: str, statements: List[str]) -> str:
     """Hàm gọi API Gemini để sinh text"""
     prompt = CONTEXT_GENERATION_PROMPT.format(
         topic=topic,
-        statements="\n".join(f"- {s}" for s in statements),
-        labels="\n".join(f"- {l}" for l in labels),
+        statements="\n".join(f"- {s}" for s in statements)
     )
 
     response = client.models.generate_content(
@@ -112,7 +111,6 @@ def process_grouped_full_context(
             for idx in range(len(results), total):
                 item = data[idx]
                 statements_text = [s["text"] for s in item["statements"]]
-                labels = [s["label"] for s in item["statements"]]
                 
                 success = False
                 attempts = 0
@@ -121,8 +119,7 @@ def process_grouped_full_context(
                     try:
                         fake_context = generate_fake_context(
                             topic=item["topic"],
-                            statements=statements_text,
-                            labels=labels,
+                            statements=statements_text
                         )
                         
                         # Thêm kết quả mới vào list
