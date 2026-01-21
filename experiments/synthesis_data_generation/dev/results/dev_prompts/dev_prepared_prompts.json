@@ -1,0 +1,747 @@
+[
+    {
+        "id": 1,
+        "topic": "du lịch",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: du lịch\n\nCho các CÂU TUYÊN BỐ:\n- Vào tháng 4.1930 TL Nhà vua Na Uy Harald V, Vua hề Charlie Chaplin (vua hề Sác lô) và vợ từng trải qua kỳ nghỉ trăng mật tại khách sạn Saigon Morin tại phòng Charlie Chaplin Suite.\n- Saigon Morin mang đến cho du khách những trải nghiệm thú vị về lịch sử 122 năm, hiện tại còn mang hơi hướng của phong cách kiến trúc Art Deco với vật liệu mới.\n- Khách sạn Saigon Morin ở Huế, từng đón tiếp các nhân vật nổi tiếng, đã kỷ niệm 122 năm thành lập vào tối ngày 26.3.\n- Saigon Morin, khách sạn 4 sao hàng đầu tại Huế, kỷ niệm 122 năm ra đời tối 26.3, là một trong những khách sạn lâu đời nhất Việt Nam với \"bảng vàng\" danh sách các yếu nhân và nguyên thủ quốc gia từng lưu trú. và nhãn của chúng - 1\n- 2\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 2,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Công ty TNHH Mua bán nợ DSP, địa chỉ  91 Pasteur, phường Bến Nghé, quận 1, TP HCM mua các khoản nợ mà khách hàng đã vay.\n- Cơ quan Cảnh sát điều tra Công an TP HCM đề nghị các cá nhân bị các đối tượng gọi điện, nhắn tin, nhắc nợ, chửi bới, đe dọa đến Cơ quan Cảnh sát điều tra Công an TP Hà Nội để tố giác. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 3,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Bởi được sinh ra trong thời đại công nghệ nên những người trẻ thuộc thế hệ này bên cạnh khả năng thích nghi linh hoạt với công nghệ mới, thì còn có nguy cơ dễ phụ thuộc vào công nghệ nếu không sử dụng dúng cách.\n- Trong tương lai, có rất nhiều ngành có thể bị máy móc và công nghệ thay thế, tuy nhiên việc làm bên ngành y tế vẫn cần phải được thực hiện bởi con người.\n- Trong buổi nói chuyện ngày 28.3 tại TP.HCM, bà Nguyễn Chi Lan đã chia sẻ những điều cha mẹ cần làm để giúp thế hệ Alpha không bị máy móc và công nghệ thay thế.\n- Gen Alpha được coi là những 'con người công nghệ' vì thế hệ này được sinh ra và lớn lên trong một thế giới kết nối với sự phổ biến của các thiết bị di động và mạng internet.\n- Thế hệ Alpha chưa có khả năng chọn lọc thông tin nên sẽ ảnh hưởng đến hành động và suy nghĩ của họ trong tương lai.\n- Gen Alpha (Thế hệ Alpha) được xem là những 'con người công nghệ' khi được sinh ra cùng thời điểm với sự xuất hiện của iPad và Instagram. và nhãn của chúng - 0\n- 2\n- 0\n- 0\n- 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 4,
+        "topic": "chính trị",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: chính trị\n\nCho các CÂU TUYÊN BỐ:\n- Sức chứa của hệ thống kho khí hóa lỏng (LPG) của cả nước hiện tại có 10 kho dung tích 10.000 m3 nhưng chưa có kho được đưa vào hoạt động.\n- Trong thời gian qua, tình hình cung ứng xăng dầu không có nhiều biến động, khó khăn, bất ổn, có thể gây ảnh hưởng lập tức đến thị trường trong nước.\n- Tình trạng bất ổn khi nguồn cung ngắt quãng đặc biệt là xăng dầu gây khó khăn cho nhu cầu đi lại của người dân toàn nước. và nhãn của chúng - 0\n- 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 5,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Tháng 10/2020, một nữ sinh THPT tại tỉnh Bắc Gyeongsang đã đệ đơn lên cơ quan chức năng, đề cập đến tình trạng áp lực về thời gian học quá nhiều và tác động tiêu cực đến sức khỏe của mình. Sau khi tiếp nhận đơn từ nữ sinh, cơ quan này đã khuyến nghị các trường cần thay đổi chính sách về giờ học của học sinh, nhằm giảm bớt áp lực và đảm bảo sự cân bằng giữa học tập và sức khỏe.\n- Năm 2023, một nam sinh tại trường Công nghiệp - Thương mại và Du lịch Hạ Môn đã phải đối mặt với yêu cầu chứng minh mái tóc của mình có màu vàng tự nhiên. Sau khi thực hiện việc đến bệnh viện Osaka để chứng minh, nam sinh này đã bị từ chối do thiếu thiết bị cần thiết. Tuy nhiên, anh đã nhận được sự hỗ trợ từ Hiệp hội Mỹ phẩm và Sắc đẹp địa phương, nhận chứng chỉ xác nhận rằng mái tóc của anh không được uốn. Đáng chú ý, đại diện trường đã đứng ra xin lỗi và đưa ra quyết định cho phép các học sinh tự do chọn kiểu tóc của mình.\n- Một sự việc đã gây xôn xao toàn quốc Nhật Bản bởi một vụ kiện đã được khởi kiện bởi một nữ sinh 18 tuổi ở Osaka, yêu cầu trường học bồi thường 2,2 triệu yen (khoảng 400 triệu đồng) vì cho rằng bị sang chấn tâm lý khi bị liên tục yêu cầu nhuộm mái tóc màu nâu tự nhiên thành màu đen.\n- Khảo sát 170 trường học công lập vào năm 2017 đã được tờ Asahi Shimbun thực hiện, và kết quả cho thấy rằng 57% số trường đã áp đặt lệnh cấm nhuộm tóc và yêu cầu học sinh chứng minh màu tóc tự nhiên của họ. Những quy định này đã được thiết lập nhằm mục đích đảm bảo trật tự và thống nhất trong nhà trường. Tuy nhiên, quy định yêu cầu học sinh để tóc đen đã được loại bỏ tại gần 200 trường công lập tại Tokyo vào tháng 3/2022. và nhãn của chúng - 1\n- 1\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 6,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Về Đề án phát triển bền vững 1 triệu ha lúa chuyên canh chất lượng cao gắn với tăng trưởng xanh vùng Đồng bằng sông Cửu Long, dự kiến sẽ có 20.000tỷ đồng được đầu tư vào Đề án, trong đó, 3.000 tỷ từ vốn ngân sách nhà nước và 8.400 tỷ vốn xã hội hóa, còn lại là từ các nguồn vốn khác…\n- Bộ NN&PTNT giữ ý kiến huy động nguồn lực xã hội tham gia, bao gồm hỗ trợ một phần về cơ chế, chính sách của Nhà nước và mong muốn rút ngắn thời gian thực hiện.\n- Vùng lúa chuyên canh chất lượng cao 1 triệu ha là nước thứ hai trên thế giới triển khai sản xuất lúa giảm phát thải nhờ đó nhận được nhiêu sự quan tâm của các đối tác trong nước.\n- Đề án sẽ nâng cao trình độ sản xuất lúa cũng như gia tăng giá trị lúa gạo.\n- Khó khăn của đề án là không chỉ phát triển 1 triệu ha lúa chất lượng cao mà còn nâng cao vai trò của hợp tác xã để trở thành các doanh nghiệp hướng đến sản xuất quy mô lớn. và nhãn của chúng - 1\n- 2\n- 1\n- 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 7,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- BTC đã không hoàn tiền vé cho khán giả mua vé.\n- BTC đã lên tiếng việc hủy đêm nhạc của Hiền Hồ và Trịnh Thăng Bình do cả hai dính scandal. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 8,
+        "topic": "du lịch",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: du lịch\n\nCho các CÂU TUYÊN BỐ:\n- Ngày 30/2 máy bay Airbus A321neo thứ hai cho hãng hàng không trung lưu HK Express đã được Airbus bàn giao thành công.\n- Dòng máy bay A320neo đã nhận được hơn 8.600 đơn đặt hàng từ hơn 130 khách hàng trên toàn thế giới, đây quả là một thông tin tích cực đối với hãng sở hữu. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 9,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Bà xã Công Lý xin mọi người đừng làm hại gia đình mình, trên trang cá nhân, Ngọc Hà, bà xã NSND Công Lý đã đăng tải bài viết chia sẻ về những sự công kích cũng như những bình luận tiêu cực làm cho gia đình cô vô cùng hoảng sợ.\n- Trong phim \"Lật mặt 6\" của Trấn Thành nhân vật do diễn viên Quốc Cường sinh năm 1899 thủ vai chính là người mua tấm vé, nhưng An sinh năm 1970 lại được giao trọng trách “giữ gìn” vận may này. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 10,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Cựu tổng thống Mỹ Donald Trump trong buổi vận động bầu cử đầu tiên tại TP Waco, bang Texas (Mỹ) đã chỉ trích các công tố viên đang điều tra ông, nhằm củng cố vị thế trước cuộc bầu cử sơ bộ của Đảng Cộng hòa vào năm 2024.\n- Bộ Tư pháp chỉ định một công tố viên đặc biệt điều tra cáo buộc ông Trump tích trữ vàng trái phép và âm ưu tìm cách lật ngược kết quả bầu cử năm 2020. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 11,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Tổng mức đầu tư cần thiết cho phát triển nhà ở Hà Nội giai đoạn 2021 - 2030 ước tính khoảng 880 nghìn tỷ đồng.\n- Giới chuyên gia đang nghiên cứu nhu cầu nhà ở dự kiến tại Hà Nội sẽ tăng hay giảm trong thập kỷ tới.\n- Tổng diện tích nhà ở xã hội hoàn thành tại Hà Nội vào năm 2023 dự kiến là 140.000 m2. và nhãn của chúng - 0\n- 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 12,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Mẫu mũ của bệnh nhân được các bác sĩ gửi đến phòng xét nghiệm của trung tâm hợp tác của WHO, sau đó kết quả là nấm chondrostereum purpureum, là nguyên nhân gây ra bệnh bạc lá ở thực vật.\n- Tờ Everyday Mail cho biết, một thợ săn nấm người Ấn Độ, 61 tuổi, đã nhiễm một loại bệnh nấm gây chết cây trồng, thậm chí có khả năng gây chết người. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 13,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Ngân hàng First Citizens của Mỹ đã đồng ý mua lại Ngân hàng Thung lũng Silicon (SVB), nhà băng vừa đổ sập trong tháng này gây ra cuộc khủng hoảng lan rộng.\n- Ngân hàng lớn nhất tại Mỹ là SVB hoạt động từ thập niên 1970  chi nhánh tại  Santa Monica, bang California\n- Cuộc khủng hoảng đã lan rộng sang Châu Âu và Châu Mỹ, điều này đã góp phần khiến cho Ngân hàng Credit Suisse lớn thứ hai của Thụy Sĩ bị đối thủ thâu tóm.\n- Các khách hàng vẫn tin tưởng gửi tiền vào Ngân hàng SVB bất chấp những khủng hoảng mà ngân hàng này gặp phải.\n- Ngân hàng Thung lũng Silicon (SCB), đối tác chính của giới khởi nghiệp công nghệ tại Mỹ đã được ngân hàng First Citizens đồng ý mua lại. và nhãn của chúng - 0\n- 1\n- 2\n- 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 14,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Các thông tin về đầu ra của ngành và trường đào tạo ngành được Khôi quan tâm.\n- Nguyễn Khôi sắp tốt nghiệp lớp 12 trường THPT Nguyễn Thị Minh Khai. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 15,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Ngày 21/3 Tổng thống Nga Vladimir Putin lên án và tuyên bố Mátxcơva sẽ đáp trả tương xứng về hành động gửi đạn xe tăng chứa urani nghèo cho Ukraine của Anh.\n- Vũ khí chứa urani nghèo gây tác động tiêu cực đến sức khỏe con người, gây cho họ đau đớn từ từ sau đó là tử vong. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 16,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Một trong những thỏa thuận giữa hai bên là chuyển đổi cơ chế hoạt động của Trường Đại học Hà Tĩnh thành trường đại học thành viên của ĐH Quốc gia Hà Nội.\n- Mục tiêu chính của quan hệ đối tác là phát triển ĐH Quốc gia Hà Nội thành một cơ quan nghiên cứu hàng đầu. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 17,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Tang lễ tri ân những người hi sinh trong thảm họa có sự tham gia của chủ tịch Raúl Castro và đại tướng Miguel Díaz-Canel diễn ra trong hai ngày 18 và 19/8.\n- Cách thủ đô La Habana 100 km về phía Đông, lễ an táng được tổ chức cùng ngày theo nghi thức gia đình tại nghĩa trang San Carlos de Matanzas do  Đại tướng Raúl Castro và Chủ tịch Cuba Miguel Díaz-Canel dẫn đầu đội danh dự tang lễ. \n- Cuba tuyên bố quốc tang để tri ân những người đã hy sinh trong vụ hoả hoạn tại kho chứa nhiên liệu bên vịnh Matanzas\n- Đây là vụ hoả hoạn nghiêm trọng thứ ba trong lịch sử Cuba khi tàn phá 4 trong số 8 bể chứa tại kho nhiên liệu lớn nhất cả nước. và nhãn của chúng - 1\n- 0\n- 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 18,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Gọi ngay cho đường dây nóng 0967771010 để báo cáo những hành vi có dấu lừa gạt.\n- Các đối tượng giả mạo sẽ không trực tiếp giả dạng thành giáo viên mà họ sẽ giả thành nhân viên BV gọi cho phụ huynh để báo tin con bị tai nạn. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 19,
+        "topic": "chính trị",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: chính trị\n\nCho các CÂU TUYÊN BỐ:\n- TBI là tổ chức kinh doanh do cựu Thủ tướng Tony Blair thành lập để hỗ trợ chính phủ các nước giải quyết các thách thức lớn về kinh tế, xã hội và chính trị. \n- Ông Tony Blair hiện đang là Thủ tướng Vương quốc Anh và Bắc Ireland. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 20,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Sở GD-ĐT Hà Nội đã ra văn bản yêu cầu các nhà trường thực hiện ngay một số biện pháp phòng ngừa sau khi phụ huynh một số trường học ở Hà Nội nhận được điện thoại với chiêu lừa \"con đang cấp cứu, chuyển tiền gấp\".\n- Đã có nhiều phụ huynh của trường THPT Phú Nhuận bị kẻ xấu giả danh giáo viên, nhân viên y tế của trường gọi điện báo tin con gặp tai nạn, nói con đang ở viện cấp cứu và cần chuyển tiền ngay để nhập viện. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 21,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Thời gian nhận hồ sơ đăng ký dự thi các môn năng khiếu đợt 1 để xét tuyển các ngành: kiến trúc, thiết kế đồ hoạ, thiết kế thời trang, thiết kế nội thất, quy hoạch vùng và đô thị, tổ hợp có môn năng khiếu của ngành quản lý thể dục thể thao đã được công bố.\n- Thí sinh chưa có chứng chỉ tiếng Anh theo quy định của trường sẽ được hỗ trợ thi đánh giá năng lực tiếng Anh với đề được ra dựa trên khung tham chiếu ngôn ngữ chung châu Phi. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 22,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Nhân vật chính trong bức ảnh \"Em bé K'ho\" đã có cơ hội được gặp lại tác giả đã chụp mình vào ngày 6-3.\n- K’Thi Rầm đã có cuộc sông vô cùng khó khăn khi cả cha và mẹ của cô đều gặp nạn khi cô chưa trưởng thành. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 23,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Việc hoạch định kế hoạch tài chính càng sớm càng có lợi thế mặc dù thời gian tích lũy không phải yếu tố quyết định.\n- Diễn giả Lâm Minh Chánh và diễn giả Phan Dũng Khánh sẽ đưa ra những phân tích, câu chuyện về tài chính, kênh đầu tư,... và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 24,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Địa điểm thi đấu các bảng được tổ chức tại Qatar.\n- Vòng loại thứ 2 U20 nữ Châu Á 2024 dự kiến diễn ra từ ngày 16/8 đến 16/9.\n- HLV trưởng đội tuyển U20 nữ Trung Quốc cho biết bảng B có các cầu thủ rất mạnh, để chiến thắng cần phải có sự quyết tâm cao. và nhãn của chúng - 2\n- 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 25,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Bộ Chính trị khẳng định nhiệm vụ chiến lược, thường xuyên của Đảng, Nhà nước là tiếp tục đổi mới và phát huy chính sách xã hội, đồng thời, Bộ yêu cầu xây dựng và thực hiện chính sách xã hội phải đặt trong tổng thể quản lý phát triển xã hội bền vững.\n- Bộ Chính trị đã chỉ ra một số hạn chế khi chính sách xã hội còn thiếu tính bao trùm và liên kết giữa các chính sách thực hiện, tỷ lệ bao phủ chưa cao, có sự chêch lệch khá lớn trong mức sống giữa các vùng, miền, nhóm đối tượng.\n- Nhiệm vụ chiến lược, thường xuyên của Đảng, Nhà nước chính là tiếp tục đổi mới, phát huy hiệu quả chính sách xã hội, nhưng cũng có những hạn chế sẽ gặp phải khi chính sách xã hội còn thiếu tính bao trùm, không có sự kết nối giữa các chính sách trong tổ chức, tỷ lệ bao phủ không cao. và nhãn của chúng - 0\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 26,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Biểu hiện bệnh sẽ rõ ở lúc đầu nên cần được phát hiện sớm để tránh nguy cơ biến chứng đột quỵ hay liệt vận động.\n- Tình trạng đốt sống bị thoái hóa, thoát vị, gai xương gây chèn ép các dây thần kinh có thể dẫn tới thiếu máu lên não nếu không được phát hiện sớm. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 27,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- Trưởng Ban Chỉ đạo quốc gia là Chính phủ Trần Lưu Quang; Phó Trưởng Ban Chỉ đạo quốc gia là các Phó Thủ tướng Chính phủ: Lê Văn Thành, Trần Hồng Hà, Trần Lưu Quang. Phó Thủ tướng; Trưởng Ban Chỉ đạo liên ngành hội nhập quốc tế về chính trị, an ninh, quốc phòng là  Thủ tướng Chính phủ Phạm Minh Chính.\n- Phó Thủ tướng Chính phủ Lê Văn Thành được bổ nhiệm làm Trưởng Ban Chỉ đạo liên ngành hội nhập quốc tế về kinh tế theo Quyết định số 596/QĐ-TTg của Thủ tướng Chính phủ.\n- Ban Chỉ đạo quốc gia và Ban Chỉ đạo liên ngành hội nhập quốc tế có nhiệm vụ giúp Chỉnh phủ, Thủ tướng Chính phủ chỉ đạo triển khai các chủ trương, chính sách lớn về hội nhập quốc tế.\n- Thủ tướng Chính phủ Phạm Minh Chính vừa ký Quyết định 320/QĐ-TTg kiện toàn nhân sự Ban Chỉ đạo quốc gia về hội nhập quốc tế.\n- Thủ tướng Chính phủ phối hợp, đôn đốc triển khai đồng bộ các chủ trương chính sách về hội nhập quốc tế và đề nghị các bộ, ngành trung ương, địa phương và các cơ quan báo chí làm tốt hơn nữa công tác thông tin, tuyên truyền để các cấp, các ngành, doanh nghiệp và các tầng lớp nhân dân nắm vững chủ trương, đường lối của Đảng.\n- Theo quyết định số 569/QĐ-TTg của Thủ tướng Chính phủ, Ban Chỉ đạo quốc gia về hội nhập quốc tế có các chức năng và nhiệm vụ giúp đề ra các định hướng, chiến lược, các giải pháp lớn liên quan đến hội nhập quốc tế.\n- Việc tổ chức Ban Chỉ đạo quốc gia về hội nhập quốc tế được thông tin như sau: Trưởng Ban Chỉ đạo quốc gia là Thủ tướng Chính phủ Phạm Minh Chính, đồng thời các Phó Trưởng Ban Chỉ đạo quốc gia là các Phó Thủ tướng Chính phủ: Lê Văn Thành, Trần Hồng Hà, Trần Lưu Quang. và nhãn của chúng - 1\n- 0\n- 2\n- 0\n- 2\n- 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 28,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Sau khi phẫu thuật lấy u não, bệnh nhân phục hồi tốt và không có biến chứng sau mổ.\n- Các khối u màng não thường được phát hiện sớm khi kích thước còn nhỏ. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 29,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- World Cup 2026 được nhiều người mong chờ sẽ có cuộc đối đầu giữa Messi và Ronaldo.\n- World Cup 2022 là mùa World Cup thành công của Messi nhưng lại là thất bại của Ronaldo. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 30,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Trường tiểu học Kim Giang tổ chức cho học sinh khối lớp 1 và lớp 2 đi tham quan tại trang trại Cánh Buồm Xanh tại huyện Gia Lâm, đến  tối cùng ngày, đã có 41 cháu phải nhập viện vì có biểu hiện đau bụng, buồn nôn.\n- Trong 56 cháu có biểu hiện đau bụng, buồn nôn có 41 cháu đang nhập viện khám sàng lọc, số còn lại  đã được phụ huynh đón về tiếp tục theo dõi sức khỏe tại nhà với sự theo dõi của bộ y tế vì bệnh viện thiếu giường. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 31,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- ECB tin rằng những xáo trộn gần đây của ngành ngân hàng sẽ ít ảnh hưởng đến tăng trưởng kinh tế và tỷ lệ lạm phát.\n- Vẫn chưa chắc chắn liệu các ngân hàng trung ương lớn sẽ tăng lãi suất để chống lạm phát hay ưu tiên ổn định tài chính trong bối cảnh căng thẳng hệ thống ngân hàng hiện nay.\n- Hiện vẫn chưa rõ những yếu tố cụ thể góp phần tạo nên sự bất ổn của ngành ngân hàng trong thời gian gần đây, chẳng hạn như tác động của COVID-19 hay các chính sách điều tiết. và nhãn của chúng - 1\n- 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 32,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Điện ảnh Việt Nam mới chỉ sản xuất phim đề tài chiến tranh, cách mạng.\n- Điện ảnh Việt Nam có bề dày lịch sử hơn 70 năm và đã cho ra đời nhiều bộ phim đoạt giải thưởng. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 33,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Lưng voi không có cấu tạo phù hợp với việc chở nặng vì xương sống của chúng mở lên trên.\n- Voi thường xuyên bị lạm dụng trong việc di chuyển đường dài, khai thác gỗ và thậm chí bị chết vì kiệt sức và suy dinh dưỡng. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 34,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Cuộc họp đầu tiên để xúc tiến việc chuẩn bị hồ sơ đăng cai World Cup 2034 được tổ chức ngày 22/3, do ông Niwat Limsuknirun chủ trì.\n- Việc đăng cai World Cup đã được ASEAN hoan nghênh thúc đẩy và liên đoàn bóng đá AFC hưởng ứng. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 35,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Chính phủ đã nỗ lực trong việc điều hành chính sách vĩ mô theo hướng bất ổn định như tăng vốn, đẩy mạnh đầu tư không công.\n- Chính phủ đã có hành động khi thị trường bất động sản, trái phiếu đang gặp khó khăn bằng cách sử đổi Thông tư 16/2021. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 36,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Một thỏa thuận cấp chuyên gia của IMF đạt được với Ukraine vào ngày 21/3, Ukraine sẽ gia nhập Liên minh châu Âu (EU) sau chiến tranh trong tháng 4 tới.\n- Chương trình trước đó của IMF trị giá 5 tỷ USD dành cho Ukraine diễn ra ngày 2/2/2021 đã chính thức hết hạn vào năm 2022. và nhãn của chúng - 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 37,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Buổi họp báo thông báo về tình hình triển khai các hoạt động văn hóa, thể thao, du lịch quý I/2023 và phương hướng, nhiệm vụ trong những tháng tiếp theo do  Bộ Văn hóa-Thể thao và Du lịch tổ chức vào sáng 24/3.\n- Về quản lý hoạt động lữ hành và cơ sở lưu trú,  cấp mới 189 giấy phép, thu hồi 8 giấy phép, cấp đổi 40 giấy phép, cấp lại 1 giấy phép, thẩm định 249 hồ sơ cấp, đổi, rút giấy phép kinh doanh lữ hành quốc tế cho các doanh nghiệp lữ hành. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 38,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Một phụ huynh chia sẻ trên mạng xã hội rằng con gái mình bị hai đối tượng dụ dỗ và có ý đồ bắt cóc nhưng cháu hét lên và có bảo vệ can thiệp nên các đối tượng đã bỏ chạy.\n- Trong thời gian ngắn nhưng hiện tượng các đối tượng lạ mặt tiếp cận học sinh đã xuất hiện tại 3 trường học ở Vinh khiến nhà trường và phụ huynh cảm thấy không yên tâm.\n- Những tin đồn lan truyền giữa các phụ huynh về việc 2 thanh niên lạ mặt đi xe máy, tiếp cận bắt cóc học sinh hoàn toàn là sự thật. và nhãn của chúng - 2\n- 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 39,
+        "topic": "chính trị",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: chính trị\n\nCho các CÂU TUYÊN BỐ:\n- Đồng chí Thượng tá Phan Thắng tuy có ít nỗ lực, cống hiến và tham mưu, nhưng vẫn lăn lộn bám sát cơ sở, bộ đội, tâm huyết, trách nhiệm với đơn vị, kịp thời xử lý có hiệu quả các tình huống phát sinh, giúp nhân dân phòng, chống và khắc phục các hậu quả thiên tai, dịch bệnh.\n- Vào tối ngày 24/3, Trung tướng Trần Võ Dũng đã chủ trì Hội nghị, trao quyết định công tác cán bộ cho đồng Chí Thượng tá Phan Thắng giữ chức vụ Chỉ huy trưởng Bộ CHQS tỉnh Thừa Thiên Huế.\n- Việc bổ nhiệm các cán trẻ, được đào tạo qua các học viện, nhà trường chính quy, đã trải qua nhiều chức vụ quản lý, chỉ huy ở cơ sở thể hiện thể hiện sự quan tâm của Quân ủy Trung ương đối với công tác cán bộ.\n- Đồng chí Đại tá Hồ Xuân Tùng, Phó Cục trưởng Cục Kỹ thuật đã đánh giá cao tinh thần dân chủ trong đơn vị, nghỉ công tác, nghỉ chờ hưu theo quyết định của Bộ trưởng Bộ Quốc phòng. và nhãn của chúng - 1\n- 1\n- 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 40,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Việt Nam luôn theo dõi các hoạt động trên Biển Đông, đề phòng có sự xâm phạm trái phép của các quốc gia khác.\n- Các quốc gia thành viên của UNCLOS, bao gồm Trung Quốc chỉ được phép hoạt động trên biển chỉ khi có sự đồng ý của các quốc gia trên thế giới. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 41,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Nếu dữ liệu đúng, phụ huynh có thời gian 10 ngày thao tác thử, trong giai đoạn thứ hai là giai đoạn chính thức từ ngày 21/5 đến ngày 31/5, Sở Giáo dục và Đào tạo sẽ tập huấn cho từng trường và trường sẽ hướng dẫn cho phụ huynh và có những bảng hướng dẫn bằng hình ảnh chi tiết nội dung để phụ huynh có thể thực hiện được thao tác đăng nhập vào phần mềm tuyển sinh một cách dễ dàng.\n- Ông Hồ Tấn Minh cho biết, việc rà soát và cấp mã định danh cho học sinh trên địa bàn thành phố sẽ được ngành giáo dục và ngành công an nỗ lực làm hết sức, ngành giáo dục và ngành công an phải hoàn tất việc làm sạch dữ liệu, cấp mã định danh cho toàn bộ trẻ em trong độ tuổi đến trường, từ 3 - 18 tuổi từ nay cho đến hết tháng 4. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 42,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Cô Lê Hạnh 1 năm trước vẫn còn rất lo lắng khi mắc bệnh tiểu đường kèm mỡ máu xấu, nhưng cô đã tìm lại được cuộc sống yên bình nhờ có sản phẩm được tin dùng số 1 Việt Nam.\n- Cô Hạnh quyết định đi khám bệnh và phát hiện mình bị đồng thời cả tiểu đường và mỡ máu xấu, có thể nói đây là bộ đôi \"sát thủ\" đe dọa sức khỏe người bệnh. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 43,
+        "topic": "an ninh trật tự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: an ninh trật tự\n\nCho các CÂU TUYÊN BỐ:\n- Một cán bộ tư pháp nhận hối lộ hơn 100 triệu đồng đã bị Công An điều tra làm rõ.\n- Trong quá trình làm hồ sơ thừa kế quyền sử dụng đất Tuyến đã hưởng hoa hồng từ hồ sơ đó. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 44,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Colombia từng hòa 2-2 trong trận đấu với Hàn Quốc nhờ sự may mắn ở những phút cuối cùng.\n- Nhật Bản không có nhiều cầu thủ chơi cho các CLB quốc tế nên có thể có nhiều phương án thay thế khi chấn thương hơn Columbia.\n- Colombia tuy bị bất lợi khi chơi trên sân khách nhưng vẫn hòa 2-2 với Venezuela.\n- Với lợi thế sân nhà, Nhật Bản chiếm được ưu thế hơn cả Colombia, chính vì thế Samurai xanh sẽ không tha cho đối thủ. và nhãn của chúng - 2\n- 2\n- 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 45,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Ngân hàng Nhà nước muốn sửa đổi quy định về mua, bán trái phiếu doanh nghiệp tại ngân hàng để có thể tác động tích cực đến thị trường dù vẫn còn một số điểm chưa được đề cập trong bối cảnh nợ xấu trái phiếu tăng từng ngày.\n- Theo thông kê của FiinRatings, trong số 789.000 tỷ đồng trái phiếu doanh nghiệp phi ngân hàng đang lưu hành của 757 tổ chức phát hành và lượng trái phiếu doanh nghiệp mà ngân hàng đang sở hữu chỉ chiếm khoảng 1% tổng dư nợ.\n- Việc các ngân hàng được phép mua lại trái phiếu doanh nghiệp chưa niêm yết hay chưa đăng ký giao dịch trên UpCOM, có thể giúp tháo gỡ áp lực mà một số nhà tổ chức tín dụng đang gặp phải.\n- Với thị trường trái phiếu nhiều biến động, ông Thuân cho biết việc kiểm soát giao dịch và mục đích sử dụng vốn của doanh nghiệp sẽ giúp các công ty thuận tiện hơn trong quá trình giám sát tín dụng và quản trị rủi ro, hạn chế việc giao dịch bằng tiền mặt dẫn đến việc sử dụng vốn khó được xác minh và đánh giá, ngoài ra việc Ngân hàng Nhà nước sửa đổi một số đề xuất sẽ tạo nên tính chặt chẽ hơn với thị trường.\n- Khi một doanh nghiệp chậm trả trái phiếu, sau đó cũng sẽ có khả năng chậm trả nợ ngân hàng và khi quá 90 ngày thì thuộc nhóm 3, mức lập dự phòng 25% và dưới 181 người thì nhóm 4, nếu mức lặp dự phòng 60% và mức chậm trả lớn hơn 2 năm thì thuộc nhóm 5 lúc này mức lập dự phòng nợ xấu là 90%.\n- Dự thảo bổ sung quy định ngân hàng có thể mua trái phiếu và cổ phiếu doanh nghiệp khi hệ số nợ/vốn của chủ sỡ hữu không vượt quá 5 lần dựa trên báo cáo tài chính gần nhất đã được kiểm toán. và nhãn của chúng - 0\n- 1\n- 0\n- 2\n- 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 46,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Du lịch Việt Nam, du lịch Bình Thuận và Năm Du lịch quốc gia 2023 được quảng bá tại chương trình giới thiệu du lịch Việt Nam và các tuần văn hóa Việt Nam tại thị trường trọng điểm quốc tế (ASEAN, Đông Bắc Á, châu Âu, Ấn Độ, Australia, Mỹ...) trên sóng truyền hình VTV. \n- Bộ VHTT&DL cũng đề nghị các đại sứ quán/trung tâm văn hóa nước ngoài tại Việt Nam không tổ chức các hoạt động VHTT&DL tại Bình Thuận\n- Theo Ban Tổ chức Năm Du lịch quốc gia 2023, lễ khai mạc sẽ diễn ra vào ngày 25/3 và hơn 200 sự kiện văn hóa, thể thao và du lịch với quy mô liên tỉnh, quốc gia và quốc tế sẽ được tổ chức tại 1 địa điểm là Bình Thuận.\n- Truyền thông sự kiện trên các ấn phẩm, báo, tạp chí, cổng thông tin điện tử... và tạo ra các sản phẩm âm nhạc truyền thông du lịch kết hợp các nghệ sĩ nhằm thu hút các bạn trẻ từ trong nước và quốc tế.\n- Du lịch Việt Nam, du lịch Bình Thuận và Năm du lịch quốc gia 2023 được quảng bá tại các hội chợ du lịch quốc tế như ITB tại Anh, WTM tại Mỹ và các thị trường trọng điểm quốc tế như ASEAN, Đông Bắc Á, châu Âu... và nhãn của chúng - 2\n- 1\n- 1\n- 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 47,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Ủy ban Tài chính, Ngân sách Quốc hội tổ chức hội thảo lấy ý kiến về chính sách tài chính đất đai và giá đất trong dự thảo Luật Đất đai sửa đổi vào ngày hôm qua 23/3, tại hội thảo đã liệt kê các khoản thu tài chính từ đất đai.\n- Bộ Tài chính đại diện Cục Quản lý Công sản cho rằng cần rà soát để quy định đầy đủ các khoản thu này và chỉnh sửa tên của mỗi khoản thu cho phù hợp. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 48,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Thượng tá Lê Mạnh Hà, Phó Trưởng Phòng Tham mưu, Công an TPHCM thông tin tới báo chí chiều 23/3 iải thích lý do không khởi tố 4 tiếp viên hàng không của Vietnam Airlines xách ma túy từ Pháp về Việt Nam.\n- Đại diện Công an TPHCM ông Trần Bá Hùng Đội trưởng đội điều tra khẳng định việc điều tra xem một người phạm tội hay không phải được thực hiện thận trọng, tập hợp đầy đủ chứng cứ. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 49,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- TP. Đà Nẵng cùng với TP. Nha Trang sẽ cố gắng nỗ lực thực hiện tốt sức mệnh bảo vệ và phát huy giá trị \"Ma nhai tại danh thắng Ngũ Hành Sơn\".\n- Ma nhai tại Danh thắng Ngũ Hành Sơn có hệ thống gồm nhiều văn bản bằng chữ Hán và chữ Nôm được khắc trên đá với nội dung phong phú, đa dạng, cùng nhiều thể loại văn học từ đầu thế kỉ XVII đến thế kỉ XX.\n- Vào sáng 2/3, Ma Nhai tại Danh thắng Ngũ Hành Sơn được công nhận là Di sản tư liệu thuộc Chương trình Ký ức thế giới khu vực châu Á - Thái Bình Dương, chính vì thế TP. Đà Nẵng đã đặt ra sứ mệnh bảo vệ và phát huy giá trị của địa danh này. và nhãn của chúng - 2\n- 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 50,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Sau thảm họa động đất này, có đến 5,3 triệu người tại Syria bị mất nhà, gần 900.000 người tại Thổ Nhĩ Kỳ và Syria cần thực phẩm, các nguy cơ về bệnh truyền nhiễm cũng được cảnh báo, trong đó nguy cơ lây lan dịch bệnh phát sinh từ thực phẩm và nước sinh hoạt thiếu vệ sinh được cho là nguy hiểm nhất và có khả năng ảnh hưởng đến các nước khác trong khu vực.\n- Các cán bộ, chiến sĩ cứu hộ Việt Nam phải chịu đựng điều kiện thời tiết khắc nghiệt khi phải ngủ trong lán trại dựng ngoài trời, sử dụng túi ngủ để giữ ấm cơ thể khi nhiệt độ ban đêm xuống tới 6 đến âm 7 độ C.\n- Theo Đại tá Nguyễn Minh Khương, hướng thực thi công tác của đoàn cứu nạn cứu hộ Việt Nam là sử dụng các thiết bị chuyên dụng như máy khoan cắt bê tông, thiết bị dò tìm bằng sóng radar, thiết bị dò tìm nạn nhân bằng camera và âm thanh đồng thời cũng kết hợp với các thiết bị kích nâng để phá khối bê tông, phục vụ cho việc cứu người.\n- Khi gặp các thành viên của đoàn lực lượng cứu nạn cứu hộ của Việt Nam, để thể hiện sự cảm động và biết ơn, những người dân địa phương luôn để tay phải lên ngực trái của họ. và nhãn của chúng - 2\n- 2\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 51,
+        "topic": "giới trẻ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giới trẻ\n\nCho các CÂU TUYÊN BỐ:\n- Các bạn trẻ và người dân cùng nhau thực hiện màn đồng diễn xếp chữ \"60 Hue\" bằng ánh đèn Flash lung linh tại phố đi bộ Nguyễn Huệ thu hút sự chú ý của những người đi đường.\n- Các bạn trẻ Thừa Thiên - Huế cũng đã cùng nhau tham gia nhiều hoạt động tập thể vì môi trường như dọn dẹp vệ sinh tại đường Trần Huy Liệu, (P.Đông Ba); trồng cây xanh tại công viên Lê Văn Vinh. và nhãn của chúng - 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 52,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- Đề án đặt mục tiêu đến năm 2020 hoàn thành xử lý toàn bộ hồ sơ tồn đọng trên địa bàn tỉnh Thanh Hóa.\n- Mục tiêu của dự án là phân loại, quản lý tài liệu lưu trữ thống nhất và sử dụng có hiệu quả.\n- Chi phí cho việc số hóa tài liệu lưu trữ cao hơn chi phí xử lý tài liệu tồn đọng.\n- Lãnh đạo Chi cục Văn thư lưu trữ tỉnh Thanh Hóa cho biết dự thảo đề án Chỉnh lý dứt điểm tài liệu tồn đọng tại các cơ quan, tổ chức trên địa bàn và có kế hoạch tìm kiếm hỗ trợ tài chính từ các tổ chức quốc tế cho dự án. và nhãn của chúng - 1\n- 0\n- 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 53,
+        "topic": "du lịch",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: du lịch\n\nCho các CÂU TUYÊN BỐ:\n- TP sẽ đầu tư nhiều sản phẩm du lịch mới ngoài tổ chức nhiều sự kiện lễ hội lớn, trong đó sẽ dành khoảng 800 tỉ đồng để thực hiện \"Dòng sông ánh sáng\" trên sông Hàn trong năm 2023.\n- Sau khi dự án \"Dòng sông ánh sáng\" hoàn thành vào quý 2/2024 thì đôi bờ sông Hàn sẽ trở nên rực rỡ.\n- Để hoàn thiện ý tưởng phương án \"Dòng sông ánh sáng cho hai bờ sông Hàn, mặt nước và các cây cầu\", UBND TP.Đà Nẵng đang tiếp thu các ý kiến. và nhãn của chúng - 1\n- 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 54,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- Hơn 600 tỷ đồng chi phí bồi thường, giải phóng mặt bằng, gần 4.000 tỷ đồng chi phí xây dựng, hơn 900 tỷ dành cho phí quản lý dự án, tư vấn và chi phí dự phòng trong tổng số vốn hơn 5.300 tỷ đồng.\n- Dự án thành phần 1, cao tốc Khánh Hòa - Buôn Ma Thuột sau khi hoàn thành sẽ giúp kết nối Tây Nguyên với đồng bằng duyên hải miền Trung, giúp chuyển nông sản của các tỉnh Tây Nguyên xuất khẩu thông qua cảng biển Vân Phong (Khánh Hòa) chỉ với hơn 1 tiếng chạy xe.\n- Giúp kết nối các tỉnh Nam Trung Bộ với Tây Nguyên, phát triển kinh tế ở khu vực, dự án thành phần 1 cao tốc Khánh Hoà – Buôn Ma Thuột dài hơn 31 km đã được phê duyệt. và nhãn của chúng - 1\n- 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 55,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- N. ban đầu được cho là ở tại xã Bà Điểm, huyện Hóc Môn nhưng sau đó lẩn trốn xuống huyện Bình Chánh.\n- Phạt từ 2 đến 7 năm tội tổ chức sử dụng trái phép chất ma túy tại điều 249 Bộ luật Hình sự\n- Gần đây, vụ việc bé trai 3 tuổi nghi bị một người đàn ông bạo hành và ép hút ma túy (theo như các video và hình ảnh được chia sẻ trên mạng xã hội) đang gây xôn xao dư luận và được yêu cầu cần xử lý nghiêm minh.\n- Sau khi điều tra thì công an đã phát hiện các đối tượng nghi tình nghi đang cư trú và kinh doanh trà sữa, bánh tráng trộn ở Củ Chi. và nhãn của chúng - 1\n- 1\n- 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 56,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Tập đoàn East See là tập đoàn lớn thứ 2 trong nước đang tuyển nhân viên kinh doanh, dịch vụ vé máy bay với công việc cụ thể là quản lý, chăm sóc khách hàng và phối hợp điều hành công việc, lập kế hoạch bán hàng theo các chỉ tiêu của phòng kinh doanh.\n- Người có bằng tốt nghiệp ngành quản trị kinh doanh có cơ hội ứng tuyển nhiều nhất, kế đến là marketing, tài chính ngân hàng, bất động sản trong hầu hết các vị trí công việc trên trang tuyển dụng. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 57,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Giá vàng trong nước sáng 30/3 cũng có xu hướng giảm nhẹ khi đồng USD mạnh lên đẩy giá vàng thế giới đi xuống và giao dịch quanh mốc 67 triệu đồng/lượng.\n- Giá vàng SJC tại thị trường Hà Nội được Công ty Vàng bạc đá quý Sài Gòn niêm yết ở mức 66,45 - 67,15 triệu đồng/lượng (mua vào - bán ra) trong phiên giao dịch. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 58,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Tại lễ kỷ niệm 20 năm thành lập SHTP cuối tháng 10-2022, Công ty CP Gremsy là một trong số ít doanh nghiệp (DN) công nghệ Việt tiêu biểu được chọn trưng bày, triển lãm sản phẩm, ông Trần Quốc Vinh 60 tuổi cho biết thời điểm Gremsy thành lập 10 năm trước, công ty đã vượt qua tất cả để phát triển đến quy mô ngày nay dù khó khăn tiếp cận nguồn vốn, thiếu nhân lực chuyên môn sâu, thiếu nhà cung cấp phụ trợ.\n- Công ty TNHH Real-time Robotics (RtR) Việt Nam là công ty đầu tiên nhận được giấy phép đầu tư vào Khu Công nghệ cao TP HCM (SHTP) để mở nhà máy sản xuất drone vào năm 2017 với vốn đầu tư ban đầu khoảng 53,5 triệu USD, sản phẩm đang được nhà nhập khẩu chào bán 25.000 - 30.000 USD/chiếc (chưa kèm các tính năng phụ), cao hơn 20%-30% so với thị trường. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 59,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Bệnh nhi được đưa đi làm xét nghiệm máu, xét nghiệm nước tiểu, xét nghiệm tiền mê khẩn, sau đó tiến hành gây mê để lấy pin điện tử.  \n- Bác sĩ trực khoa Tai mũi họng nhanh chóng thăm khám, chỉ định chụp X-quang cho bệnh nhi, sau đó xác định dị vật trong mũi nghi là pin điện tử dạng cúc áo, vô cùng nguy hiểm, cần phải được lấy ra càng sớm càng tốt.\n- Trong quá trình khám bệnh, dị vật trong mũi bé gái được xác định là pin điện tử hình cúc áo vô cùng nguy hiểm và cần được nhanh chóng lấy ra khỏi hốc mũi của bé.\n- Ngày 30.3 Bệnh viện nhi đồng 1 đã tiếp nhận một ca bệnh nhi 3 tuổi nhét pin điện tử dạng cúc áo vào mũi và bị hoại tử một phần niêm mạc. và nhãn của chúng - 2\n- 0\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 60,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Mùa giải Premier League 2022 - 2023 được cho là kịch tính nhất trong lịch sử khi 20 CLB chiến đấu cho danh hiệu vô địch, suất tham dự cúp châu Âu và trụ hạng.\n- Vào năm 2011, cựu HLV huyền thoại của Manchester United Sir Alex Ferguson đã cấm tạm thời một phóng viên Sky Sports đến sân Old Trafford sau khi ông không trả lời câu hỏi nhắm vào Ryan Giggs. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 61,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Thông tin sự cố an toàn thực phẩm tại trường Tiểu học Kim Giang đã được Chi cục ATVSTP Hà Nội nhân vào ngày 29/3.\n- Công tác thông tin, tuyên truyền cho giáo viên, phụ huynh học sinh kiến thức ATTP là rất quan trọng và cần được đài truyền hình quốc gia đẩy mạnh tuyên truyền. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 62,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Phúc Long tiếp cận khách hàng thông qua nhiều kênh bán hàng trực tuyến và chiếm 35% tổng doanh thu, trong đó cao nhất là thông qua Grabfood.\n- Trước khi được Masan đầu tư, Phúc Long chỉ là chuỗi trà và cà phê nhỏ, cho đến khi có Masan trở thành công ty mẹ mới vươn lên tăng trưởng vượt bậc. và nhãn của chúng - 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 63,
+        "topic": "giới trẻ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giới trẻ\n\nCho các CÂU TUYÊN BỐ:\n- Với chủ đề \"Đồng đội một thời và mãi mãi\"  Lực lượng Thanh niên xung phong (TNXP) TP.HCM đã họp mặt kỷ niệm 47 năm Ngày thành lập Lực lượng TNXP (28.3.1976 - 28.3.2023) vào tối 28.3.\n- Với số lượng khoảng 2.000 người là những TNXP tại ngũ và cựu TNXP, buổi họp mặt đã dành 1 phút tưởng nhớ những đồng đội đã hy sinh trong chiến đấu bảo vệ Tổ quốc, xây dựng kinh tế và trong đại dịch Covid-19 vừa qua. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 64,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Ông Patrushev phát biểu tại cuộc họp của Tổ chức Hợp tác Thượng Hải (SCO) cho biết Moscow cam kết ngăn chặn chiến tranh hạt nhân cũng như sự đối đầu giữa các cường quốc hạt nhân.\n- Ông Patrushev cho biết Nga sẽ tiếp tục chiến dịch quân sự ở Ukraine cho đến khi đạt được tất cả các mục tiêu đề ra, trong khi ngày càng có nhiều tuyên bố từ các chính trị gia rằng Ukraine có thể không đạt được các mục tiêu đã công bố trước đó của cuộc phản công đã công bố khi nhận viện trợ từ EU. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 65,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Khi trở thành cầu thủ đầu tiên ghi được 100 bàn thắng tại các trận đấu quốc tế, Cristiano Ronaldo nói rằng kỷ lục là động lực của anh.\n- Theo AFP, Ronaldo hiện là cầu thủ ghi nhiều bàn thắng nhất tại các vòng chung kết Euro và dự đoán trong tương lai sẽ khó có ai phá được kỷ lục của anh.\n- Dù CR7 sẽ 40 tuổi vào thời điểm Euro 2024 khai mạc nhưng cựu HLV đội tuyển Bỉ Martinez vẫn quyết liệt giữ Ronaldo ở lại đội tuyển. và nhãn của chúng - 0\n- 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 66,
+        "topic": "quân sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: quân sự\n\nCho các CÂU TUYÊN BỐ:\n- Theo Tướng ba sao Alexus Grynkewich tại Bộ Chỉ huy Trung tâm Mỹ (CENTCOM) trong khi tháng 2 là không lần nào và vào tháng 1 là 10 lần thì tính riêng trong tháng 3 này, máy bay quân sự Nga đã bay qua 25 lần.\n- Bộ Quốc phòng Nga đã đồng ý với cáo buộc của Mỹ, khẳng định máy bay không người lái của Mỹ mất kiểm soát, mất độ cao và rơi xuống biển, khẳng định tiêm kích Nga không sử dụng vũ khí mang theo, không tiếp xúc gần với máy bay không lái của Mỹ và đã trở về căn cứ an toàn. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 67,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Gen Z tại Việt Nam đang hướng đến lối sống lành mạnh, bao gồm các biện pháp tự nhiên như Trà Dr Thanh, để vượt qua những thách thức của cuộc sống hiện đại và luôn sảng khoái về thể chất cũng như tinh thần.\n- Tìm đến những thức uống chiết xuất từ thảo mộc tự nhiên như Trà Dr Thanh để thanh nhiệt nhưng các thành phần và tác dụng được nhà bán quảng cáo vẫn chưa được kiểm chứng. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 68,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Vụ hỏa hoạn trên xảy ra khi Mexico và Mỹ đang đối mặt với tình trạng nhập cư mất kiểm soát, đồng thời đây được cho là vụ hỏa hoạn khiến nhiều người bị thương nhất Mexico trong nhiều năm gần đây.\n- Tính đến năm 2019, có 53 trung tâm giam giữ người di cư hoạt động trên khắp Mexico đã bị quá tải. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 69,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Việc phân bổ 11.400 máy tính bảng đến tay học sinh có hoàn cảnh khó khăn, hộ nghèo, học sinh có cha mẹ và người thân mất vì COVID-19 có tổng giá trị lên đến 70 tỷ đồng.\n- Chương trình \"Sóng và máy tính cho em\" được kéo dài đến năm 2025, nhằm giúp đỡ học sinh và nhà trường, đặc biệt là các em có hoàn cảnh đặc biệt khó khăn, có được nền giáo dục cao hơn.\n- Trong chương trình “Sóng và máy tính cho em”,  các học sinh sẽ chia sẻ máy tính bảng ở thư viện dùng chung của nhà trường để các bạn có cùng hoàn cảnh, cùng ngôi trường có thể tiếp cận, dùng chung trong học tập, mang đến sự đổi mới ứng dụng thông tin trong học tập.\n- Gần 11.400 máy tính bảng được trao tặng học sinh vùng sâu, vùng xa trong tỉnh Kon Tum vào chiều 7/3. và nhãn của chúng - 1\n- 0\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 70,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Trong năm 2022, tăng 1.214 vụ so với năm 2021, toàn quốc đã xảy ra 7.718 vụ tai nạn lao động, làm 7.723 người bị nạn, 764 người chết.\n- Vào ngày 26/4/2023 cùng với Tháng Công nhân, tháng hành động an toàn, vệ sinh lao động năm 2023 (từ 1-31/5) dự kiến được chính thức phát động. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 71,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Ý tưởng tăng vốn của WB sẽ được thông qua kể cả sự phản đối của Mỹ.\n- Ông Ajay Banga sẽ được bầu làm Chủ tịch mới của WB bất chấp sự phản đối của Tổng thống và Bộ Tài chính.\n- Bà Yellen bác bỏ việc tăng vốn do yêu cầu cắt giảm chi tiêu để đổi lấy nâng mức nợ trần liên bang. và nhãn của chúng - 1\n- 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 72,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Trên thế giới, có nhiều nhà máy điện hạt nhân khác đã xả tritium liên tục với lượng lớn, có thể lên đến gấp 10 lần của Nhật Bản, trong thời gian dài nhưng cũng không đe dọa người dân và môi trường.\n- Việc đổ nước thải phóng xạ đã được xử lý vẫn gây e ngại về việc thay đổi ADN con người và có thể làm gia tăng ô nhiễm phóng xạ biển. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 73,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Công tác chuẩn bị cho hoạt động Tư vấn mùa thi ở An Giang diễn ra sáng 19/3 đã sẵn sàng để tư vấn cho các bạn học sinh về các ngành nghề tương lai.\n- Để tạo điều kiện cho các học sinh nghèo có thành tích học tập tốt thì có 2 trường đại học trao tặng các suất học bổng và tài trợ các thiết bị học tập. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 74,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Các trung tâm đặt ra yêu cầu tuyển việc là phải có bằng cấp cao trong các kì thi tiếng Anh quốc tế, còn trình độ sư phạm chỉ là yếu tố ưu tiên.\n- Giáo viên tiếng Anh chỉ cần bằng IELTS không cần có nghiệp vụ sư phạm là thực trạng đáng để tranh luận hiện nay. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 75,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Ngoại trưởng Ai Cập đã phát biểu trước 60 Bộ trưởng các nước trong đó có Việt Nam vào ngày 3/10 tại Kinshasa.\n- Hội nghị COP27 diễn ra từ ngày 7-18/11 tại TP. Sharm El-Sheikh và có đến 100 nguyên thủ quốc gia tham gia. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 76,
+        "topic": "đô thị",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: đô thị\n\nCho các CÂU TUYÊN BỐ:\n- Sở GTVT TP.HCM sẽ nâng cấp hệ thống đèn tín hiệu giao thông kết nối điều khiển tập trung về Trung tâm Quản lý điều hành giao thông đô thị bằng cách tối ưu hoạt động của hệ thống đèn tín hiệu giao thông khu vực trung tâm TP với Trung tâm Quản lý điều hành giao thông đô thị.\n- TP dự định triển khai phầm mềm quản lý tiến độ công trình giao thông trọng điểm trong TP và phối hợp với các trường đại học, viện ngiên cứu, đẩy mạnh hợp tác liên kết giữa các đối tác liên quan để chủ động nắm bắt, tiếp nhận chuyển giao và ứng dụng vào công tác điều hành giao thông cũng như các chương trình giáo dục đại chúng.\n- Sở giao thông vận tải thành phố sẽ phối hợp với các trường đại học, viện nghiên cứu để quản lý, giám sát xây dựng các cơ sở hạ tầng giao thông. và nhãn của chúng - 0\n- 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 77,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Ủy ban tiếp nhận nguyên trạng 18 tập đoàn kinh tế, tổng công ty nhà nước, hoạt động trong 6 ngành quan trọng đó là giáo dục, tài chính ngân hàng, viễn thông, nông nghiệp, kết cấu hạ tầng và công nghiệp theo quy định tại Nghị định số 131/2018/NĐ-CP ngày 29/9/2018 của Chính phủ.\n- Tổng nguồn vốn đầu tư của khối doanh nghiệp nhà nước trong năm 2022 chiếm 24,6% so với tổng vốn đầu tư của Nhà nước vào việc phát triển kinh tế-xã hội.\n- Theo Bộ trưởng Bộ KH&ĐT Nguyễn Chí Dũng, đầu tư của các doanh nghiệp nhà nước trong các ngành, kĩnh vực, địa bàn then chốt, thiết yếu trong giai đoạn 2016-2021 đã giúp giảm bớt gánh nặng từ ngân sách nhà nước trong việc thi hành các dự án đầu tư phát triển nền kinh tế-xã hội quan trọng. và nhãn của chúng - 1\n- 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 78,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Chính phủ Trung Quốc đã không đáp lại lời kêu gọi của nhóm SAGO về sự minh bạch trong việc chia sẻ dữ liệu và tiến hành các cuộc điều tra cần thiết.\n- Nhóm cố vấn khoa học SAGO của Tổ chức Y tế Thế giới (WHO) đang kêu gọi Trung Quốc tiết lộ mọi thông tin về nguồn gốc của đại dịch COVID-19. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 79,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Người dân nuôi chó, mèo được yêu cầu phải đăng ký, nhốt trong khuôn viên gia đình, rọ mõm khi thả ra ngoài và tâm sự với chúng để hạn chế cắn người.\n- Bệnh dại lây lan nhanh vì nhiều người nuôi chó, mèo mang từ địa phương khác về theo kiểu thả rông mà chưa tiêm phòng dai cho chúng. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 80,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Hành vi mổ lợn không có giấy phép có thể bị xử án hình sự.\n- Lò mổ tại gia của bà Như không có giấy phép đã bị lực lượng chức năng đến điều tra vào tối ngày 29/4 tại địa bàn tỉnh Bắc GIang. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 81,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Trong lúc Bảo thi có gặp 2 hay 3 câu giống y như đã làm.\n- Nắm bắt được nhu cầu thị trường hiện nay, nhiều bậc phụ huynh cho con em mình đi học công nghệ thông tin từ sớm nhưng vẫn không khỏi căng thẳng vì điểm đầu vào ngành này của các trường đại học là quá cao. và nhãn của chúng - 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 82,
+        "topic": "chính trị",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: chính trị\n\nCho các CÂU TUYÊN BỐ:\n- Phó Thủ tướng đánh giá cao đóng góp của các tri thức Việt Nam vào mối quan hệ hữu nghị của 2 nước, đồng thời cũng mong muốn  họ có trách nhiệm, và tuân thủ pháp luật sở tại.\n- Hội Trí thức Việt Nam tại Nhật có hơn 2.000 thành viên đều đang hoạt động và định cư tại Nhật 3 năm trở lên. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 83,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Về việc chuẩn bị cho việc đàm phán hợp đồng mua bán điện và giá điện, đã có tới 5 chủ đầu tư gửi hồ sơ, nên chúng tôi yêu cầu các chủ đầu tư nên ngừng nộp hồ sơ cho bên mua bán điện.\n- Các thông số kỹ thuật được dùng theo thiết kế kỹ thuật của dự án gần nhất, bên cạnh đó sản lượng lớn nhất trong hồ sơ thiết kế cơ sở và hồ sơ thiết kế kỹ thuật (nếu có) là sản lượng tính toán.\n- Khung giá điện và phương pháp xác định giá điện cũng đã được đặt ra và chờ Bộ Công Thương thông qua, EVN rất mong nhận được sự phối hợp chặt chẽ của các chủ đầu tư trong và ngoài nước trong quá trình chuẩn bị hồ sơ đàm phán. và nhãn của chúng - 1\n- 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 84,
+        "topic": "giới trẻ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giới trẻ\n\nCho các CÂU TUYÊN BỐ:\n- Với sự đổi mới và thú vị, ChatGPT được nhiều người dùng để trao đổi thông tin trực tiếp thông qua hình thức chủ yếu là hỏi đáp, dựa trên những cơ sở dữ liệu thu thập được trên internet, các trang mạng xã hội, website từ năm 2021 trở về trước.\n- ChatGPT giúp người dùng có thể trao đổi trực tiếp và gián tiếp thông qua hình thức hỏi đáp là chính với những có sở dữ liệu có sẵn được thu nhập kể từ năm 2021 trở về trước. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 85,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Thổng thống Florida Ron DeSantis, cùng là thành viên Đảng Cộng hòa với ông Trump, chỉ trích rằng quyết định truy tố là \"Vũ khí hóa hệ thống pháp luật để thúc đẩy một chương trình nghị sự chính trị\".\n- Nhóm thực hiện chiến dịch tranh cử tổng thống của ông Trump đã đưa ra lời kêu gọi gây quỹ đầu tiên tới những người ủng hộ ông, và họ cũng đã huy động được khoảng 2 triệu USD từ khắp nơi trên thế giới kể từ khi ông Trump lần đầu tiên dự đoán ông sẽ bị bắt vào ngày 18/3. và nhãn của chúng - 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 86,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Phương án thi tốt nghiệp THPT mới sẽ tác động không nhỏ đến chất lượng giáo dục phổ thông ở Việt Nam.\n- Phương án thi tốt nghiệp THPT mới của Bộ GD-ĐT yêu cầu tất cả thí sinh phải sử dụng máy tính để làm bài thi. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 87,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- Để thực hiện một số giao dịch khi còn nhỏ, trẻ em Mỹ được cấp hộ chiếu ngay tại bệnh viện lúc mới sinh ra.\n- Nếu triển khai việc cấp CCCD cho trẻ thì phải trải qua quá trình xét duyệt của cơ quan lãnh đạo và thời hạn năm năm phải đổi một lần.\n- Sáng 17-3, tiếp tục phiên họp thứ 21, Ủy ban Thường vụ Quốc hội cho ý kiến về đề nghị bổ sung vào Chương trình xây dựng luật, pháp lệnh năm 2023 đối với dự án Luật CCCD (sửa đổi).\n- Bổ sung thông tin vào kho dữ liệu quốc gia về dân cư và vào cơ sở dữ liệu CCCD là 1 trong 4 chính sách mà chính phủ đề xuất để xây dựng luật CCCD\n- Trong phiên họp lần thứ 21, ý kiến về bổ sung và sửa luật đã được đề xuất với mục đích giảm thiểu các thủ tục hành chính và đáp ứng các yêu cầu về ứng dụng, phát triển cơ sở dữ liệu quốc gia.\n- Theo ông Hoàng Thanh Tùng, cách thức thực hiện việc tích hợp thông tin vào CCCD nếu làm rõ và đảm bảo tính đồng bộ, thống nhất sẽ gây nhiều phiền hà cho người dân. và nhãn của chúng - 2\n- 2\n- 0\n- 0\n- 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 88,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Luyện và vợ thừa nhận hành vi của mình, những thửa đất trong dự án đều là những thửa đất \"ma\".\n- Do phải điều trị ung thư phổi nên bị cáo Huỳnh Kim Thắng bị phạt 3 năm tù nhưng hưởng án treo. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 89,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Để được nhận bảo lĩnh đối với một cá nhân thì cần phải có giấy cam đoan xác nhận của chính quyền địa phương, trong giấy cam đoan thì cá nhân được bảo lãnh phải cam đoan không để bị can, bị cáo vi phạm của các nghĩa vụ quy định.\n- Thời gian bà Nguyễn Phương Hằng bị tạm giam đã tròn 1 tháng trong khi 2 đến 7 năm là khung hình phạt bà có thể nhận được và bà sẽ được bảo lĩnh nếu đủ thời gian tạm giam.\n- Ông Nguyễn Quang Tuấn (con trai bà Phương Hằng) đã xin bảo lĩnh cho mẹ tại ngoại sau khi bà bị bắt giam được vài ngày. và nhãn của chúng - 0\n- 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 90,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Đối với các tổ hợp có môn Vẽ Mỹ thuật, nhà trường quy định tổng điểm môn Toán của thí sinh với điểm môn Vẽ Mỹ thuật phải đạt từ 14 điểm trở lên.\n- Trường Đại học Luật TP.HCM vẫn giữ nguyên 2 phương thức tuyển sinh là xét tuyển thẳng và xét tuyển sớm với thí sinh có chứng chỉ ngoại ngữ quốc tế còn thời hạn có giá trị; xét tuyển dựa trên kết quả thi tốt nghiệp THPT trong năm 2023. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 91,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Mùa giải năm  nay cho phép mỗi CLB đăng kí 2 suất cho thành viên nước ngoài đã được cấp giấy phép lao động.\n- Giải futsal HD Bank VĐQG 2023 tuy có một số CLB cũ không thể tham gia, đổi lại lại có sự tham gia của các thành viên nước ngoài.\n- Các sân nhà được các CLB chọn trải dài từ bắc vào nam, từ Bắc GIang đến Thành phố Hồ Chí Minh.\n- Màn tranh đấu kì này chủ yếu là tranh tài giữa đương kim vô địch Sahako và á quân - cựu quán quân mùa 2019 Thái Sơn Nam. và nhãn của chúng - 1\n- 0\n- 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 92,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Ý kiến \"học đại học rồi cũng đi làm thuê\" đã nhận lại phản ứng dữ dội của nhiều sinh viên Trường ĐH Ngoại ngữ - Tin học TPHCM (HUFLIT) của diễn giả đến nói chuyện tại chương trình của trường.\n- Bạn sinh viên chia sẻ trên trang HUFLIT nói rằng diễn giả nói nhiều câu rất khó nghe nhưng bạn vẫn phải cố nhịn cho đến lúc kết thúc chương trình, hơn nữa cũng có những bạn khác cảm thấy bức xúc giống như bạn.\n- Phản hồi việc đi trễ, ông cho biết mình đã đến trường từ lúc 9h, nhưng phải đi tìm bãi đậu xe ở xa và đi bộ đến bộ, dẫn đến việc lên sân khấu trễ.\n- Diễn giả này được biết còn có những lời lẽ xúc phạm và chê bai ngoại hình của người khác.\n- Từ những chia sẻ của ông Đ.T.T, sinh viên tiếp tục phản ứng gay gắt và nổ ra những cuộc tranh cãi, thậm chí được truyền hình đưa tin, nhưng cũng có nhiều người bênh vực diễn giả, cho rằng ông chỉ đề cập những gì thực tế ngoài xã hội chứ không gói gọn trong sách vở.\n- Tuy diễn giả không được nêu tên trong confession của sinh viên, ông Đ.T.T đã chủ động đáp trả bằng video clip trên Facebook. và nhãn của chúng - 0\n- 1\n- 1\n- 0\n- 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 93,
+        "topic": "giải trí",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giải trí\n\nCho các CÂU TUYÊN BỐ:\n- Phim điện ảnh “Biệt đội rất ổn” do nữ diễn viên Lê Khánh thủ vai sẽ ra rạp từ ngày 31-4.\n- Chiều tối ngày 28-3 trong buổi giao lưu với khán giả  của đoàn phim \"Biệt đội rất ổn\" cô chia sẽ rằng bản thân tuy cũng có không ít vai diễn thành công trước đây trên màn ảnh rộng nhưng tất cả đều là quá khứ, không thể bắt khán giả nhớ mãi những vai diễn đó rồi áp đặt vào thực tại. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 94,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Linh chia sẻ nỗi buồn khi bị hạ hạnh kiểm.\n- Vì bị hạ hạnh kiểm ngay giữa kì hai lớp 12 nên Linh lo lắng sẽ ảnh hưởng đến xét tuyển đại học.\n- Em đang băn khoăn không biết việc bị hạ hạnh kiểm có ảnh hưởng đến việc xét tuyển đại học của mình hay không? và nhãn của chúng - 2\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 95,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Vì có kỹ năng leo núi xuất sắc, ông Krempf, cộng sự của Alexandre Yersin đã hoàn thành nhiệm vụ lên 1 đỉnh núi Hòn Bà ở độ cao khoảng 1.500m.\n- Người đầu tiên lên đến đỉnh núi Hòn Bà ở độ cao 1.500m là Krempf, một cộng sự của Alexandre Yersin.\n- Cách đây 40 năm, Bộ Văn hóa, Thông tin, Thể thao và Du lịch đã có quyết định xếp quần thể \"di tích lịch sử lưu niệm nhà bác học Alexandre Yersin\" tại Khánh Hòa là di tích quốc gia.\n- Trạm thử nghiệm của Alexandre Yersin bao gồm căn nhà gỗ năm tầng và bể nước, nghiên cứu trên đỉnh Hòn Bà ở độ cao 1.578m.\n- Năm 2005, UBND tỉnh Khánh Hòa cho phép  Công ty CP Sakura- Sài Gòn - Nha Trang  xây dựng lại căn nhà gỗ này trên nền móng cũ, ngôi nhà được xây dựng có kết cấu tương tự ngôi nhà cũ trước đây. và nhãn của chúng - 0\n- 0\n- 1\n- 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 96,
+        "topic": "sức khỏe",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: sức khỏe\n\nCho các CÂU TUYÊN BỐ:\n- Một trong những nguyên nhân chính gây suy gan là do gan nhiễm mỡ, căn bệnh thường gặp ở những người lạm dụng rượu bia, béo phì và ít vận động.\n- Thịt đỏ được chuyển hóa tại gan, chính vì thế khi nạp quá nhiều thịt đỏ vào cơ thể sẽ làm tình trạng gan nhiễm mỡ trở nên nghiêm trọng hơn, có thể gây tử vong. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 97,
+        "topic": "giới trẻ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giới trẻ\n\nCho các CÂU TUYÊN BỐ:\n- Dùng quét mã QR để nhận tiền mừng cưới đã diễn ra tại đám cưới của chủ rể Vi Đình Quyết  và cô dâu Hà Thị Vân.\n- Người lớn tuổi thì họ chọn bỏ phong bì còn người trẻ thì chọn quét mã QR bởi người lớn tuổi họ khó khăn trong việc tiếp cận công nghệ hơn người trẻ. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 98,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Trong khi châu Âu, chỉ số FTSE 100 của London (Anh) tăng 1,1% lên 7.564,27 điểm thì tại New York (Mỹ), chỉ số công nghiệp Dow Jones tăng 5% lên 32.717,60 điểm.\n- Giá dầu thô ngọt nhẹ Mỹ (WTI) giảm 30 cent (0,3%), xuống 72,97 USD/thùng, lượng dầu thô dự trữ của Mỹ đã bất ngờ giảm xuống trong tuần trước, do các công ty lọc dầu tăng cường hoạt động sau mùa bảo dưỡng. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 99,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- Cháu A Phước không may mắn đã tử vong ở bệnh viện, những bệnh nhân còn lại đang được tích cực điều trị, trong đó có bệnh nhân phải thở máy.\n- UBND xã Đăk Long đã hỗ trợ và nhiều tổ chức, đoàn thể của huyện Đăk Hà cũng đã đến thăm hỏi, hỗ trợ gia đình các nạn nhân.\n- Vụ nổ xảy ra khiến 1 người lớn, 2 cháu nhỏ thiệt mạng và 3 người khác bị thương nặng vẫn nằm trong phòng cấp cứu. và nhãn của chúng - 2\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 100,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Đội tuyển bóng đá nữ CHDCND Triều Tiên đã bị xóa tên khỏi hệ thống xếp hạng của FIFA theo bảng xếp hạng (BXH) thế giới mới nhất được cập nhật ngày 24-3.\n- Theo kế hoạch tập luyện 2 tuần tại Hà Nội, tuyển nữ Việt Nam sẽ có 3 trận giao hữu vào tuần sau tại sân vận động Mỹ Đình, sau đó  tuyển nữ Việt Nam sẽ lên đường tham dự vòng loại thứ 2 Olympic nữ 2024. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 101,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Tổng thống Sheikh Mohammed đã bổ nhiệm các em trai của mình là ông Sheikh Mansour bin Zayed Al Nahyan vào chức phó tổng thống UAE và Sheikh Tahnoun bin Zayed Al Nahyan làm cố vấn an ninh quốc gia của UAE.\n- Ông Sheikh Khaled làm thái tử của Abu Dhabi vì ở đây có nhiều dầu mỏ bán được giá nhất thế giới. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 102,
+        "topic": "quân sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: quân sự\n\nCho các CÂU TUYÊN BỐ:\n- Đường dây nóng là trụ cột của Cơ chế Liên lạc trên biển và trên không để  phòng ngừa những va chạm ngẫu nhiên trên biển và trên không giữa Trung Quốc và Nhật Bản.\n- Ngoại trưởng Hayashi đã công bố kế hoạch tới Trung Quốc là cuối tháng 3 ông sẽ lại ghé thăm. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 103,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Việc phát huy lợi thế là Top 1 MCN TikTok năm 2020 và 2022 với giải thưởng Content Partner Of The Year, MCV Group chưa tiến hành mở rộng hệ thống các ngôi sao sáng tạo nội dung với hơn 500+ KOLs.\n- TikTok Shop MCV đã tăng trưởng gấp 4 lần so với khi mới thành lập và đạt 400 kênh trong vòng 1 tháng. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 104,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Cha của nam sinh viên trên ở Trung Quốc đã qua đời ba năm trước do bị bệnh nan y.\n- Một thanh niên trượt kỳ thi tuyển sinh sau đại học ở Trung Quốc thử gửi tin nhắn vào số điện thoại của người cha đã khuất và nhận được dòng tin nhắn hồi âm. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 105,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Thứ trưởng Hoàng Minh Sơn không đồng tình với ý kiến tổ chức xét tuyển riêng ngành Y.\n- Học sinh không phải tham gia nhiều kỳ xét tuyển mà chỉ được tham gia một kỳ thi xét tốt nghiệp THPT và một kỳ xét tuyển đại học. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 106,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Một số Ngân hàng đã giảm lãi suất trước sức ép giá dầu.\n- Sau phiên ngày 23/3 bảng giá năng lượng với giá WTI và giá dầu Brent được giữ nguyên so với ban đầu. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 107,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Việc Viện kiểm sát nhân dân huyện Hương Sơn (Hà Tĩnh) mới đây đã phê chuẩn quyết định khởi tố bị can tác động đối với an toàn công cộng và nhận thức của những người thực thi pháp luật ở huyện Hương Sơn\n- Người bị hại Trịnh Quốc Sơn trong lúc xô xát không có hành vi khiêu khích Nguyễn Đình Đạt. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 108,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- Xử phạt từ 50 đến 70 triệu đồng đối với ba quán nhậu trên đường Hoàng Thị Loan Đà Nẵng, trong đó hai quán phải dừng hoạt động vì mở nhạc ồn ào.\n- Chủ quán nhậu Victory ông Phan Duy Tân, 38 tuổi, bị phạt 12,5 triệu đồng, chủ quán Max Beer Garden ông Lê Kim Dũng bị phạt 20 triệu do tái phạm nhiều lần, Max Beer Garden và Victory phải đóng cửa, dừng hoạt động. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 109,
+        "topic": "bất động sản",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: bất động sản\n\nCho các CÂU TUYÊN BỐ:\n- Dự án du lịch này đang xuống cấp, cỏ dại mọc um tùm khắp nơi sau nhiều năm bị bỏ hoang, có thể thấy mảnh \"đất vàng\" của xã đảo Tam Hải đang bị lãng phí trầm trọng.\n- Công ty cổ phần Du lịch Việt Ngữ năm 2006 đã động thổ xây dựng khu du lịch \"Ẩm thực - ngôn ngữ vượt thời gian\" với diện tích lên đến 90.000m2 tại Quảng Nam. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 110,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Do đã làm sai quy trình các bị cáo nguyên là giao dịch viên, kiểm soát viên, thủ quỹ tại HDBank - phòng giao dịch Đông Sài Gòn đã tạo điều kiện cho Nguyễn Thị Minh Quyên chiếm đoạt 4,4 tỉ đồng của ngân hàng.\n- Trong quá trình làm việc, Nguyễn Thị Minh Quyên sinh năm 1870 là giám đốc của ngân hàng Vietcombank nhận ra sự lỏng lẻo trong việc quản lý, ký chứng từ của các bị cáo còn lại đã tạo điều kiện cho Quyên lập khống chứng từ rút tiền từ 12 sổ tiết kiệm của 11 khách hàng, chiếm đoạt hơn 4,4 tỉ đồng của HDBank. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 111,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Nguyên nhân của việc đánh thuế là do các nước Liên minh châu Âu (EU) sẽ thu thuế carbon với một số mặt hàng mà quy trình sản xuất sản sinh ra lượng khí thải carbon cao.\n- Theo kế hoạch, từ năm 2026, EU sẽ áp thuế phát thải carbon với các mặt hàng có khí thải carbon cao và các ngành hàng thực phẩm. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 112,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Theo nghiên cứu của các nhà khoa học vào năm 1980, bão quay ngược chiều kim đồng hồ do sự xoay của Trái Đất ở Bắc bán cầu kéo không khí ngược chiều kim đồng hồ còn ở Nam bán cầu, điều ngược lại xảy ra nên bão quay theo chiều kim đồng hồ.\n- Bão tuyết được hình thành từ chuyển động xoay của Trái Đất quay quanh Mặt Trời.\n- Khi thời tiết lạnh, không khí sẽ trở nên lạnh làm cho nước đóng băng, tạo nên các khôi băng khổng lồ. và nhãn của chúng - 2\n- 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 113,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Hội thảo \"Doanh nghiệp dịch vụ trò chơi điện tử trực tuyến đóng góp ý kiến về đề nghị xây dựng dự án Luật thuế tiêu thụ đặc biệt sửa đổi\", tổ chức tại Hà Nội ngày 30-3 với nội dung bàn về việc  đánh thuế tiêu thụ đặc biệt lên ngành công nghiệp game.\n- Các đại biểu tham dự hội thảo cho rằng việc đánh thuế tiêu thụ đặc biệt lên ngành công nghiệp game vừa không phù hợp thông lệ quốc tế, vừa ảnh hưởng lớn đến sự phát triển của ngành game Việt. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 114,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Khi đang còn là một kỹ sư lưu trú tại Ấn Độ, Trung Quốc, Việt Nam và Indonesia trong những năm 1950, tác giả kiến giải về sự gặp gỡ giữa vật lý học cơ bản với thế giới quan Phật giáo vừa lý tính vừa đầy minh triết.\n- Người chú mà ông gắn bó đã bị hành hình vào năm 15 tuổi, ông nhớ về hình ảnh trầm lặng của ông nội mình trước sự ra đi đầy đau xót của đứa con trai. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 115,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Nga bị liên minh châu Âu (EU) áp đặt vòng trừng phạt thứ 20, và khối 27 thành viên từ chối nhập khẩu một số mặt hàng từ Nga.\n- Công nghiệp hạt nhân Nga cũng chưa bị áp đặt trừng phạt, theo đó EU đã nhập khẩu tổng cộng 750 triệu euro các sản phẩm thuộc ngành công nghiệp hạt nhân Nga với mục đích chế tạo vũ khí hạt nhận trong trận chiến với Ukraine. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 116,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Nguyễn Thảo Nguyên đã mang theo 2 con và bỏ đi do có mâu thuẫn với gia đình, từ đó cô sống chung với Lê Văn Bậm như vợ chồng, đến cuối năm 2023, khi phát hiện Nguyên sử dụng ma túy, anh T. đã đến đón cháu T.N.A.N về, còn cháu T.N.A.T tiếp tục sống chung với Nguyên.\n- Công an TP Hồ Chí Minh cho biết tối 28/3, đã làm việc với Lê Văn Bậm và Nguyễn Thảo Nguyên trong việc bé trai bị nghi cho hút ma túy, theo kết quả, cả hai người này đều dương tính với ma túy. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 117,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Bộ Thông tin và Truyền thông, Tổng công ty Bưu điện Việt Nam phát hành bộ tem \"Việt Nam\" vào 9/7/2022.\n- Bộ tem \"Hoa Đà Lạt\" gồm 6 mẫu được vẽ bởi họa sĩ Thúy Lan. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 118,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Được biết đối tượng Nguyễn Hữu Hưng có biệt danh là \"Hưng Nhái\" và là \"siêu trộm\" vì đã có nhiều tiền án về tội trộm cắp tài sản, với khả năng trộm cắp \"bậc thầy\" của hắn.\n- Đối tượng truy nã Nguyễn Hữu Hưng bị bắt tại Công an Lào Cai và không thể chống cự. và nhãn của chúng - 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 119,
+        "topic": "thế giới",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thế giới\n\nCho các CÂU TUYÊN BỐ:\n- Sáng kiến CMIM dự kiến sẽ cải thiện trong tương lai, nhưng các chi tiết và chiến lược cụ thể vẫn chưa được xác định.\n- Hội nghị AFCDM+3 đã thảo luận về tình hình kinh tế vĩ mô hiện tại trong khu vực ASEAN+3 và tiến độ của các sáng kiến hợp tác tài chính. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 120,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Tại phường Tân Chánh Hiệp, quận 12, TP.HCM, đoàn bác sĩ Quân y Bệnh viện Quân y 175, UBND phường Tân Chánh Hiệp, quận 12, TP.HCM và các nhà tài trợ đã tổ chức đã khám bệnh, siêu âm, chụp CT và cấp thuốc trong ngày 25-2 cho 250 hộ gia đình chính sách, hộ nghèo, người có hoàn cảnh khó khăn.\n- Ông Nguyễn Chí Thiện 60 tuổi, Chủ tịch UBND phường Tân Chánh Hiệp phối hợp với Đoàn y bác sĩ Bệnh viện Quân y 175, doanh nghiệp, nhà thuốc khám bệnh, phát thuốc và tặng quà cho bà con, bước đầu sàng lọc bệnh tật, tiếp đó sẽ có phương án hỗ trợ bà con bảo vệ sức khỏe tốt hơn. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 121,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Một số trường cao đẳng cộng đồng có điều kiện đầu vào thấp khi tuyển thẳng học sinh mà không yêu cầu bằng IELTS hay SAT.\n- Trường sẽ xếp lớp cho sinh viên thông qua việc kiểm tra đánh giá trình độ và sinh viên thường dành khoảng 1 năm học để tham gia khóa này trước khi học chương trình chính thức. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 122,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Tại buổi giao lưu với du học sinh Lào tại trường, Đại sứ Lào đã trao giấy khen cho một số học sinh có thành tích xuất sắc.\n- Nhà giáo ưu tú, PGS-TS Lương Minh Cừ tăng tranh lưu niệm cho ngày Đại sứ Hỗ trợ đào tạo nguồn nhân lực và nghiên cứu khoa học. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 123,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Rủi ro đồng sở hữu bất động sản với các nhà đầu tư khác hoặc phải bỏ thêm tiền chênh lệch để sở hữu riêng do số tiền đầu tư nhỏ, nguy cơ doanh nghiệp phát hành đẩy giá bất động sản lên cao để cấn trừ nợ, đã có nhiều vụ tranh chấp xảy ra trong những năm nay.\n- Chính phủ ban hành Nghị định số 08/2023/NĐ-CP sửa đổi bổ sung và ngừng hiệu lực thi hành một số điều ngày 5/3/2022 tại Nghị định quy định về chào bán, giao dịch trái phiếu doanh nghiệp. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 124,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Công nghệ 4.0 được đẩy mạnh ứng dụng trong việc tuyên truyền, quảng bá xúc tiến du lịch và mang về hơn 80% tỷ lệ khách tham quan.\n- Công tác đào tạo, bồi dưỡng nguồn nhân lực, chất lượng dịch vụ và thái độ giao tiếp văn mình không phải là những vấn đề mà ngành chức năng quan tâm. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 125,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- LPB đẩy mạnh mảng dịch vụ bảo hiểm, thẻ, ngân hàng số,... và trở thành một trong những ngân hàng TMCP có mạng lưới lớn nhất cả nước và Đông Nam Á.\n- Bất chấp bối cảnh thị trường tài chính trong và ngoài nước có nhiều biến động, theo báo cáo tài chính quý V/2022, LBP vẫn đạt kết quả khả quan, nằm trong top các ngân hàng thương mại cổ phần lớn tại Việt Nam. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 126,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Giải pháp hóa đơn điện tử của VNPT không yêu cầu doanh nghiệp, cá nhân phải nộp báo cáo thuế cho cơ quan thuế do hệ thống tự động gửi dữ liệu cho cơ quan thuế.\n- Giải pháp hóa đơn điện tử của VNPT không tương thích với mọi loại hình doanh nghiệp mà chỉ phù hợp với những doanh nghiệp cung cấp dịch vụ, bán hàng trực tiếp cho người tiêu dùng. và nhãn của chúng - 1\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 127,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Mức học phí của các cơ sở giáo dục đại học công lập năm học 2021 - 2022 tăng 25% so với  năm học 2020-2021.\n- Bộ GD&ĐT vừa có phúc đáp kiến nghị của cử tri Thanh Hóa sau khi phát hiện sự không công bằng trong học bạ.\n- Cử trì đề nghị điều chỉnh lộ trình thu học phí theo hướng tăng mạnh rồi giữ nguyên. và nhãn của chúng - 1\n- 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 128,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Các ban quản lý dự án phải chịu trách nhiệm trước Chính phủ nhưng lượng tiền không có sẵn cho các dự án.\n- Mạng lưới trung tâm đăng kiểm sẽ tập trung vào các thành phố lớn trên cả nước để giải quyết tình trạng ùn tắc đăng kiểm hiện tại.\n- Các dự án cao tốc được đề nghị hoàn thành và đưa vào triển khai trong tháng 3 này.\n- Ngày 31/3 Bộ Giao thông Vận tải họp giao ban quý I/2023 để ban hành, sửa đổi các thông tư liên quan vấn đề đăng kiểm. và nhãn của chúng - 1\n- 0\n- 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 129,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Sở Giáo dục và Đào tạo đã chỉ đạo các trường học tạm thời đóng cửa để ngăn chặn hình thức lừa đảo mới tiếp diễn.\n- Trò lừa đảo mới nhắm vào sinh viên liên quan đến việc những kẻ lừa đảo gọi điện thoại và yêu cầu tiền để chi trả cho trường hợp khẩn cấp về y tế. và nhãn của chúng - 2\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 130,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Võ Minh Lâm đoạt giải Chuông Vàng hát truyền thống 2006.\n- Nghệ sĩ Duy Sơn giã từ nghệ thuật khi cải lương đang trên đà phát triển. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 131,
+        "topic": "quân sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: quân sự\n\nCho các CÂU TUYÊN BỐ:\n- Triều Tiên tiến hành thử tên lửa đạn đạo tầm xa.\n- Các cuộc tập trận quân sự do Triều Tiên tiến hành chỉ mang tính chất phòng thủ. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 132,
+        "topic": "thể thao",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thể thao\n\nCho các CÂU TUYÊN BỐ:\n- Sau khi chứng kiến đội U23 của HLV Philippe Troussier thi đấu thất vọng trên đất Qatar, Tờ Thairath cho rằng những người hâm mộ bóng đá Việt Nam thực sự nhớ HLV Park Hang Seo- huấn luyện viên cũ người đồng hành cùng đội bóng năm 2015, người mà đã bảo vệ tấm huy chương vàng ở hai kỳ SEA Games liên tiếp.\n- Đội U23 Việt Nam đã trải qua giải giao hữu Doha Cup vô cùng thất vọng khi U23 Việt Nam thua U23 Kyrgyzstan ở loạt đá luân lưu. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 133,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Năm 2022, nhờ vào các kế hoạch triển khai phát triển lâm nghiệp của nhà nước đề ra đã đạt được sự thành công, người dân đã được tạo nguồn thu nhập và sinh kế thông qua các hoạt động sản xuất lâm nghiệp, chính sách khoán bảo vệ rừng và dịch vụ môi trường rừng. Nhờ vào đó góp phần xóa đói giảm nghèo, tăng thêm thu nhập cho dân.\n- Đảng ủy Quảng Ninh, chỉ huy xác định công tác thi đua và phong trào Thi đua Quyết thắng luôn là một nội dung quan trọng trong hoạt động lãnh đạo, chỉ đạo của cấp ủy, chỉ huy các cấp. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 134,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- TS Võ Kim Cương cho rằng trồng cây xanh là giải pháp tạo bóng mát tốt và bền vững hơn so với việc lắp đặt mái tôn.\n- TS Nguyễn Hữu Nguyên phản đối việc lắp mái tôn trên vỉa hè đường Lê Lợi. và nhãn của chúng - 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 135,
+        "topic": "giáo dục",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giáo dục\n\nCho các CÂU TUYÊN BỐ:\n- Nguyễn Việt Dũng đã có bài nghiên cứu đăng trên các tạp chí quốc tế và đạt giải trong các cuộc thi toán học.\n- Nguyễn Việt Dũng, thủ khoa Đại học Sư phạm Hà Nội là cử nhân Toán học. và nhãn của chúng - 0\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 136,
+        "topic": "đô thị",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: đô thị\n\nCho các CÂU TUYÊN BỐ:\n- Các hạng mục như: nút giao, cầu vượt ngang, hệ thống an toàn giao thông…, đảm bảo đưa công trình vào khai thác, sử dụng trước ngày 30-4-2023 nhưng hiện chưa rõ thời gian thi công các hạng mục còn lại của đoạn Dầu Giây-Phan Thiết.\n- Bộ Giao thông vận tải yêu cầu các chủ quản lý dự án chỉ đạo các nhà thầu hoàn thành công tác thảm bê tông nhựa mặt đường trước ngày 30 tháng 4 năm 2023. và nhãn của chúng - 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 137,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- C03 đánh giá hành vi của hai nguyên phó chủ tịch Hà Nội và các lãnh đạo, cán bộ cơ sở ngành trên là không có \"dấu hiệu sai phạm\"  nhưng do bị ông Chung chi phối cũng như áp đặt nên C03 đã nhận định họ \"không vụ lợi, không có động cơ cá nhân khác và không biết hành vi nâng khống giá cây\".\n- Ông Chung đã áp đặt ý kiến và ép buộc một số lãnh đạo Sở Xây dựng Hà Nội gồm nguyên giám đốc Lê Văn Dục, phó giám đốc Hoàng Cao Thắng, chủ tịch UBND quận Đống Đa Võ Nguyên Phong,... và nhiều cán bộ khác về việc đặt hàng với Công ty Cây xanh, Công ty Sinh Thái Xanh trồng cây trái quy định.\n- Đối với việc đặt hàng hai công ty Cây xanh và Sinh Thái Xanh, hai nguyên phó chủ tịch Hà Nội khai rằng các đơn vị phải thực hiện theo chỉ đạo của ông Chung nên ông Hùng và ông Toản đều khẳng định việc chấp thuận phương án lựa chọn nhà thầu theo hình thức đặt hàng mà bản thân không hề biết có việc thông đồng nâng giá cây xanh, không trực tiếp gây nên hậu quả vụ án. và nhãn của chúng - 1\n- 2\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 138,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- Bộ NN&PTNT cũng muốn cùng với Sunwah nối lại việc tổ chức diễn đàn xúc tiến thương mại nông sản thường niên và sự kiện xúc tiến thương mại tiêu thụ nông sản trên các lĩnh vực tại cả hai phía Trung Quốc và Việt Nam.\n- Đoàn Trung Quốc đến Việt Nam lần này với mong muốn có thể nhận được sự hỗ trợ của Việt Nam cũng như thúc đẩy xuất khẩu nông sản của Việt Nam sang Trung Quốc. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 139,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Tại Việt Nam, Weploy không phải là startup đầu tiên ứng dụng công nghệ vào tuyển dụng và quản lý lao động theo yêu cầu trong thời đại hiện nay.\n- Buổi huấn luyện không tốn phí dành cho các ứng viên vì Weploy có đội ngũ quản lý là những chuyên gia kỳ cựu trong ngành đến từ các nước hàng đầu về công nghệ.\n- Weploy sẽ phỏng vấn ứng viên để bảo đảm chất lượng nhân sự; tổ chức các buổi huấn luyện, đào tạo chuyên ngành phục vụ từ cơ bản đến nâng cao nhằm giúp nguồn cung - cầu lao động tiệm cận nhau, gỡ bài toán khó cho cả doanh nghiệp và nhân sự thời vụ Việt Nam. và nhãn của chúng - 1\n- 0\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 140,
+        "topic": "du lịch",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: du lịch\n\nCho các CÂU TUYÊN BỐ:\n- Hàng Châu tích cực đẩy mạnh du lịch trong và ngoài nước vào năm 2025 đến năm 2030.\n- Sau khi không còn hạn chế về Covid-19 thì kinh tế du lịch vẫn còn gặp khó khăn và chậm hồi phục, các đô thị lớn vẫn tích cực phục hồi du lịch. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 141,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Ở hạng mục ảnh bộ Giải thưởng Nhiếp ảnh Heritage, bộ ảnh dự thi phải gồm trên 20 ảnh cùng một chủ đề.\n- Lễ tổng kết, trao giải và triển lãm trưng bày các tác phẩm được tổ chức vào cuối tháng 9/2023 tại thành phố Hồ Chí Minh. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 142,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Việc đánh giá tình hình dịch COVID - 19 sẽ dựa trên 3 yếu tố theo thông tin từ GS.TS Phan Trọng Lân gồm virus SARS-CoV-2, môi trường sống, hành vi của người dân và cuối cùng là biện pháp đáp ứng, vũ khí hiệu quả của Việt Nam.\n- Vì hiện nay chúng ta đang ở cấp độ dịch 1 - tất cả đều màu xanh nên số ca mắc COVID-19 trong thời gian tới có thể giảm xuống. và nhãn của chúng - 0\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 143,
+        "topic": "pháp luật",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: pháp luật\n\nCho các CÂU TUYÊN BỐ:\n- Trịnh Tiến Dũng điều hành đường dây buôn bán trái phép từ nhà riêng ở Mỹ, không có đồng phạm tại Việt Nam.\n- Trịnh Tiến Dũng, cư trú tại Mỹ, cầm đầu đường dây buôn lậu, vận chuyển trái phép tiền tệ trị giá hàng tỷ USD thông qua nhóm WhatsApp. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 144,
+        "topic": "giới trẻ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: giới trẻ\n\nCho các CÂU TUYÊN BỐ:\n- Giải chạy bộ \"Bước chân xanh\" lần thứ 2 được tổ chức vào sáng 25/3 thu hút hơn 10.000 người tham gia.\n- Các công dân trẻ tiêu biểu cũng tham gia vào giải chạy bộ \"Bước chân xanh\" nhằm hưởng ứng chiến dịch Giờ Trái đất năm 2023. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 145,
+        "topic": "thời sự",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: thời sự\n\nCho các CÂU TUYÊN BỐ:\n- Tình hình dịch bệnh COVID-19 tại Việt Nam không nghiêm trọng và không cần tiếp tục các biện pháp cảnh giác, phòng ngừa.\n- Ngày 27/3, Việt Nam ghi nhận số ca mắc COVID-19 khỏi bệnh cao nhất trong nhiều tháng, với 44 bệnh nhân được xuất viện. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 146,
+        "topic": "văn hóa - xã hội",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: văn hóa - xã hội\n\nCho các CÂU TUYÊN BỐ:\n- Du lịch Hà Nội cần tổ chức các hoạt động quảng bá, xúc tiến và truyền thông về du lịch Hà Nội để thu hút nhiều khách nước ngoài,  muốn vậy cần nâng cao năng lực quản trị, chất lượng sản phẩm dịch vụ, ứng dụng mạnh mẽ công nghệ thông tin.\n- Tối 24/3, Lễ hội Du lịch Hà Nội năm 2023 đã được chính thức khai mạc với chủ đề \"Kết nối di sản phát triển du lịch\" tại phố đi bộ Nguyễn Huệ, với sự tham gia của các đại biểu. và nhãn của chúng - 2\n- 1\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 147,
+        "topic": "chính trị",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: chính trị\n\nCho các CÂU TUYÊN BỐ:\n- Với việc quán triệt chuyên đề “Những vấn đề về người cao tuổi Việt Nam”, Thường trực Ban Bí thư Trương Thị Mai không đề ra được các chủ trương và chính sách đối với người cao tuổi do sự phức tạp và đa dạng của tình hình người cao tuổi trong xã hội hiện nay. Điều này đòi hỏi sự nghiên cứu kỹ lưỡng và sự phối hợp chặt chẽ giữa các cấp ủy, các ngành và các tổ chức chuyên môn để đưa ra những chính sách phù hợp và hiệu quả nhằm đáp ứng đầy đủ nhu cầu và quyền lợi của người cao tuổi.\n- Theo thông tin từ Báo Tuổi trẻ Online, Thường trực Ban Bí thư Trương Thị Mai nhấn mạnh rằng mục tiêu sống quan trọng của người cao tuổi là tuổi thọ khỏe mạnh. Chương trình chăm sóc sức khỏe người cao tuổi đến năm 2030 đề ra những mục tiêu cụ thể như: lập hồ sơ sức khỏe, khám sức khỏe định kỳ hàng năm, quản lý và điều trị các bệnh không lây nhiễm (như ung thư, tim mạch, tăng huyết áp, đái tháo đường, sa sút trí tuệ), phát triển mô hình Trung tâm dưỡng lão xã hội hoá, và tăng số giường bệnh dành riêng cho người cao tuổi. Các mục tiêu này nhằm đảm bảo sự chăm sóc toàn diện cho sức khỏe và đời sống của người cao tuổi, giúp họ sống một cuộc sống khỏe mạnh và hạnh phúc. và nhãn của chúng - 1\n- 2\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 148,
+        "topic": "kinh tế",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: kinh tế\n\nCho các CÂU TUYÊN BỐ:\n- PVN đề xuất Nhà nước sớm hoàn thành Luật Dầu Khí, đặc biệt là với đầu tư trong nước; đồng thời hỗ trợ tháo gỡ khó khăn cho các chuỗi dự án lớn.\n- Ngày 18/3, Thủ tướng làm việc với Uỷ ban Quản lý vốn nhà nước để đổi mới hoạt động và thực hiện đầu tư hiệu quả, triển khai theo kế hoạch, chiến lược phát triển kinh tế - xã hội. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    },
+    {
+        "id": 149,
+        "topic": "khoa học công nghệ",
+        "prepared_prompt": "Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.\n\nChủ đề: khoa học công nghệ\n\nCho các CÂU TUYÊN BỐ:\n- Vẫn thực hiện theo quy định, không có chuyện gia hạn dù có hơn 3 triệu thuê bao chưa chuẩn hóa thông tin có thể bị khóa một chiều từ ngày 31-3.\n- Tại TP HCM, ghi nhận của phóng viên Báo Người Lao Động tại những phòng giao dịch của các nhà mạng còn hơn 2 triệu thuê bao di động trả trước chưa cập nhật thông tin có thể bị khóa sim một chiều từ ngày 31-3. và nhãn của chúng - 1\n- 0\n\nHãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:\n- Phù hợp với chủ đề\n- Logic, tự nhiên như bài báo\n- Sao chép nguyên văn statements nhưng bổ sung thêm các từ nối để câu văn trôi chảy, mạch lạc\n\nCHỈ TRẢ VỀ MỘT CHUỖI VĂN BẢN (string).\nKHÔNG JSON, KHÔNG markdown, KHÔNG giải thích."
+    }
+]

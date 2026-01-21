@@ -129,12 +129,12 @@ def save_grouped_full_context(
 # ------------------------------------------------------------------
 if __name__ == "__main__":
     dev_data_path = os.path.join(
-        PROJECT_ROOT, "data/retrieval/dev_data.json"
+        PROJECT_ROOT, "data/retrieval/train_data.json"
     )
 
     output_dir = os.path.join(
         PROJECT_ROOT,
-        "experiments/synthesis_data_generation/dev/results/dev_parse_data/dev_grouped_full_context.json"
+        "experiments/synthesis_data_generation/train/results/train_parse_data/train_grouped_full_context.json"
     )
 
     grouped_contexts = group_data_by_full_context(dev_data_path)
