@@ -14,7 +14,7 @@ Bạn là chuyên gia tạo ngữ cảnh cho dữ liệu kiểm tra sự thật.
 Chủ đề: {topic}
 
 Cho các CÂU TUYÊN BỐ:
-{statements} và nhãn của chúng {labels}
+{statements}
 
 Hãy tạo ra MỘT đoạn CONTEXT GIẢ sao cho:
 - Phù hợp với chủ đề
@@ -46,13 +46,11 @@ def generate_prompt_list(input_path: str, output_path: str):
             statements_list = item.get("statements", [])
             
             statements_text = "\n".join(f"- {s['text']}" for s in statements_list)
-            labels_text = "\n".join(f"- {s['label']}" for s in statements_list)
 
             # Điền vào template
             final_prompt = CONTEXT_GENERATION_PROMPT.format(
                 topic=topic,
-                statements=statements_text,
-                labels=labels_text
+                statements=statements_text
             )
 
             # Lưu vào danh sách (kèm một chút metadata để dễ quản lý)
