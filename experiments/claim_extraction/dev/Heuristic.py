@@ -4,6 +4,11 @@ import json
 from typing import List, Dict
 import py_vncorenlp
 from collections import defaultdict
+import re
+
+from nltk.translate.chrf_score import sentence_chrf
+from nltk.tokenize import sent_tokenize
+
 
 # --------------------------------------------------
 # PATH HANDLING
@@ -99,6 +104,26 @@ class VietnameseHeuristicClaimExtractor:
             f"Unsupported VnCoreNLP output format: {type(annotated)}"
         )
 
+    def _normalize_sentence_text(self, text: str) -> str:
+        """
+        Convert VnCoreNLP word-segmented text to readable Vietnamese
+        """
+
+        # 1. replace underscore with space
+        text = text.replace("_", " ")
+
+        # 2. normalize spaces around punctuation
+        text = re.sub(r"\s+([,.!?;:)])", r"\1", text)
+        text = re.sub(r"([(])\s+", r"\1", text)
+
+        # 3. normalize multiple spaces
+        text = re.sub(r"\s+", " ", text)
+
+        # 4. normalize dash spacing
+        text = re.sub(r"\s*-\s*", " - ", text)
+
+        # 5. strip
+        return text.strip()
 
     def extract(self, text: str):
         output = []
@@ -111,7 +136,8 @@ class VietnameseHeuristicClaimExtractor:
             pos_tags = [w["posTag"] for w in sent]
             ner_tags = [w.get("nerLabel", "O") for w in sent]
 
-            sentence_text = " ".join(words)
+            raw_sentence = " ".join(words)
+            sentence_text = self._normalize_sentence_text(raw_sentence)
 
             score = 0
             if self._is_declarative(sentence_text):
@@ -130,8 +156,6 @@ class VietnameseHeuristicClaimExtractor:
                 })
 
         return output
-
-
 
 def extract_claims_from_json(
     json_path: str,
@@ -168,96 +192,64 @@ def extract_claims_from_json(
 # CLAIM EXTRACTION METRICS
 # ==================================================
 
-from sentence_transformers import SentenceTransformer, util
-
-SEM_MODEL_NAME = "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base"
-semantic_model = SentenceTransformer(SEM_MODEL_NAME)
-
-def semantic_similarity(a: str, b: str) -> float:
-    emb_a = semantic_model.encode(a, convert_to_tensor=True)
-    emb_b = semantic_model.encode(b, convert_to_tensor=True)
-    return util.cos_sim(emb_a, emb_b).item()
-
-def evaluate_single_record(
-    statement: str,
-    extracted_claims: List[str],
-    threshold: float = 0.75,
+def get_topk_chrf_sentences(
+    claim: str,
+    context: str,
+    k: int = 5
 ):
-    """
-    Evaluate whether extracted claims hit the gold Statement
-    """
-    if not extracted_claims:
-        return {
-            "hit": 0,
-            "best_sim": 0.0,
-            "rank": None,
-        }
+    sentences = sent_tokenize(context)
+    scored = []
 
-    sims = [
-        semantic_similarity(statement, c)
-        for c in extracted_claims
-    ]
+    for sent in sentences:
+        score = sentence_chrf(claim, sent)
+        scored.append((sent, score))
 
-    best_sim = max(sims)
-    best_rank = sims.index(best_sim) + 1
+    scored.sort(key=lambda x: x[1], reverse=True)
+    return scored[:k]   # [(sentence, chrf_score)]
 
-    hit = int(best_sim >= threshold)
+def precision_at_k(predicted: List[str], gold: List[str], k: int):
+    if not predicted:
+        return 0.0
+
+    pred_k = predicted[:k]
+    gold_set = set(gold)
+
+    hit = sum(1 for s in pred_k if s in gold_set)
+    return hit / k
+
+def evaluate_single_record_chrf(
+    statement: str,
+    context: str,
+    predicted_claims: List[str],
+    ks=(1, 3, 5)
+):
+    gold_scored = get_topk_chrf_sentences(statement, context, max(ks))
+    gold_sents = [s for s, _ in gold_scored]
+
+    metrics = {}
+    for k in ks:
+        metrics[f"precision@{k}"] = precision_at_k(
+            predicted_claims,
+            gold_sents,
+            k
+        )
 
     return {
-        "hit": hit,
-        "best_sim": best_sim,
-        "rank": best_rank,
+        "gold_chrf_sentences": gold_scored,
+        **metrics
     }
 
-def evaluate_single_record(
-    statement: str,
-    extracted_claims: List[str],
-    threshold: float = 0.75,
-    ks=(1, 3, 5),
-):
-    if not extracted_claims:
-        return {
-            "best_sim": 0.0,
-            "rank": None,
-            **{f"hit@{k}": 0 for k in ks}
-        }
-
-    sims = [
-        semantic_similarity(statement, c)
-        for c in extracted_claims
-    ]
-
-    best_sim = max(sims)
-    best_rank = sims.index(best_sim) + 1
-
-    hits = {
-        f"hit@{k}": int(best_rank <= k and best_sim >= threshold)
-        for k in ks
-    }
-
-    return {
-        "best_sim": best_sim,
-        "rank": best_rank,
-        **hits
-    }
-
-def evaluate_and_log_claim_extraction_semantic(
+def evaluate_and_log_claim_extraction_chrf(
     records,
     extractor,
     output_json_path: str,
-    threshold: float = 0.75,
+    ks=(1, 3, 5),
     model_info: str = "heuristic",
-    evaluate_model: str = "semantic_simcse_phobert",
+    evaluate_model: str = "chrf_sentence_retrieval",
 ):
-    """
-    Semantic evaluation + detailed JSON logging
-    """
-    hit_counts = {1: 0, 3: 0, 5: 0}
+    precision_sum = {k: 0.0 for k in ks}
     document_results = []
-
     total = 0
-    sims = []
-    ranks = []
     total_claims = 0
 
     for rec in records:
@@ -271,63 +263,48 @@ def evaluate_and_log_claim_extraction_semantic(
         extracted = extractor.extract(context)
         pred_claims = [c["text"] for c in extracted]
 
-        eval_result = evaluate_single_record(
+        eval_result = evaluate_single_record_chrf(
             statement=statement,
-            extracted_claims=pred_claims,
-            threshold=threshold
+            context=context,
+            predicted_claims=pred_claims,
+            ks=ks
         )
 
-        for k in hit_counts:
-            hit_counts[k] += eval_result[f"hit@{k}"]
+        for k in ks:
+            precision_sum[k] += eval_result[f"precision@{k}"]
 
         total += 1
         total_claims += len(pred_claims)
 
-        if eval_result["best_sim"] > 0:
-            sims.append(eval_result["best_sim"])
-        if eval_result["rank"] is not None:
-            ranks.append(eval_result["rank"])
-
-        claim_details = []
-        for c in pred_claims:
-            claim_details.append({
-                "text": c,
-                "similarity_to_statement": semantic_similarity(statement, c)
-            })
-
         document_results.append({
             "index": index,
             "statement": statement,
-            "predicted_claims": claim_details,
+            "predicted_claims": pred_claims,
             "num_predicted_claims": len(pred_claims),
-            "best_similarity": eval_result["best_sim"],
-            "rank": eval_result["rank"],
-            "hit@1": eval_result["hit@1"],
-            "hit@3": eval_result["hit@3"],
-            "hit@5": eval_result["hit@5"],
+            "gold_chrf_sentences": [
+                {"text": s, "chrf": sc}
+                for s, sc in eval_result["gold_chrf_sentences"]
+            ],
+            **{f"precision@{k}": eval_result[f"precision@{k}"] for k in ks}
         })
 
     dataset_metrics = {
-        "hit@1": hit_counts[1] / max(total, 1),
-        "hit@3": hit_counts[3] / max(total, 1),
-        "hit@5": hit_counts[5] / max(total, 1),
-        "avg_best_similarity": sum(sims) / max(len(sims), 1),
-        "mean_rank": sum(ranks) / max(len(ranks), 1),
-        "avg_claims_per_doc": total_claims / max(total, 1),
-        "num_docs": total,
+        f"precision@{k}": precision_sum[k] / max(total, 1)
+        for k in ks
     }
+    dataset_metrics.update({
+        "avg_claims_per_doc": total_claims / max(total, 1),
+        "num_docs": total
+    })
 
     output = {
         "model_info": model_info,
         "evaluate_model": evaluate_model,
-        "semantic_model": SEM_MODEL_NAME,
-        "threshold": threshold,
         "dataset_metrics": dataset_metrics,
-        "document_results": document_results,
+        "document_results": document_results
     }
 
     os.makedirs(os.path.dirname(output_json_path), exist_ok=True)
-
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
@@ -343,14 +320,10 @@ if __name__ == "__main__":
         "dev.json"
     )
 
-    # Load raw records
     with open(json_input_path, "r", encoding="utf-8") as f:
         records = json.load(f)
 
-    # -------------------------------
-    # Extract claims (demo)
-    # -------------------------------
-    print("\n📊 CLAIM EXTRACTION EVALUATION (SEMANTIC + LOGGING)")
+    print("\n📊 CLAIM EXTRACTION EVALUATION (chrF + Precision@k)")
 
     output_eval_path = os.path.join(
         project_root,
@@ -358,23 +331,22 @@ if __name__ == "__main__":
         "claim_extraction",
         "dev",
         "results",
-        "claim_extraction_heuristic_with_semantic_eval.json"
+        "claim_extraction_heuristic_chrf_eval.json"
     )
 
-    metrics = evaluate_and_log_claim_extraction_semantic(
+    metrics = evaluate_and_log_claim_extraction_chrf(
         records=records,
         extractor=extractor,
         output_json_path=output_eval_path,
-        threshold=0.75,
+        ks=(1, 3, 5),
         model_info="heuristic",
-        evaluate_model="semantic_simcse_phobert"
+        evaluate_model="chrf_sentence_retrieval"
     )
 
-    print(f"Claim Hit@1           : {metrics['hit@1']:.2%}")
-    print(f"Claim Hit@3           : {metrics['hit@3']:.2%}")
-    print(f"Claim Hit@5           : {metrics['hit@5']:.2%}")
-    print(f"Avg Best Similarity   : {metrics['avg_best_similarity']:.4f}")
-    print(f"Mean Rank             : {metrics['mean_rank']:.2f}")
-    print(f"Avg Claims / Document : {metrics['avg_claims_per_doc']:.2f}")
-    print(f"Evaluated Documents   : {metrics['num_docs']}")
+    for k, v in metrics.items():
+        if k.startswith("precision"):
+            print(f"{k:15}: {v:.4f}")
+
+    print(f"Avg Claims / Doc : {metrics['avg_claims_per_doc']:.2f}")
+    print(f"Evaluated Docs   : {metrics['num_docs']}")
     print(f"\n📁 Saved to: {output_eval_path}")
