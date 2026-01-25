@@ -9,3 +9,4 @@ sentencepiece==0.2.1
 streamlit==1.52.2
 python-dotenv==1.2.1
 google-genai==1.59.0
+py_vncorenlp==0.1.4
