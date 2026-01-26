@@ -18,6 +18,9 @@ from src.modules.evidence_selection import EvidenceSelectionModule
 from src.modules.claim_verification import ClaimVerificationModule
 from src.modules.claim_extraction import BERTSumClaimExtractor
 
+import src.components.presumm.model as _models
+sys.modules["models"] = _models
+
 # --- CẤU HÌNH GIAO DIỆN ---
 st.set_page_config(page_title="VietFactCheck System", layout="wide", initial_sidebar_state="expanded")
 
