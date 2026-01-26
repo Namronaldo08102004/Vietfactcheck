@@ -2,10 +2,10 @@
   "model_info": "heuristic",
   "evaluate_model": "chrf_sentence_retrieval",
   "dataset_metrics": {
-    "precision@1": 0.5851063829787234,
-    "precision@3": 0.4592198581560283,
-    "precision@5": 0.306914893617022,
-    "avg_claims_per_doc": 2.5033557046979866,
+    "precision@1": 0.5824468085106383,
+    "precision@3": 0.47340425531914904,
+    "precision@5": 0.3218085106382986,
+    "avg_claims_per_doc": 2.6241610738255035,
     "num_docs": 149,
     "num_statements": 376
   },
@@ -439,12 +439,15 @@
         "Vấn đề về các quy định khắt khe trong môi trường học đường tại khu vực Đông Á đang ngày càng thu hút sự quan tâm của dư luận.",
         "Điển hình là Một sự việc đã gây xôn xao toàn quốc Nhật Bản bởi một vụ kiện đã được khởi kiện bởi một nữ sinh 18 tuổi ở Osaka, yêu cầu trường học bồi thường 2,2 triệu yen (khoảng 400 triệu đồng) vì cho rằng bị sang chấn tâm lý khi bị liên tục yêu cầu nhuộm mái tóc màu nâu tự nhiên thành màu đen.",
         "Để làm rõ hơn bối cảnh này, Khảo sát 170 trường học công lập vào năm 2017 đã được tờ Asahi Shimbun thực hiện, và kết quả cho thấy rằng 57% số trường đã áp đặt lệnh cấm nhuộm tóc và yêu cầu học sinh chứng minh màu tóc tự nhiên của họ.",
+        "Những quy định này đã được thiết lập nhằm mục đích đảm bảo trật tự và thống nhất trong nhà trường.",
         "Tuy nhiên, quy định yêu cầu học sinh để tóc đen đã được loại bỏ tại gần 200 trường công lập tại Tokyo vào tháng 3/2022. Không chỉ riêng Nhật Bản, Năm 2023, một nam sinh tại trường Công nghiệp - Thương mại và Du lịch Hạ Môn đã phải đối mặt với yêu cầu chứng minh mái tóc của mình có màu vàng tự nhiên.",
         "Sau khi thực hiện việc đến bệnh viện Osaka để chứng minh, nam sinh này đã bị từ chối do thiếu thiết bị cần thiết.",
+        "Tuy nhiên, anh đã nhận được sự hỗ trợ từ Hiệp hội Mỹ phẩm và Sắc đẹp địa phương, nhận chứng chỉ xác nhận rằng mái tóc của anh không được uốn.",
+        "Đáng chú ý, đại diện trường đã đứng ra xin lỗi và đưa ra quyết định cho phép các học sinh tự do chọn kiểu tóc của mình.",
         "Bên cạnh vấn đề ngoại hình, áp lực học tập cũng là một gánh nặng lớn, như trường hợp Tháng 10/2020, một nữ sinh THPT tại tỉnh Bắc Gyeongsang đã đệ đơn lên cơ quan chức năng, đề cập đến tình trạng áp lực về thời gian học quá nhiều và tác động tiêu cực đến sức khoẻ của mình.",
         "Sau khi tiếp nhận đơn từ nữ sinh, cơ quan này đã khuyến nghị các trường cần thay đổi chính sách về giờ học của học sinh, nhằm giảm bớt áp lực và đảm bảo sự cân bằng giữa học tập và sức khoẻ."
       ],
-      "num_predicted_claims": 7,
+      "num_predicted_claims": 10,
       "statement_results": [
         {
           "gold_statement": "Tháng 10/2020, một nữ sinh THPT tại tỉnh Bắc Gyeongsang đã đệ đơn lên cơ quan chức năng, đề cập đến tình trạng áp lực về thời gian học quá nhiều và tác động tiêu cực đến sức khỏe của mình. Sau khi tiếp nhận đơn từ nữ sinh, cơ quan này đã khuyến nghị các trường cần thay đổi chính sách về giờ học của học sinh, nhằm giảm bớt áp lực và đảm bảo sự cân bằng giữa học tập và sức khỏe.",
@@ -502,7 +505,7 @@
           ],
           "precision@1": 0.0,
           "precision@3": 0.3333333333333333,
-          "precision@5": 0.4
+          "precision@5": 0.2
         },
         {
           "gold_statement": "Một sự việc đã gây xôn xao toàn quốc Nhật Bản bởi một vụ kiện đã được khởi kiện bởi một nữ sinh 18 tuổi ở Osaka, yêu cầu trường học bồi thường 2,2 triệu yen (khoảng 400 triệu đồng) vì cho rằng bị sang chấn tâm lý khi bị liên tục yêu cầu nhuộm mái tóc màu nâu tự nhiên thành màu đen.",
@@ -560,7 +563,7 @@
           ],
           "precision@1": 0.0,
           "precision@3": 0.6666666666666666,
-          "precision@5": 0.4
+          "precision@5": 0.6
         }
       ]
     },
@@ -796,10 +799,11 @@
       "index": 8,
       "topic": "văn hóa - xã hội",
       "predicted_claims": [
+        "Showbiz Việt những ngày qua không chỉ xôn xao vì các tác phẩm điện ảnh mới mà còn bởi những áp lực vô hình mà người thân nghệ sĩ phải gánh chịu.",
         "Điển hình là việc Bà xã Công Lý xin mọi người đừng làm hại gia đình mình, trên trang cá nhân, Ngọc Hà, bà xã NSND Công Lý đã đăng tải bài viết chia sẻ về những sự công kích cũng như những bình luận tiêu cực làm cho gia đình cô vô cùng hoảng sợ.",
         "Trong khi đó, ở mảng điện ảnh, khán giả lại đang tranh luận sôi nổi về các tình tiết hư cấu khó hiểu, ví dụ như thông tin cho rằng Trong phim \" Lật mặt 6 \" của Trấn Thành nhân vật do diễn viên Quốc Cường sinh năm 1899 thủ vai chính là người mua tấm vé, nhưng An sinh năm 1970 lại được giao trọng trách “ giữ gìn ” vận may này."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 3,
       "statement_results": [
         {
           "gold_statement": "Bà xã Công Lý xin mọi người đừng làm hại gia đình mình, trên trang cá nhân, Ngọc Hà, bà xã NSND Công Lý đã đăng tải bài viết chia sẻ về những sự công kích cũng như những bình luận tiêu cực làm cho gia đình cô vô cùng hoảng sợ.",
@@ -819,8 +823,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         },
         {
           "gold_statement": "Trong phim \"Lật mặt 6\" của Trấn Thành nhân vật do diễn viên Quốc Cường sinh năm 1899 thủ vai chính là người mua tấm vé, nhưng An sinh năm 1970 lại được giao trọng trách “giữ gìn” vận may này.",
@@ -840,8 +844,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         }
       ]
     },
@@ -1876,9 +1880,10 @@
       "index": 25,
       "topic": "sức khỏe",
       "predicted_claims": [
-        "Cụ thể, Tình trạng đốt sống bị thoái hoá, thoát vị, gai xương gây chèn ép các dây thần kinh có thể dẫn tới thiếu máu lên não nếu không được phát hiện sớm."
+        "Cụ thể, Tình trạng đốt sống bị thoái hoá, thoát vị, gai xương gây chèn ép các dây thần kinh có thể dẫn tới thiếu máu lên não nếu không được phát hiện sớm.",
+        "Đáng chú ý, các nghiên cứu lâm sàng cho thấy Biểu hiện bệnh sẽ rõ ở lúc đầu nên cần được phát hiện sớm để tránh nguy cơ biến chứng đột quỵ hay liệt vận động."
       ],
-      "num_predicted_claims": 1,
+      "num_predicted_claims": 2,
       "statement_results": [
         {
           "gold_statement": "Biểu hiện bệnh sẽ rõ ở lúc đầu nên cần được phát hiện sớm để tránh nguy cơ biến chứng đột quỵ hay liệt vận động.",
@@ -1898,8 +1903,8 @@
             }
           ],
           "precision@1": 0.0,
-          "precision@3": 0.0,
-          "precision@5": 0.0
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         },
         {
           "gold_statement": "Tình trạng đốt sống bị thoái hóa, thoát vị, gai xương gây chèn ép các dây thần kinh có thể dẫn tới thiếu máu lên não nếu không được phát hiện sớm.",
@@ -1919,8 +1924,8 @@
             }
           ],
           "precision@1": 0.0,
-          "precision@3": 0.0,
-          "precision@5": 0.0
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         }
       ]
     },
@@ -1934,9 +1939,10 @@
         "Tuy nhiên, trong quá trình cập nhật dữ liệu, cũng xuất hiện thông tin chưa thống nhất cho rằng Trưởng Ban Chỉ đạo quốc gia là Chính phủ Trần Lưu Quang; Phó Trưởng Ban Chỉ đạo quốc gia là các Phó Thủ tướng Chính phủ: Lê Văn Thành, Trần Hồng Hà, Trần Lưu Quang.",
         "Phó Thủ tướng; Trưởng Ban Chỉ đạo liên ngành hội nhập quốc tế về chính trị, an ninh, quốc phòng là Thủ tướng Chính phủ Phạm Minh Chính.",
         "Về mặt vai trò, Ban Chỉ đạo quốc gia và Ban Chỉ đạo liên ngành hội nhập quốc tế có nhiệm vụ giúp Chỉnh phủ, Thủ tướng Chính phủ chỉ đạo triển khai các chủ trương, chính sách lớn về hội nhập quốc tế.",
-        "Cụ thể hơn, Theo quyết định số 569 / QĐ - TTg của Thủ tướng Chính phủ, Ban Chỉ đạo quốc gia về hội nhập quốc tế có các chức năng và nhiệm vụ giúp đề ra các định hướng, chiến lược, các giải pháp lớn liên quan đến hội nhập quốc tế."
+        "Cụ thể hơn, Theo quyết định số 569 / QĐ - TTg của Thủ tướng Chính phủ, Ban Chỉ đạo quốc gia về hội nhập quốc tế có các chức năng và nhiệm vụ giúp đề ra các định hướng, chiến lược, các giải pháp lớn liên quan đến hội nhập quốc tế.",
+        "Để đảm bảo hiệu quả hoạt động, Thủ tướng Chính phủ phối hợp, đôn đốc triển khai đồng bộ các chủ trương chính sách về hội nhập quốc tế và đề nghị các bộ, ngành trung ương, địa phương và các cơ quan báo chí làm tốt hơn nữa công tác thông tin, tuyên truyền để các cấp, các ngành, doanh nghiệp và các tầng lớp nhân dân nắm vững chủ trương, đường lối của Đảng."
       ],
-      "num_predicted_claims": 7,
+      "num_predicted_claims": 8,
       "statement_results": [
         {
           "gold_statement": "Trưởng Ban Chỉ đạo quốc gia là Chính phủ Trần Lưu Quang; Phó Trưởng Ban Chỉ đạo quốc gia là các Phó Thủ tướng Chính phủ: Lê Văn Thành, Trần Hồng Hà, Trần Lưu Quang. Phó Thủ tướng; Trưởng Ban Chỉ đạo liên ngành hội nhập quốc tế về chính trị, an ninh, quốc phòng là  Thủ tướng Chính phủ Phạm Minh Chính.",
@@ -2148,9 +2154,10 @@
       "topic": "sức khỏe",
       "predicted_claims": [
         "Các bác sĩ Bệnh viện Đa khoa tỉnh vừa phẫu thuật thành công cho một trường hợp u màng não kích thước lớn hiếm gặp.",
-        "Rất may mắn, Sau khi phẫu thuật lấy u não, bệnh nhân phục hồi tốt và không có biến chứng sau mổ."
+        "Rất may mắn, Sau khi phẫu thuật lấy u não, bệnh nhân phục hồi tốt và không có biến chứng sau mổ.",
+        "Theo giải thích của kíp mổ, trường hợp này khá đặc biệt vì thông thường Các khối u màng não thường được phát hiện sớm khi kích thước còn nhỏ nhờ các triệu chứng lâm sàng điển hình."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 3,
       "statement_results": [
         {
           "gold_statement": "Sau khi phẫu thuật lấy u não, bệnh nhân phục hồi tốt và không có biến chứng sau mổ.",
@@ -2170,8 +2177,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.6666666666666666,
-          "precision@5": 0.4
+          "precision@3": 1.0,
+          "precision@5": 0.6
         },
         {
           "gold_statement": "Các khối u màng não thường được phát hiện sớm khi kích thước còn nhỏ.",
@@ -2191,8 +2198,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.6666666666666666,
-          "precision@5": 0.4
+          "precision@3": 1.0,
+          "precision@5": 0.6
         }
       ]
     },
@@ -2410,9 +2417,10 @@
       "index": 32,
       "topic": "khoa học công nghệ",
       "predicted_claims": [
-        "Dưới góc độ giải phẫu học, các chuyên gia động vật học đã đưa ra cảnh báo nghiêm trọng rằng Lưng voi không có cấu tạo phù hợp với việc chở nặng vì xương sống của chúng mở lên trên."
+        "Dưới góc độ giải phẫu học, các chuyên gia động vật học đã đưa ra cảnh báo nghiêm trọng rằng Lưng voi không có cấu tạo phù hợp với việc chở nặng vì xương sống của chúng mở lên trên.",
+        "Bất chấp đặc điểm sinh học dễ bị tổn thương này, thực trạng hiện nay lại vô cùng đáng báo động khi Voi thường xuyên bị lạm dụng trong việc di chuyển đường dài, khai thác gỗ và thậm chí bị chết vì kiệt sức và suy dinh dưỡng."
       ],
-      "num_predicted_claims": 1,
+      "num_predicted_claims": 2,
       "statement_results": [
         {
           "gold_statement": "Lưng voi không có cấu tạo phù hợp với việc chở nặng vì xương sống của chúng mở lên trên.",
@@ -2428,8 +2436,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         },
         {
           "gold_statement": "Voi thường xuyên bị lạm dụng trong việc di chuyển đường dài, khai thác gỗ và thậm chí bị chết vì kiệt sức và suy dinh dưỡng.",
@@ -2445,8 +2453,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         }
       ]
     },
@@ -2499,10 +2507,11 @@
       "index": 34,
       "topic": "kinh tế",
       "predicted_claims": [
+        "Trước bối cảnh nền kinh tế đối mặt với nhiều biến động, các chuyên gia đã đưa ra những nhận định trái chiều về hiệu quả quản lý nhà nước.",
         "Một số ý kiến cực đoan cho rằng Chính phủ đã nỗ lực trong việc điều hành chính sách vĩ mô theo hướng bất ổn định như tăng vốn, đẩy mạnh đầu tư không công.",
         "Tuy nhiên, nhìn nhận ở khía cạnh tháo gỡ vướng mắc pháp lý, thực tế ghi nhận Chính phủ đã có hành động khi thị trường bất động sản, trái phiếu đang gặp khó khăn bằng cách sử đổi Thông tư 16/2021 nhằm khơi thông dòng vốn tín dụng."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 3,
       "statement_results": [
         {
           "gold_statement": "Chính phủ đã nỗ lực trong việc điều hành chính sách vĩ mô theo hướng bất ổn định như tăng vốn, đẩy mạnh đầu tư không công.",
@@ -2522,8 +2531,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.6666666666666666,
-          "precision@5": 0.4
+          "precision@3": 1.0,
+          "precision@5": 0.6
         },
         {
           "gold_statement": "Chính phủ đã có hành động khi thị trường bất động sản, trái phiếu đang gặp khó khăn bằng cách sử đổi Thông tư 16/2021.",
@@ -2543,8 +2552,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.6666666666666666,
-          "precision@5": 0.4
+          "precision@3": 1.0,
+          "precision@5": 0.6
         }
       ]
     },
@@ -2718,10 +2727,11 @@
       "topic": "chính trị",
       "predicted_claims": [
         "Tại buổi lễ công bố quyết định nhân sự quan trọng của Quân khu 4 diễn ra Vào tối ngày 24/3, Trung tướng Trần Võ Dũng đã chủ trì Hội nghị, trao quyết định công tác cán bộ cho đồng Chí Thượng tá Phan Thắng giữ chức vụ Chỉ huy trưởng Bộ CHQS tỉnh Thừa Thiên Huế.",
+        "Phát biểu chỉ đạo tại hội nghị, lãnh đạo Quân khu nhấn mạnh Việc bổ nhiệm các cán trẻ, được đào tạo qua các học viện, nhà trường chính quy, đã trải qua nhiều chức vụ quản lý, chỉ huy ở cơ sở thể hiện thể hiện sự quan tâm của Quân uỷ Trung ương đối với công tác cán bộ.",
         "Đánh giá về quá trình phấn đấu của tân Chỉ huy trưởng, dù có những ý kiến trái chiều cho rằng Đồng chí Thượng tá Phan Thắng tuy có ít nỗ lực, cống hiến và tham mưu, nhưng vẫn lăn lộn bám sát cơ sở, bộ đội, tâm huyết, trách nhiệm với đơn vị, kịp thời xử lý có hiệu quả các tình huống phát sinh, giúp nhân dân phòng, chống và khắc phục các hậu quả thiên tai, dịch bệnh.",
         "Cũng trong khuôn khổ buổi làm việc, hội nghị đã thông báo việc Đồng chí Đại tá Hồ Xuân Tùng, Phó Cục trưởng Cục Kỹ thuật đã đánh giá cao tinh thần dân chủ trong đơn vị, nghỉ công tác, nghỉ chờ hưu theo quyết định của Bộ trưởng Bộ Quốc phòng."
       ],
-      "num_predicted_claims": 3,
+      "num_predicted_claims": 4,
       "statement_results": [
         {
           "gold_statement": "Đồng chí Thượng tá Phan Thắng tuy có ít nỗ lực, cống hiến và tham mưu, nhưng vẫn lăn lộn bám sát cơ sở, bộ đội, tâm huyết, trách nhiệm với đơn vị, kịp thời xử lý có hiệu quả các tình huống phát sinh, giúp nhân dân phòng, chống và khắc phục các hậu quả thiên tai, dịch bệnh.",
@@ -2745,7 +2755,7 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 1.0,
+          "precision@3": 0.6666666666666666,
           "precision@5": 0.6
         },
         {
@@ -2770,7 +2780,7 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 1.0,
+          "precision@3": 0.6666666666666666,
           "precision@5": 0.6
         },
         {
@@ -2795,7 +2805,7 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 1.0,
+          "precision@3": 0.6666666666666666,
           "precision@5": 0.6
         },
         {
@@ -2820,7 +2830,7 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 1.0,
+          "precision@3": 0.6666666666666666,
           "precision@5": 0.6
         }
       ]
@@ -2874,10 +2884,11 @@
       "index": 40,
       "topic": "giáo dục",
       "predicted_claims": [
+        "Chuẩn bị cho kỳ tuyển sinh đầu cấp sắp tới, công tác chuẩn hoá dữ liệu đang được đặt lên hàng đầu.",
         "Trao đổi về vấn đề này, Ông Hồ Tấn Minh cho biết, việc rà soát và cấp mã định danh cho học sinh trên địa bàn thành phố sẽ được ngành giáo dục và ngành công an nỗ lực làm hết sức, ngành giáo dục và ngành công an phải hoàn tất việc làm sạch dữ liệu, cấp mã định danh cho toàn bộ trẻ em trong độ tuổi đến trường, từ 3 - 18 tuổi từ nay cho đến hết tháng 4.",
         "Sau khi hoàn thành việc đối soát thông tin, hệ thống sẽ mở để người dân làm quen, cụ thể là Nếu dữ liệu đúng, phụ huynh có thời gian 10 ngày thao tác thử, trong giai đoạn thứ hai là giai đoạn chính thức từ ngày 21/5 đến ngày 31/5, Sở Giáo dục và Đào tạo sẽ tập huấn cho từng trường và trường sẽ hướng dẫn cho phụ huynh và có những bảng hướng dẫn bằng hình ảnh chi tiết nội dung để phụ huynh có thể thực hiện được thao tác đăng nhập vào phần mềm tuyển sinh một cách dễ dàng."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 3,
       "statement_results": [
         {
           "gold_statement": "Nếu dữ liệu đúng, phụ huynh có thời gian 10 ngày thao tác thử, trong giai đoạn thứ hai là giai đoạn chính thức từ ngày 21/5 đến ngày 31/5, Sở Giáo dục và Đào tạo sẽ tập huấn cho từng trường và trường sẽ hướng dẫn cho phụ huynh và có những bảng hướng dẫn bằng hình ảnh chi tiết nội dung để phụ huynh có thể thực hiện được thao tác đăng nhập vào phần mềm tuyển sinh một cách dễ dàng.",
@@ -2896,7 +2907,7 @@
               "chrf": 0.08796388274981669
             }
           ],
-          "precision@1": 1.0,
+          "precision@1": 0.0,
           "precision@3": 0.6666666666666666,
           "precision@5": 0.4
         },
@@ -2917,7 +2928,7 @@
               "chrf": 0.0834371300647634
             }
           ],
-          "precision@1": 1.0,
+          "precision@1": 0.0,
           "precision@3": 0.6666666666666666,
           "precision@5": 0.4
         }
@@ -3132,11 +3143,12 @@
       "predicted_claims": [
         "Trước tình hình thị trường tài chính đang gặp nhiều khó khăn, Ngân hàng Nhà nước muốn sửa đổi quy định về mua, bán trái phiếu doanh nghiệp tại ngân hàng để có thể tác động tích cực đến thị trường dù vẫn còn một số điểm chưa được đề cập trong bối cảnh nợ xấu trái phiếu tăng từng ngày.",
         "Một trong những nội dung đáng chú ý là Dự thảo bổ sung quy định ngân hàng có thể mua trái phiếu và cổ phiếu doanh nghiệp khi hệ số nợ / vốn của chủ sỡ hữu không vượt quá 5 lần dựa trên báo cáo tài chính gần nhất đã được kiểm toán.",
+        "Giới chuyên gia kỳ vọng rằng Việc các ngân hàng được phép mua lại trái phiếu doanh nghiệp chưa niêm yết hay chưa đăng ký giao dịch trên UpCOM, có thể giúp tháo gỡ áp lực mà một số nhà tổ chức tín dụng đang gặp phải.",
         "Nhận định sâu hơn về vấn đề này, Với thị trường trái phiếu nhiều biến động, ông Thuân cho biết việc kiểm soát giao dịch và mục đích sử dụng vốn của doanh nghiệp sẽ giúp các công ty thuận tiện hơn trong quá trình giám sát tín dụng và quản trị rủi ro, hạn chế việc giao dịch bằng tiền mặt dẫn đến việc sử dụng vốn khó được xác minh và đánh giá, ngoài ra việc Ngân hàng Nhà nước sửa đổi một số đề xuất sẽ tạo nên tính chặt chẽ hơn với thị trường.",
         "Tuy nhiên, khi nhìn vào số liệu thực tế, Theo thông kê của FiinRatings, trong số 789.000 tỷ đồng trái phiếu doanh nghiệp phi ngân hàng đang lưu hành của 757 tổ chức phát hành và lượng trái phiếu doanh nghiệp mà ngân hàng đang sở hữu chỉ chiếm khoảng 1% tổng dư nợ.",
         "Dù tỷ trọng này nhỏ nhưng rủi ro lan truyền nợ xấu vẫn hiện hữu, bởi lẽ Khi một doanh nghiệp chậm trả trái phiếu, sau đó cũng sẽ có khả năng chậm trả nợ ngân hàng và khi quá 90 ngày thì thuộc nhóm 3, mức lập dự phòng 25% và dưới 181 người thì nhóm 4, nếu mức lặp dự phòng 60% và mức chậm trả lớn hơn 2 năm thì thuộc nhóm 5 lúc này mức lập dự phòng nợ xấu là 90%."
       ],
-      "num_predicted_claims": 5,
+      "num_predicted_claims": 6,
       "statement_results": [
         {
           "gold_statement": "Ngân hàng Nhà nước muốn sửa đổi quy định về mua, bán trái phiếu doanh nghiệp tại ngân hàng để có thể tác động tích cực đến thị trường dù vẫn còn một số điểm chưa được đề cập trong bối cảnh nợ xấu trái phiếu tăng từng ngày.",
@@ -3165,7 +3177,7 @@
           ],
           "precision@1": 1.0,
           "precision@3": 0.6666666666666666,
-          "precision@5": 0.6
+          "precision@5": 0.8
         },
         {
           "gold_statement": "Theo thông kê của FiinRatings, trong số 789.000 tỷ đồng trái phiếu doanh nghiệp phi ngân hàng đang lưu hành của 757 tổ chức phát hành và lượng trái phiếu doanh nghiệp mà ngân hàng đang sở hữu chỉ chiếm khoảng 1% tổng dư nợ.",
@@ -3194,7 +3206,7 @@
           ],
           "precision@1": 1.0,
           "precision@3": 0.6666666666666666,
-          "precision@5": 0.6
+          "precision@5": 0.8
         },
         {
           "gold_statement": "Việc các ngân hàng được phép mua lại trái phiếu doanh nghiệp chưa niêm yết hay chưa đăng ký giao dịch trên UpCOM, có thể giúp tháo gỡ áp lực mà một số nhà tổ chức tín dụng đang gặp phải.",
@@ -3223,7 +3235,7 @@
           ],
           "precision@1": 1.0,
           "precision@3": 0.6666666666666666,
-          "precision@5": 0.6
+          "precision@5": 0.8
         },
         {
           "gold_statement": "Với thị trường trái phiếu nhiều biến động, ông Thuân cho biết việc kiểm soát giao dịch và mục đích sử dụng vốn của doanh nghiệp sẽ giúp các công ty thuận tiện hơn trong quá trình giám sát tín dụng và quản trị rủi ro, hạn chế việc giao dịch bằng tiền mặt dẫn đến việc sử dụng vốn khó được xác minh và đánh giá, ngoài ra việc Ngân hàng Nhà nước sửa đổi một số đề xuất sẽ tạo nên tính chặt chẽ hơn với thị trường.",
@@ -3280,8 +3292,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.6666666666666666,
-          "precision@5": 0.8
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.6
         },
         {
           "gold_statement": "Dự thảo bổ sung quy định ngân hàng có thể mua trái phiếu và cổ phiếu doanh nghiệp khi hệ số nợ/vốn của chủ sỡ hữu không vượt quá 5 lần dựa trên báo cáo tài chính gần nhất đã được kiểm toán.",
@@ -3310,7 +3322,7 @@
           ],
           "precision@1": 1.0,
           "precision@3": 0.6666666666666666,
-          "precision@5": 0.6
+          "precision@5": 0.8
         }
       ]
     },
@@ -3318,12 +3330,14 @@
       "index": 45,
       "topic": "văn hóa - xã hội",
       "predicted_claims": [
+        "Nhằm đẩy mạnh phục hồi ngành công nghiệp không khói, công tác chuẩn bị cho Năm Du lịch quốc gia đang được gấp rút hoàn thiện.",
         "Theo Ban Tổ chức Năm Du lịch quốc gia 2023, lễ khai mạc sẽ diễn ra vào ngày 25/3 và hơn 200 sự kiện văn hoá, thể thao và du lịch với quy mô liên tỉnh, quốc gia và quốc tế sẽ được tổ chức tại 1 địa điểm là Bình Thuận.",
+        "Để lan toả thông điệp của sự kiện, ban tổ chức chú trọng Truyền thông sự kiện trên các ấn phẩm, báo, tạp chí, cổng thông tin điện tử... và tạo ra các sản phẩm âm nhạc truyền thông du lịch kết hợp các nghệ sĩ nhằm thu hút các bạn trẻ từ trong nước và quốc tế.",
         "Song song với đó, hình ảnh Du lịch Việt Nam, du lịch Bình Thuận và Năm Du lịch quốc gia 2023 được quảng bá tại chương trình giới thiệu du lịch Việt Nam và các tuần văn hoá Việt Nam tại thị trường trọng điểm quốc tế (ASEAN, Đông Bắc Á, châu Âu, Ấn Độ, Australia, Mỹ...) trên sóng truyền hình VTV.",
         "Ở quy mô toàn cầu, Du lịch Việt Nam, du lịch Bình Thuận và Năm du lịch quốc gia 2023 được quảng bá tại các hội chợ du lịch quốc tế như ITB tại Anh, WTM tại Mỹ và các thị trường trọng điểm quốc tế như ASEAN, Đông Bắc Á, châu Âu...",
         "Tuy nhiên, bên cạnh các hoạt động quảng bá rầm rộ, cũng xuất hiện một số chỉ đạo gây chú ý về công tác tổ chức, trong đó Bộ VHTT & DL cũng đề nghị các đại sứ quán / trung tâm văn hoá nước ngoài tại Việt Nam không tổ chức các hoạt động VHTT & DL tại Bình Thuận để đảm bảo tính thống nhất trong quản lý."
       ],
-      "num_predicted_claims": 4,
+      "num_predicted_claims": 6,
       "statement_results": [
         {
           "gold_statement": "Du lịch Việt Nam, du lịch Bình Thuận và Năm Du lịch quốc gia 2023 được quảng bá tại chương trình giới thiệu du lịch Việt Nam và các tuần văn hóa Việt Nam tại thị trường trọng điểm quốc tế (ASEAN, Đông Bắc Á, châu Âu, Ấn Độ, Australia, Mỹ...) trên sóng truyền hình VTV. ",
@@ -3350,9 +3364,9 @@
               "chrf": 0.15384108069887784
             }
           ],
-          "precision@1": 0.0,
-          "precision@3": 0.0,
-          "precision@5": 0.0
+          "precision@1": 1.0,
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         },
         {
           "gold_statement": "Bộ VHTT&DL cũng đề nghị các đại sứ quán/trung tâm văn hóa nước ngoài tại Việt Nam không tổ chức các hoạt động VHTT&DL tại Bình Thuận",
@@ -3379,9 +3393,9 @@
               "chrf": 0.16368086182910266
             }
           ],
-          "precision@1": 0.0,
-          "precision@3": 0.0,
-          "precision@5": 0.0
+          "precision@1": 1.0,
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         },
         {
           "gold_statement": "Theo Ban Tổ chức Năm Du lịch quốc gia 2023, lễ khai mạc sẽ diễn ra vào ngày 25/3 và hơn 200 sự kiện văn hóa, thể thao và du lịch với quy mô liên tỉnh, quốc gia và quốc tế sẽ được tổ chức tại 1 địa điểm là Bình Thuận.",
@@ -3408,9 +3422,9 @@
               "chrf": 0.18447514407903656
             }
           ],
-          "precision@1": 0.0,
-          "precision@3": 0.0,
-          "precision@5": 0.0
+          "precision@1": 1.0,
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         },
         {
           "gold_statement": "Truyền thông sự kiện trên các ấn phẩm, báo, tạp chí, cổng thông tin điện tử... và tạo ra các sản phẩm âm nhạc truyền thông du lịch kết hợp các nghệ sĩ nhằm thu hút các bạn trẻ từ trong nước và quốc tế.",
@@ -3437,9 +3451,9 @@
               "chrf": 0.15926643222884082
             }
           ],
-          "precision@1": 0.0,
-          "precision@3": 0.0,
-          "precision@5": 0.0
+          "precision@1": 1.0,
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         },
         {
           "gold_statement": "Du lịch Việt Nam, du lịch Bình Thuận và Năm du lịch quốc gia 2023 được quảng bá tại các hội chợ du lịch quốc tế như ITB tại Anh, WTM tại Mỹ và các thị trường trọng điểm quốc tế như ASEAN, Đông Bắc Á, châu Âu...",
@@ -3466,9 +3480,9 @@
               "chrf": 0.1671683029137994
             }
           ],
-          "precision@1": 0.0,
-          "precision@3": 0.0,
-          "precision@5": 0.0
+          "precision@1": 1.0,
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         }
       ]
     },
@@ -4352,9 +4366,11 @@
       "topic": "sức khỏe",
       "predicted_claims": [
         "Các bác sĩ vừa lên tiếng cảnh báo về tai nạn sinh hoạt ở trẻ nhỏ sau khi Ngày 30.3 Bệnh viện nhi đồng 1 đã tiếp nhận một ca bệnh nhi 3 tuổi nhét pin điện tử dạng cúc áo vào mũi và bị hoại tử một phần niêm mạc.",
-        "Tại thời điểm nhập viện, Bác sĩ trực khoa Tai mũi họng nhanh chóng thăm khám, chỉ định chụp X - quang cho bệnh nhi, sau đó xác định dị vật trong mũi nghi là pin điện tử dạng cúc áo, vô cùng nguy hiểm, cần phải được lấy ra càng sớm càng tốt."
+        "Tại thời điểm nhập viện, Bác sĩ trực khoa Tai mũi họng nhanh chóng thăm khám, chỉ định chụp X - quang cho bệnh nhi, sau đó xác định dị vật trong mũi nghi là pin điện tử dạng cúc áo, vô cùng nguy hiểm, cần phải được lấy ra càng sớm càng tốt.",
+        "Kết quả chẩn đoán hình ảnh cho thấy rõ Trong quá trình khám bệnh, dị vật trong mũi bé gái được xác định là pin điện tử hình cúc áo vô cùng nguy hiểm và cần được nhanh chóng lấy ra khỏi hốc mũi của bé để tránh biến chứng nặng hơn.",
+        "Ngay lập tức, quy trình cấp cứu được kích hoạt và Bệnh nhi được đưa đi làm xét nghiệm máu, xét nghiệm nước tiểu, xét nghiệm tiền mê khẩn, sau đó tiến hành gây mê để lấy pin điện tử."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 4,
       "statement_results": [
         {
           "gold_statement": "Bệnh nhi được đưa đi làm xét nghiệm máu, xét nghiệm nước tiểu, xét nghiệm tiền mê khẩn, sau đó tiến hành gây mê để lấy pin điện tử.  ",
@@ -4378,8 +4394,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.6
         },
         {
           "gold_statement": "Bác sĩ trực khoa Tai mũi họng nhanh chóng thăm khám, chỉ định chụp X-quang cho bệnh nhi, sau đó xác định dị vật trong mũi nghi là pin điện tử dạng cúc áo, vô cùng nguy hiểm, cần phải được lấy ra càng sớm càng tốt.",
@@ -4403,8 +4419,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.6
         },
         {
           "gold_statement": "Trong quá trình khám bệnh, dị vật trong mũi bé gái được xác định là pin điện tử hình cúc áo vô cùng nguy hiểm và cần được nhanh chóng lấy ra khỏi hốc mũi của bé.",
@@ -4428,8 +4444,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.6
         },
         {
           "gold_statement": "Ngày 30.3 Bệnh viện nhi đồng 1 đã tiếp nhận một ca bệnh nhi 3 tuổi nhét pin điện tử dạng cúc áo vào mũi và bị hoại tử một phần niêm mạc.",
@@ -4453,8 +4469,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.6
         }
       ]
     },
@@ -4824,9 +4840,10 @@
       "index": 66,
       "topic": "văn hóa - xã hội",
       "predicted_claims": [
-        "Trước áp lực của nhịp sống công nghiệp, thế hệ trẻ đang có những thay đổi rõ rệt trong thói quen tiêu dùng, khi Gen Z tại Việt Nam đang hướng đến lối sống lành mạnh, bao gồm các biện pháp tự nhiên như Trà Dr Thanh, để vượt qua những thách thức của cuộc sống hiện đại và luôn sảng khoái về thể chất cũng như tinh thần."
+        "Trước áp lực của nhịp sống công nghiệp, thế hệ trẻ đang có những thay đổi rõ rệt trong thói quen tiêu dùng, khi Gen Z tại Việt Nam đang hướng đến lối sống lành mạnh, bao gồm các biện pháp tự nhiên như Trà Dr Thanh, để vượt qua những thách thức của cuộc sống hiện đại và luôn sảng khoái về thể chất cũng như tinh thần.",
+        "Mặc dù vậy, các chuyên gia dinh dưỡng cũng cảnh báo về tình trạng người tiêu dùng Tìm đến những thức uống chiết xuất từ thảo mộc tự nhiên như Trà Dr Thanh để thanh nhiệt nhưng các thành phần và tác dụng được nhà bán quảng cáo vẫn chưa được kiểm chứng."
       ],
-      "num_predicted_claims": 1,
+      "num_predicted_claims": 2,
       "statement_results": [
         {
           "gold_statement": "Gen Z tại Việt Nam đang hướng đến lối sống lành mạnh, bao gồm các biện pháp tự nhiên như Trà Dr Thanh, để vượt qua những thách thức của cuộc sống hiện đại và luôn sảng khoái về thể chất cũng như tinh thần.",
@@ -4842,8 +4859,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         },
         {
           "gold_statement": "Tìm đến những thức uống chiết xuất từ thảo mộc tự nhiên như Trà Dr Thanh để thanh nhiệt nhưng các thành phần và tác dụng được nhà bán quảng cáo vẫn chưa được kiểm chứng.",
@@ -4859,8 +4876,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         }
       ]
     },
@@ -5026,10 +5043,11 @@
       "index": 69,
       "topic": "văn hóa - xã hội",
       "predicted_claims": [
+        "Tình hình an toàn lao động đang trở thành vấn đề cấp bách khi các số liệu thống kê cho thấy mức độ rủi ro ngày càng gia tăng.",
         "Cụ thể, Trong năm 2022, tăng 1.214 vụ so với năm 2021, toàn quốc đã xảy ra 7.718 vụ tai nạn lao động, làm 7.723 người bị nạn, 764 người chết.",
         "Trước thực trạng báo động này, nhằm tăng cường công tác bảo hộ và nâng cao ý thức chấp hành pháp luật, Vào ngày 26/4/2023 cùng với Tháng Công nhân, tháng hành động an toàn, vệ sinh lao động năm 2023 (từ 1 - 31/5) dự kiến được chính thức phát động với sự tham gia của đại diện các bộ ngành và đông đảo người lao động."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 3,
       "statement_results": [
         {
           "gold_statement": "Trong năm 2022, tăng 1.214 vụ so với năm 2021, toàn quốc đã xảy ra 7.718 vụ tai nạn lao động, làm 7.723 người bị nạn, 764 người chết.",
@@ -5049,8 +5067,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         },
         {
           "gold_statement": "Vào ngày 26/4/2023 cùng với Tháng Công nhân, tháng hành động an toàn, vệ sinh lao động năm 2023 (từ 1-31/5) dự kiến được chính thức phát động.",
@@ -5070,8 +5088,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         }
       ]
     },
@@ -5535,9 +5553,10 @@
       "index": 78,
       "topic": "sức khỏe",
       "predicted_claims": [
-        "Trước diễn biến phức tạp của dịch bệnh tại các khu dân cư, cơ quan thú y nhận định nguyên nhân chính là do Bệnh dại lây lan nhanh vì nhiều người nuôi chó, mèo mang từ địa phương khác về theo kiểu thả rông mà chưa tiêm phòng dai cho chúng."
+        "Trước diễn biến phức tạp của dịch bệnh tại các khu dân cư, cơ quan thú y nhận định nguyên nhân chính là do Bệnh dại lây lan nhanh vì nhiều người nuôi chó, mèo mang từ địa phương khác về theo kiểu thả rông mà chưa tiêm phòng dai cho chúng.",
+        "Để chấn chỉnh công tác quản lý đàn vật nuôi và đảm bảo an toàn cộng đồng, chính quyền địa phương đã ra thông báo nhấn mạnh Người dân nuôi chó, mèo được yêu cầu phải đăng ký, nhốt trong khuôn viên gia đình, rọ mõm khi thả ra ngoài và tâm sự với chúng để hạn chế cắn người."
       ],
-      "num_predicted_claims": 1,
+      "num_predicted_claims": 2,
       "statement_results": [
         {
           "gold_statement": "Người dân nuôi chó, mèo được yêu cầu phải đăng ký, nhốt trong khuôn viên gia đình, rọ mõm khi thả ra ngoài và tâm sự với chúng để hạn chế cắn người.",
@@ -5553,8 +5572,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         },
         {
           "gold_statement": "Bệnh dại lây lan nhanh vì nhiều người nuôi chó, mèo mang từ địa phương khác về theo kiểu thả rông mà chưa tiêm phòng dai cho chúng.",
@@ -5570,8 +5589,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@3": 0.6666666666666666,
+          "precision@5": 0.4
         }
       ]
     },
@@ -7404,10 +7423,9 @@
       "index": 106,
       "topic": "pháp luật",
       "predicted_claims": [
-        "Trong bối cảnh thị trường tài chính đang tìm cách thích nghi với các biến động vĩ mô, một số Ngân hàng đã giảm lãi suất trước sức ép giá dầu nhằm hỗ trợ doanh nghiệp và kích cầu tiêu dùng.",
         "Đáng chú ý là động thái nới lỏng tiền tệ này diễn ra trong sự ổn định của thị trường hàng hoá, khi sau phiên ngày 23/3 bảng giá năng lượng với giá WTI và giá dầu Brent được giữ nguyên so với ban đầu."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 1,
       "statement_results": [
         {
           "gold_statement": "Việc Viện kiểm sát nhân dân huyện Hương Sơn (Hà Tĩnh) mới đây đã phê chuẩn quyết định khởi tố bị can tác động đối với an toàn công cộng và nhận thức của những người thực thi pháp luật ở huyện Hương Sơn",
@@ -7422,9 +7440,9 @@
               "chrf": 0.15576424649611617
             }
           ],
-          "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@1": 0.0,
+          "precision@3": 0.0,
+          "precision@5": 0.0
         },
         {
           "gold_statement": "Người bị hại Trịnh Quốc Sơn trong lúc xô xát không có hành vi khiêu khích Nguyễn Đình Đạt.",
@@ -7439,9 +7457,9 @@
               "chrf": 0.17059191465008208
             }
           ],
-          "precision@1": 1.0,
-          "precision@3": 0.3333333333333333,
-          "precision@5": 0.2
+          "precision@1": 0.0,
+          "precision@3": 0.0,
+          "precision@5": 0.0
         }
       ]
     },
@@ -8509,10 +8527,9 @@
       "index": 128,
       "topic": "văn hóa - xã hội",
       "predicted_claims": [
-        "Trước làn sóng tấn công tâm lý gây hoang mang dư luận phụ huynh và học sinh, cơ quan chức năng đã đưa ra cảnh báo về trò lừa đảo mới nhắm vào sinh viên liên quan đến việc những kẻ lừa đảo gọi điện thoại và yêu cầu tiền để chi trả cho trường hợp khẩn cấp về y tế.",
         "Để đảm bảo an toàn tuyệt đối và ổn định tâm lý cho người học, một biện pháp mạnh tay chưa từng có đã được đưa ra khi Sở Giáo dục và Đào tạo đã chỉ đạo các trường học tạm thời đóng cửa để ngăn chặn hình thức lừa đảo mới tiếp diễn, đồng thời phối hợp với cơ quan công an để điều tra làm rõ."
       ],
-      "num_predicted_claims": 2,
+      "num_predicted_claims": 1,
       "statement_results": [
         {
           "gold_statement": "Sở Giáo dục và Đào tạo đã chỉ đạo các trường học tạm thời đóng cửa để ngăn chặn hình thức lừa đảo mới tiếp diễn.",
@@ -8528,8 +8545,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.6666666666666666,
-          "precision@5": 0.4
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         },
         {
           "gold_statement": "Trò lừa đảo mới nhắm vào sinh viên liên quan đến việc những kẻ lừa đảo gọi điện thoại và yêu cầu tiền để chi trả cho trường hợp khẩn cấp về y tế.",
@@ -8545,8 +8562,8 @@
             }
           ],
           "precision@1": 1.0,
-          "precision@3": 0.6666666666666666,
-          "precision@5": 0.4
+          "precision@3": 0.3333333333333333,
+          "precision@5": 0.2
         }
       ]
     },
@@ -8690,10 +8707,9 @@
       "topic": "kinh tế",
       "predicted_claims": [
         "Báo cáo tổng kết tình hình phát triển kinh tế - xã hội địa phương cho thấy những chuyển biến tích cực, cụ thể là năm 2022, nhờ vào các kế hoạch triển khai phát triển lâm nghiệp của nhà nước đề ra đã đạt được sự thành công, người dân đã được tạo nguồn thu nhập và sinh kế thông qua các hoạt động sản xuất lâm nghiệp, chính sách khoán bảo vệ rừng và dịch vụ môi trường rừng.",
-        "Nhờ vào đó góp phần xoá đói giảm nghèo, tăng thêm thu nhập cho dân.",
         "Để duy trì đà tăng trưởng này, vai trò của công tác chính trị tư tưởng được đề cao, trong đó Đảng uỷ Quảng Ninh, chỉ huy xác định công tác thi đua và phong trào Thi đua Quyết thắng luôn là một nội dung quan trọng trong hoạt động lãnh đạo, chỉ đạo của cấp uỷ, chỉ huy các cấp, tạo động lực mạnh mẽ thúc đẩy hoàn thành các chỉ tiêu kinh tế - quốc phòng."
       ],
-      "num_predicted_claims": 3,
+      "num_predicted_claims": 2,
       "statement_results": [
         {
           "gold_statement": "Năm 2022, nhờ vào các kế hoạch triển khai phát triển lâm nghiệp của nhà nước đề ra đã đạt được sự thành công, người dân đã được tạo nguồn thu nhập và sinh kế thông qua các hoạt động sản xuất lâm nghiệp, chính sách khoán bảo vệ rừng và dịch vụ môi trường rừng. Nhờ vào đó góp phần xóa đói giảm nghèo, tăng thêm thu nhập cho dân.",
@@ -9073,9 +9089,10 @@
       "index": 139,
       "topic": "du lịch",
       "predicted_claims": [
+        "Mặc dù các rào cản đi lại đã được dỡ bỏ, nhưng giới phân tích nhận định rằng sau khi không còn hạn chế về Covid - 19 thì kinh tế du lịch vẫn còn gặp khó khăn và chậm hồi phục, các đô thị lớn vẫn tích cực phục hồi du lịch thông qua các chiến lược dài hạn.",
         "Một ví dụ điển hình cho xu hướng này là việc chính quyền Hàng Châu tích cực đẩy mạnh du lịch trong và ngoài nước vào năm 2025 đến năm 2030, hứa hẹn tạo ra những đột phá mới về doanh thu và lượng khách trong giai đoạn tới."
       ],
-      "num_predicted_claims": 1,
+      "num_predicted_claims": 2,
       "statement_results": [
         {
           "gold_statement": "Hàng Châu tích cực đẩy mạnh du lịch trong và ngoài nước vào năm 2025 đến năm 2030.",
@@ -9090,7 +9107,7 @@
               "chrf": 0.21900244259292564
             }
           ],
-          "precision@1": 1.0,
+          "precision@1": 0.0,
           "precision@3": 0.3333333333333333,
           "precision@5": 0.2
         },
@@ -9107,7 +9124,7 @@
               "chrf": 0.19912686858636208
             }
           ],
-          "precision@1": 1.0,
+          "precision@1": 0.0,
           "precision@3": 0.3333333333333333,
           "precision@5": 0.2
         }
@@ -9388,11 +9405,12 @@
       "topic": "chính trị",
       "predicted_claims": [
         "Tại hội nghị gần đây bàn về công tác an sinh xã hội, có một số đánh giá cho rằng với việc quán triệt chuyên đề “ Những vấn đề về người cao tuổi Việt Nam ”, Thường trực Ban Bí thư Trương Thị Mai không đề ra được các chủ trương và chính sách đối với người cao tuổi do sự phức tạp và đa dạng của tình hình người cao tuổi trong xã hội hiện nay.",
+        "Điều này đòi hỏi sự nghiên cứu kỹ lưỡng và sự phối hợp chặt chẽ giữa các cấp uỷ, các ngành và các tổ chức chuyên môn để đưa ra những chính sách phù hợp và hiệu quả nhằm đáp ứng đầy đủ nhu cầu và quyền lợi của người cao tuổi.",
         "Mặc dù còn nhiều thách thức trong khâu hoạch định chi tiết, nhưng về mặt định hướng chiến lược, theo thông tin từ Báo Tuổi trẻ Online, Thường trực Ban Bí thư Trương Thị Mai nhấn mạnh rằng mục tiêu sống quan trọng của người cao tuổi là tuổi thọ khoẻ mạnh.",
         "Chương trình chăm sóc sức khoẻ người cao tuổi đến năm 2030 đề ra những mục tiêu cụ thể như: lập hồ sơ sức khoẻ, khám sức khoẻ định kỳ hàng năm, quản lý và điều trị các bệnh không lây nhiễm (như ung thư, tim mạch, tăng huyết áp, đái tháo đường, sa sút trí tuệ), phát triển mô hình Trung tâm dưỡng lão xã hội hoá, và tăng số giường bệnh dành riêng cho người cao tuổi.",
         "Các mục tiêu này nhằm đảm bảo sự chăm sóc toàn diện cho sức khoẻ và đời sống của người cao tuổi, giúp họ sống một cuộc sống khoẻ mạnh và hạnh phúc."
       ],
-      "num_predicted_claims": 4,
+      "num_predicted_claims": 5,
       "statement_results": [
         {
           "gold_statement": "Với việc quán triệt chuyên đề “Những vấn đề về người cao tuổi Việt Nam”, Thường trực Ban Bí thư Trương Thị Mai không đề ra được các chủ trương và chính sách đối với người cao tuổi do sự phức tạp và đa dạng của tình hình người cao tuổi trong xã hội hiện nay. Điều này đòi hỏi sự nghiên cứu kỹ lưỡng và sự phối hợp chặt chẽ giữa các cấp ủy, các ngành và các tổ chức chuyên môn để đưa ra những chính sách phù hợp và hiệu quả nhằm đáp ứng đầy đủ nhu cầu và quyền lợi của người cao tuổi.",

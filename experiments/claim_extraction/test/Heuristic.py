@@ -24,11 +24,7 @@ class VietnameseHeuristicClaimExtractor:
     Heuristic + POS-based Claim Extraction for Vietnamese news.
     """
 
-    FACTUAL_VERBS = {
-        "là", "đã", "đang", "sẽ", "có", "đạt",
-        "tăng", "giảm", "chiếm", "gây", "dẫn",
-        "ảnh hưởng", "ghi nhận", "xảy ra"
-    }
+    FACTUAL_VERBS = {'làm', 'theo', 'ra', 'được', 'cần', 'có', 'cho', 'phát triển', 'lên', 'tổ chức', 'bị', 'phải', 'thực hiện', 'là'}
 
     def __init__(self, model_dir: str = None):
         if model_dir is None:
