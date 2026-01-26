@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-from typing import List, Dict
+from typing import List
 
 from nltk.translate.chrf_score import sentence_chrf
 from nltk.tokenize import sent_tokenize

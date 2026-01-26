@@ -4,9 +4,6 @@ import sys
 import tempfile
 from typing import List
 
-from nltk.tokenize import sent_tokenize
-from argparse import Namespace
-
 # --------------------------------------------------
 # PATH HANDLING
 # --------------------------------------------------

@@ -9,7 +9,7 @@ modules under the `presumm` folder and provides simple methods that
 call the corresponding functions. If your PYTHONPATH does not include
 the presumm folder, adjust imports or run from project root.
 """
-from typing import List, Dict, Any, Iterable
+from typing import List, Dict, Any
 import importlib
 import os
 import sys

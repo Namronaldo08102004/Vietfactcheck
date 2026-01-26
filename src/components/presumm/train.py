@@ -3,17 +3,18 @@
     Main training workflow
 """
 from __future__ import division
+import os
 import sys
-sys.path.append('C:/Users/lebat/Documents/Github/Vietfactcheck/src/components/BERTSum/presumm')
+
+_HERE = os.path.dirname(__file__)
+if _HERE not in sys.path:
+    sys.path.insert(0, _HERE)
+    
 import argparse
 import os
 from src.components.presumm.others.logging import init_logger
 from src.components.presumm.train_abstractive import validate_abs, train_abs, baseline, test_abs, test_text_abs
 from src.components.presumm.train_extractive import train_ext, validate_ext, test_ext, test_text_ext
-import json
-import tqdm
-
-from nltk.tokenize import sent_tokenize
 
 model_flags = ['hidden_size', 'ff_size', 'heads', 'emb_size', 'enc_layers', 'enc_hidden_size', 'enc_ff_size',
                'dec_layers', 'dec_hidden_size', 'dec_ff_size', 'encoder', 'ff_actv', 'use_interval']

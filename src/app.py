@@ -16,11 +16,11 @@ from src.components.reranker import VietnameseReranker
 from src.modules.document_retrieval import DocumentRetrievalModule
 from src.modules.evidence_selection import EvidenceSelectionModule
 from src.modules.claim_verification import ClaimVerificationModule
+from src.modules.claim_extraction import BERTSumClaimExtractor
 
 # --- CẤU HÌNH GIAO DIỆN ---
 st.set_page_config(page_title="VietFactCheck System", layout="wide", initial_sidebar_state="expanded")
 
-# CSS tùy chỉnh để làm đẹp các ô gợi ý và highlight bằng chứng
 st.markdown("""
     <style>
     .stButton>button { 
@@ -43,12 +43,19 @@ st.markdown("""
         color: #333;
         font-weight: 500;
     }
+    /* Style cho step indicator */
+    .claim-step {
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0;
+        border-left: 5px solid #ff4b4b;
+        background-color: #f9f9f9;
+    }
     </style>
 """, unsafe_allow_html=True)
 
 st.title("🛡️ Hệ thống Xác thực Thông tin Tiếng Việt")
 
-# Icon cho 36 topic từ dataset ViFactCheck
 TOPIC_ICONS = {
     'khoa học': '🧪', 'văn hoá': '🎨', 'văn hóa': '🎨', 'quân sự': '🛡️', 'khoa giáo': '📚',
     'kinh doanh': '💼', 'chính trị': '🏛️', 'thế giới': '🌍', 'thời sự': '🗞️', 'sức khoẻ': '🏥',
@@ -57,13 +64,13 @@ TOPIC_ICONS = {
     'giới trẻ': '🌈', 'bất động sản': '🏠', 'giáo dục': '🎓', 'số hóa': '🔢', 'người lính': '🎖️',
     'nhịp sống phương nam': '🏙️', 'xã hội': '👥', 'quốc tế': '🌐', 'y tế': '💉', 'địa ốc': '🏗️',
     'đô thị': '🌆', 'công nghệ': '💻', 'khoa học công nghệ': '🚀', 'nhà đất': '🏡', 
-    'giáo dục - hướng nghiệp': '📖', 'bạn đọc làm báo': '✍️'
+    'giáo dục - hướng nghiệp': '📖', 'bạn đọc làm báo': '✍️', 'văn hóa - xã hội': '🎭'
 }
 
 # --- HÀM KHỞI TẠO HỆ THỐNG ---
 @st.cache_data
 def load_recommendations():
-    """Lấy mỗi topic 1 câu claim ví dụ từ tập dữ liệu Master"""
+    """Lấy claim ví dụ"""
     path = settings.DATA_PATHS.get("train")
     recs = {}
     if os.path.exists(path):
@@ -72,13 +79,25 @@ def load_recommendations():
             random.shuffle(data)
             for item in data:
                 topic = item.get("Topic", "khác").strip().lower()
-                if topic not in recs:
-                    recs[topic] = item.get("Statement", "")
+                if topic not in recs: recs[topic] = item.get("Statement", "")
+    return recs
+
+@st.cache_data
+def load_news_recommendations():
+    """Lấy bản tin thời sự ví dụ"""
+    path = settings.EXTRACTION_DATA_PATHS.get("train")
+    recs = {}
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            random.shuffle(data)
+            for item in data:
+                topic = item.get("topic", "khác").strip().lower()
+                if topic not in recs: recs[topic] = item.get("fake_context", "")
     return recs
 
 @st.cache_resource
 def init_core_system():
-    """Khởi tạo database và các module xử lý"""
     db = VietnameseVectorDB("master_db", settings.STORAGE_DIR, 
                             settings.EMBEDDING_MODEL, settings.TRUNCATION_DIM)
     ret_mod = DocumentRetrievalModule(db)
@@ -90,180 +109,208 @@ def init_core_system():
         if os.path.exists(p):
             with open(p, "r", encoding="utf-8") as f:
                 for item in json.load(f): url_map[item['Url']] = item['Context']
+    
+    # Khởi tạo Extractor (Sử dụng model path từ settings nếu có)
+    extractor = BERTSumClaimExtractor(model_path = getattr(settings, "EXTRACTOR_MODEL_PATH", "bertext_cnndm_transformer.pt"))
                 
-    return ret_mod, EvidenceSelectionModule(db), url_map, VietnameseReranker()
+    return ret_mod, EvidenceSelectionModule(db), url_map, VietnameseReranker(), extractor
 
-ret_mod, ev_mod, url_to_context, reranker = init_core_system()
+ret_mod, ev_mod, url_to_context, reranker, extractor = init_core_system()
 recs_dict = load_recommendations()
+news_dict = load_news_recommendations()
 
-# Quản lý Session State cho ô nhập liệu
-if "main_input" not in st.session_state:
-    st.session_state["main_input"] = ""
+# Quản lý Session State
+if "main_input" not in st.session_state: st.session_state["main_input"] = ""
+if "rec_mode" not in st.session_state: st.session_state["rec_mode"] = "claim" # 'claim' or 'news'
 
-# --- SIDEBAR: ĐIỀU KHIỂN & THAM SỐ ---
+# --- SIDEBAR: ĐIỀU KHIỂN ---
 st.sidebar.title("🎮 Control Panel")
 target_stage = st.sidebar.selectbox("Giai đoạn dừng xử lý:", 
                                     ["Document Retrieval", "Evidence Selection", "Claim Verification"])
 
-# Tùy chỉnh hiển thị Grid
 st.sidebar.subheader("🎨 Giao diện gợi ý")
 grid_cols = st.sidebar.slider("Số cột hiển thị Topic:", 2, 8, 6)
 
-# 1. Tham số Document Retrieval
+# 1. Document Retrieval Settings
 with st.sidebar.expander("1. Document Retrieval Settings", expanded=True):
     dr_w_emb = st.slider("Embedding Weight", 0.0, 1.0, 0.4, key="dr_emb")
     dr_w_bm25 = st.slider("BM25 Weight", 0.0, 1.0, 0.3, key="dr_bm25")
     dr_w_tfidf = 1.0 - dr_w_emb - dr_w_bm25
     st.slider("TF-IDF Weight (Cố định)", 0.0, 1.0, max(0.0, dr_w_tfidf), disabled=True)
-    
-    if dr_w_emb + dr_w_bm25 > 1.0:
-        st.error("Tổng trọng số vượt quá 1.0!")
-
     dr_use_rerank = st.toggle("Sử dụng Reranker cho Document?")
-    dr_top_k = st.number_input("Top K URLs (before rerank)", 1, 10, 3 if dr_use_rerank else 1)
+    dr_top_k = st.number_input("Top K URLs", 1, 10, 3 if dr_use_rerank else 1)
 
-# 3. Tham số Claim Verification (Xác định chế độ để ẩn Step 2)
+# Logic Model Mapping (Yêu cầu 1)
+MODEL_MAPPING = {
+    "XLM-RoBERTa-base": "Vifactcheck-xlm-roberta-base",
+    "XLM-RoBERTa-large": "Vifactcheck-xlm-roberta-large",
+    "ViBERT": "Vifactcheck-ViBERT",
+    "mBERT": "Vifactcheck-mBERT",
+    "PhoBERT-base": "Vifactcheck-phoBERT-base",
+    "PhoBERT-large": "Vifactcheck-phoBERT-large"
+}
+
 v_mode = "Selected Evidences"
+selected_hf_model = ""
+
 if target_stage == "Claim Verification":
     with st.sidebar.expander("3. Claim Verification Settings", expanded=True):
         v_mode = st.radio("Xác thực dựa trên:", ["Full Context", "Selected Evidences"])
-        plm_list = [
-            "tranthaihoa/xlm_base_full", "tranthaihoa/xlm_large_full",
-            "tranthaihoa/ViBERT_Full", "tranthaihoa/mBert_Full",
-            "tranthaihoa/phobert_base_Context", "tranthaihoa/phobert_large_Context"
-        ]
-        selected_model = st.selectbox("Chọn Model PLM:", plm_list)
+        display_model_name = st.selectbox("Chọn Model PLM:", list(MODEL_MAPPING.keys()))
+        
+        # Build tên model HuggingFace dựa trên mode
+        base_name = MODEL_MAPPING[display_model_name]
+        suffix = "-gold-evidence" if v_mode == "Selected Evidences" else ""
+        selected_hf_model = f"Namronaldo2004/{base_name}{suffix}"
 
-# 2. Tham số Evidence Selection (Ẩn nếu chọn Full Context)
 show_ev = (target_stage == "Evidence Selection") or (target_stage == "Claim Verification" and v_mode == "Selected Evidences")
 if show_ev:
     with st.sidebar.expander("2. Evidence Selection Settings", expanded=True):
         ev_w_emb = st.slider("Evid. Embedding Weight", 0.0, 1.0, 0.6, key="ev_emb")
         ev_w_bm25 = st.slider("Evid. BM25 Weight", 0.0, 1.0, 0.2, key="ev_bm25")
-        ev_w_tfidf = 1.0 - ev_w_emb - ev_w_bm25
-        st.slider("Evid. TF-IDF (Cố định)", 0.0, 1.0, max(0.0, ev_w_tfidf), disabled=True)
-        
         ev_use_rerank = st.toggle("Sử dụng Reranker cho Evidence?", value=True)
-        
-        # POPUP THÔNG TIN CƠ SỞ RERANK THEO YÊU CẦU
         if ev_use_rerank:
-            st.info("""
-            **ℹ️ Cơ chế Rerank Phân cấp (Hierarchical):**
-            1. Hệ thống lấy **Top K** ứng viên ban đầu.
-            2. Nếu có bằng chứng đạt điểm tín nhiệm > **T1**, lấy tất cả các bằng chứng đó.
-            3. Ngược lại, hệ thống sắp xếp giảm dần và lấy bằng chứng đầu tiên. Các bằng chứng tiếp theo sẽ được chọn nếu khoảng cách điểm so với ứng viên liền trước nhỏ hơn **T2**.
-            """)
-            ev_top_k_input = st.number_input("Số lượng bằng chứng lấy ra trước khi Rerank:", 3, 20, 10)
+            ev_top_k_input = st.number_input("Số lượng bằng chứng trước Rerank:", 3, 20, 10)
             t1 = st.slider("Confidence Threshold (T1)", 0.6, 1.0, 0.75)
             t2 = st.slider("Gap Threshold (T2)", 0.0, 0.15, 0.05)
         else:
             ev_top_k_input = st.number_input("Số lượng bằng chứng (Top K):", 1, 10, 3)
 
-# --- KHU VỰC GỢI Ý (CUSTOMIZABLE GRID) ---
-st.subheader("💡 Gợi ý Claim theo chủ đề")
-topic_list = list(recs_dict.keys())
+# --- KHU VỰC GỢI Ý (Yêu cầu 2: Chuyển đổi Claim/Bản tin) ---
+col_title, col_nav = st.columns([0.8, 0.2])
 
+with col_title:
+    if st.session_state["rec_mode"] == "claim":
+        st.subheader("💡 Gợi ý Claim theo chủ đề")
+        current_data = recs_dict
+    else:
+        st.subheader("📰 Gợi ý bản tin thời sự theo chủ đề")
+        current_data = news_dict
+
+with col_nav:
+    if st.session_state["rec_mode"] == "claim":
+        if st.button("Tiếp theo ➡️"):
+            st.session_state["rec_mode"] = "news"
+            st.rerun()
+    else:
+        if st.button("⬅️ Quay lại"):
+            st.session_state["rec_mode"] = "claim"
+            st.rerun()
+
+topic_list = list(current_data.keys())
 for i in range(0, len(topic_list), grid_cols):
     cols = st.columns(grid_cols)
     for j in range(grid_cols):
         if i + j < len(topic_list):
             topic = topic_list[i + j]
             icon = TOPIC_ICONS.get(topic, '📝')
-            if cols[j].button(f"{icon} {topic.capitalize()}", key=f"btn_{topic}"):
-                st.session_state["main_input"] = recs_dict[topic]
+            if cols[j].button(f"{icon} {topic.capitalize()}", key=f"btn_{topic}_{st.session_state['rec_mode']}"):
+                st.session_state["main_input"] = current_data[topic]
                 st.rerun()
 
 st.divider()
 
 # --- GIAO DIỆN CHÍNH ---
-claim_text = st.text_area("Nhập nội dung cần kiểm chứng (Claim):", 
-                          key="main_input", height=120)
+claim_text = st.text_area("Nhập nội dung cần kiểm chứng (Claim):", key="main_input", height=150)
+
+# Checkbox Tách Claim (Yêu cầu 2)
+use_extraction = st.checkbox("Chia nhỏ nội dung đầu vào thành các claim riêng biệt để kiểm chứng", value=False)
 
 if st.button("🚀 Bắt đầu thực hiện xử lý", type="primary"):
     if not claim_text.strip():
         st.warning("Vui lòng nhập nội dung!")
         st.stop()
 
-    # BƯỚC 1: DOCUMENT RETRIEVAL
-    with st.status("🔍 Đang truy xuất bài báo liên quan...") as s:
-        dr_weights = (dr_w_bm25, 1.0 - dr_w_emb - dr_w_bm25, dr_w_emb)
-        urls = ret_mod.get_top_k_url(claim_text, top_k=dr_top_k, weights=dr_weights)
-        
-        if dr_use_rerank:
-            class Item:
-                def __init__(self, url, content): 
-                    self.url = url
-                    self.page_content = content
-            cands = [Item(u, url_to_context[u]) for u in urls]
-            best_url = reranker.rerank(claim_text, cands)[0]['document'].url
-        else:
-            best_url = urls[0]
-        s.update(label="✅ Đã tìm thấy bài báo nguồn!", state="complete")
-
-    st.markdown(f"**Nguồn:** [{best_url}]({best_url})")
-    full_text = url_to_context.get(best_url, "")
-
-    if target_stage == "Document Retrieval":
-        st.subheader("Nội dung bài báo:")
-        st.write(full_text)
-        st.stop()
-
-    # BƯỚC 2: EVIDENCE SELECTION
-    selected_evidences = []
-    if show_ev:
-        with st.status("📍 Đang trích xuất bằng chứng xác thực...") as s:
-            ev_weights = (ev_w_bm25, 1.0 - ev_w_emb - ev_w_bm25, ev_w_emb)
-            
-            if not ev_use_rerank:
-                selected_evidences = ev_mod.select_top_k_evidence(claim_text, best_url, top_k=ev_top_k_input, weights=ev_weights)
+    # Xử lý danh sách Claim
+    claims_to_process = []
+    if use_extraction:
+        with st.spinner("✂️ Đang phân tách nội dung..."):
+            claims_to_process = extractor.extract(claim_text)
+            if not claims_to_process:
+                st.error("Không thể tách được claim nào. Sử dụng nội dung gốc.")
+                claims_to_process = [claim_text]
             else:
-                cands = ev_mod.select_top_k_evidence(claim_text, best_url, top_k=ev_top_k_input, weights=ev_weights)
-                reranked_ev = reranker.rerank(claim_text, cands)
-                
-                # Rule 1: Threshold T1
-                high_score_entries = [res for res in reranked_ev if res['rerank_score'] > t1]
-                if high_score_entries:
-                    selected_evidences = [res['document'] for res in high_score_entries]
-                else:
-                    # Rule 2: Hierarchy Gap T2
-                    selected_evidences = [reranked_ev[0]['document']]
-                    for i in range(1, len(reranked_ev)):
-                        if (reranked_ev[i-1]['rerank_score'] - reranked_ev[i]['rerank_score']) < t2:
-                            selected_evidences.append(reranked_ev[i]['document'])
-                        else: break
-            s.update(label=f"✅ Đã trích xuất {len(selected_evidences)} bằng chứng!", state="complete")
-
-        # Hiển thị Highlight
-        highlighted_html = full_text
-        for ev in selected_evidences:
-            snippet = ev.page_content.strip()
-            highlighted_html = highlighted_html.replace(snippet, f'<span class="highlight">{snippet}</span>')
-        
-        st.subheader("Minh chứng trực quan:")
-        st.markdown(f"<div style='text-align: justify;'>{highlighted_html}</div>", unsafe_allow_html=True)
+                st.info(f"✅ Đã tìm thấy **{len(claims_to_process)}** claim cần xác thực.")
     else:
-        st.subheader("Nội dung bài báo (Chế độ Full Context):")
-        st.write(full_text)
+        claims_to_process = [claim_text]
 
-    if target_stage == "Evidence Selection":
-        st.stop()
+    # UI Step-by-Step cho từng Claim (Sử dụng Tabs để người dùng có thể xem lại)
+    claim_tabs = st.tabs([f"Claim {i+1}" for i in range(len(claims_to_process))])
 
-    # BƯỚC 3: CLAIM VERIFICATION
-    if target_stage == "Claim Verification":
-        with st.spinner("⚖️ Đang tiến hành xác thực claim..."):
-            verifier = ClaimVerificationModule(selected_model)
-            result = verifier.verify_claim(
-                claim_text, 
-                full_context=full_text if v_mode == "Full Context" else None,
-                evidences=selected_evidences if v_mode == "Selected Evidences" else None
-            )
+    for idx, (current_claim, tab) in enumerate(zip(claims_to_process, claim_tabs)):
+        with tab:
+            st.markdown(f"**Nội dung kiểm chứng:** *{current_claim}*")
             
-            st.divider()
-            st.subheader("🏁 Kết quả xác thực:")
-            label = result['label_name']
-            if label == "Supported":
-                st.success("✅ **CHÍNH XÁC**: Nội dung khớp với bài báo.")
-            elif label == "Refuted":
-                st.error("❌ **SAI SỰ THẬT**: Nội dung mâu thuẫn với bài báo.")
+            # --- BƯỚC 1: DOCUMENT RETRIEVAL ---
+            with st.status(f"🔍 [C{idx+1}] Đang truy xuất bài báo...") as s:
+                dr_weights = (dr_w_bm25, 1.0 - dr_w_emb - dr_w_bm25, dr_w_emb)
+                urls = ret_mod.get_top_k_url(current_claim, top_k=dr_top_k, weights=dr_weights)
+                
+                if dr_use_rerank:
+                    class Item:
+                        def __init__(self, url, content): 
+                            self.url, self.page_content = url, content
+                    cands = [Item(u, url_to_context[u]) for u in urls]
+                    best_url = reranker.rerank(current_claim, cands)[0]['document'].url
+                else:
+                    best_url = urls[0]
+                s.update(label="✅ Đã tìm thấy nguồn!", state="complete")
+
+            st.markdown(f"**Nguồn:** [{best_url}]({best_url})")
+            full_text = url_to_context.get(best_url, "")
+
+            if target_stage == "Document Retrieval":
+                st.write(full_text)
+                continue
+
+            # --- BƯỚC 2: EVIDENCE SELECTION ---
+            selected_evidences = []
+            if show_ev:
+                with st.status(f"📍 [C{idx+1}] Đang trích xuất bằng chứng...") as s:
+                    ev_weights = (ev_w_bm25, 1.0 - ev_w_emb - ev_w_bm25, ev_w_emb)
+                    cands = ev_mod.select_top_k_evidence(current_claim, best_url, top_k=ev_top_k_input, weights=ev_weights)
+                    
+                    if ev_use_rerank:
+                        reranked_ev = reranker.rerank(current_claim, cands)
+                        high_score = [res for res in reranked_ev if res['rerank_score'] > t1]
+                        if high_score:
+                            selected_evidences = [res['document'] for res in high_score]
+                        else:
+                            selected_evidences = [reranked_ev[0]['document']]
+                            for i in range(1, len(reranked_ev)):
+                                if (reranked_ev[i-1]['rerank_score'] - reranked_ev[i]['rerank_score']) < t2:
+                                    selected_evidences.append(reranked_ev[i]['document'])
+                                else: break
+                    else:
+                        selected_evidences = cands[:ev_top_k_input]
+                    s.update(label=f"✅ {len(selected_evidences)} bằng chứng!", state="complete")
+
+                highlighted_html = full_text
+                for ev in selected_evidences:
+                    snippet = ev.page_content.strip()
+                    highlighted_html = highlighted_html.replace(snippet, f'<span class="highlight">{snippet}</span>')
+                st.markdown(f"<div style='text-align: justify;'>{highlighted_html}</div>", unsafe_allow_html=True)
             else:
-                st.warning("❓ **KHÔNG ĐỦ THÔNG TIN**: Không đủ dữ liệu để kết luận.")
+                st.write(full_text)
+
+            if target_stage == "Evidence Selection":
+                continue
+
+            # --- BƯỚC 3: CLAIM VERIFICATION ---
+            if target_stage == "Claim Verification":
+                with st.spinner(f"⚖️ Đang xác thực Claim {idx+1}..."):
+                    verifier = ClaimVerificationModule(selected_hf_model)
+                    result = verifier.verify_claim(
+                        current_claim, 
+                        full_context=full_text if v_mode == "Full Context" else None,
+                        evidences=selected_evidences if v_mode == "Selected Evidences" else None
+                    )
+                    
+                    st.divider()
+                    label = result['label_name']
+                    if label == "Supported":
+                        st.success(f"✅ **CHÍNH XÁC**")
+                    elif label == "Refuted":
+                        st.error(f"❌ **SAI SỰ THẬT**")
+                    else:
+                        st.warning(f"❓ **KHÔNG ĐỦ THÔNG TIN**")
