@@ -249,52 +249,90 @@ def evaluate_and_log_claim_extraction_chrf(
 ):
     precision_sum = {k: 0.0 for k in ks}
     document_results = []
-    total = 0
+
+    total_docs = 0
     total_claims = 0
+    total_statements = 0
 
     for rec in records:
-        context = rec.get("Context", "")
-        statement = rec.get("Statement", "")
+        context = rec.get("fake_context", "")
+        statements = rec.get("statements", [])
         index = rec.get("index")
+        topic = rec.get("topic")
 
-        if not context.strip() or not statement.strip():
+        if not context.strip() or not statements:
             continue
 
+        # -----------------------------------
+        # Extract ONCE per document
+        # -----------------------------------
         extracted = extractor.extract(context)
-        pred_claims = [c["text"] for c in extracted]
 
-        eval_result = evaluate_single_record_chrf(
-            statement=statement,
-            context=context,
-            predicted_claims=pred_claims,
-            ks=ks
-        )
+        # support both:
+        #  - ["sent1", "sent2"]
+        #  - [{"text": "..."}]
+        if extracted and isinstance(extracted[0], dict):
+            pred_claims = [c["text"] for c in extracted]
+        else:
+            pred_claims = extracted
 
-        for k in ks:
-            precision_sum[k] += eval_result[f"precision@{k}"]
-
-        total += 1
+        total_docs += 1
         total_claims += len(pred_claims)
+
+        per_doc_results = []
+
+        # -----------------------------------
+        # Evaluate EACH gold statement
+        # -----------------------------------
+        for st in statements:
+            gold_text = st.get("text", "")
+            label = st.get("label")
+
+            if not gold_text.strip():
+                continue
+
+            total_statements += 1
+
+            eval_result = evaluate_single_record_chrf(
+                statement=gold_text,
+                context=context,
+                predicted_claims=pred_claims,
+                ks=ks
+            )
+
+            for k in ks:
+                precision_sum[k] += eval_result[f"precision@{k}"]
+
+            per_doc_results.append({
+                "gold_statement": gold_text,
+                "label": label,
+                "gold_chrf_sentences": [
+                    {"text": s, "chrf": sc}
+                    for s, sc in eval_result["gold_chrf_sentences"]
+                ],
+                **{f"precision@{k}": eval_result[f"precision@{k}"] for k in ks}
+            })
 
         document_results.append({
             "index": index,
-            "statement": statement,
+            "topic": topic,
             "predicted_claims": pred_claims,
             "num_predicted_claims": len(pred_claims),
-            "gold_chrf_sentences": [
-                {"text": s, "chrf": sc}
-                for s, sc in eval_result["gold_chrf_sentences"]
-            ],
-            **{f"precision@{k}": eval_result[f"precision@{k}"] for k in ks}
+            "statement_results": per_doc_results
         })
 
+    # -----------------------------------
+    # IMPORTANT: average over STATEMENTS
+    # -----------------------------------
     dataset_metrics = {
-        f"precision@{k}": precision_sum[k] / max(total, 1)
+        f"precision@{k}": precision_sum[k] / max(total_statements, 1)
         for k in ks
     }
+
     dataset_metrics.update({
-        "avg_claims_per_doc": total_claims / max(total, 1),
-        "num_docs": total
+        "avg_claims_per_doc": total_claims / max(total_docs, 1),
+        "num_docs": total_docs,
+        "num_statements": total_statements
     })
 
     output = {
@@ -316,8 +354,8 @@ if __name__ == "__main__":
     json_input_path = os.path.join(
         project_root,
         "data",
-        "verification",
-        "train.json"
+        "extraction",
+        "train_synthesis.json"
     )
 
     with open(json_input_path, "r", encoding="utf-8") as f:

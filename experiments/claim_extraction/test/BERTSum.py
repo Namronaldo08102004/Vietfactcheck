@@ -3,10 +3,7 @@ import sys
 import json
 from typing import List, Dict
 
-import numpy as np
 from nltk.translate.chrf_score import sentence_chrf
-sys.path.append('C:/Users/lebat/Documents/Github/Vietfactcheck/src/components/BERTSum')
-from presumm import train
 from nltk.tokenize import sent_tokenize
 
 # --------------------------------------------------
@@ -17,64 +14,25 @@ project_root = os.path.abspath(os.path.join(current_dir, "../../../"))
 sys.path.append(project_root)
 sys.path.append(os.path.join(project_root, "src"))
 
+import src.components.presumm.model as _models
+sys.modules["models"] = _models
 
-class BERTSumSentenceExtractor:
-    """
-    Extract claims using BERTSum selected sentences.
-    """
-
-    def extract(self, sample: Dict) -> List[str]:
-        return sample.get("sents_selected_by_bertsum", [])
-
-def extract_claims_from_json(
-    json_path: str,
-    extractor: BERTSumSentenceExtractor,
-) -> List[Dict]:
-    """
-    Read a JSON file and extract claims from each Context field.
-
-    Returns:
-        List[Dict]: list of records with extracted claims
-    """
-    with open(json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    results = []
-
-    for record in data:
-        context = record.get("Context", "")
-        if not context.strip():
-            continue
-
-        claims = extractor.extract(context)
-
-        results.append({
-            "index": record.get("index"),
-            "topic": record.get("Topic"),
-            "claims": claims,
-            "num_claims": len(claims),
-        })
-
-    return results
+from src.modules.claim_extraction import BERTSumClaimExtractor
 
 # ==================================================
-# CLAIM EXTRACTION METRICS
+# Metrics helpers
 # ==================================================
 
-def get_topk_chrf_sentences(
-    claim: str,
-    context: str,
-    k: int = 5
-):
+def get_topk_chrf_sentences(claim: str, context: str, k: int = 5):
     sentences = sent_tokenize(context)
-    scored = []
 
+    scored = []
     for sent in sentences:
-        score = sentence_chrf(claim, sent)
-        scored.append((sent, score))
+        scored.append((sent, sentence_chrf(claim, sent)))
 
     scored.sort(key=lambda x: x[1], reverse=True)
-    return scored[:k]   # [(sentence, chrf_score)]
+    return scored[:k]
+
 
 def precision_at_k(predicted: List[str], gold: List[str], k: int):
     if not predicted:
@@ -82,88 +40,124 @@ def precision_at_k(predicted: List[str], gold: List[str], k: int):
 
     pred_k = predicted[:k]
     gold_set = set(gold)
-
     hit = sum(1 for s in pred_k if s in gold_set)
+
     return hit / k
 
-def evaluate_single_record_chrf(
-    statement: str,
-    context: str,
-    predicted_claims: List[str],
-    ks=(1, 3, 5)
-):
+
+def evaluate_single_record_chrf(statement, context, predicted_claims, ks=(1, 3, 5)):
     gold_scored = get_topk_chrf_sentences(statement, context, max(ks))
     gold_sents = [s for s, _ in gold_scored]
 
     metrics = {}
     for k in ks:
-        metrics[f"precision@{k}"] = precision_at_k(
-            predicted_claims,
-            gold_sents,
-            k
-        )
+        metrics[f"precision@{k}"] = precision_at_k(predicted_claims, gold_sents, k)
 
     return {
         "gold_chrf_sentences": gold_scored,
         **metrics
     }
 
+
+# ==================================================
+# Main evaluation
+# ==================================================
+
 def evaluate_and_log_claim_extraction_chrf(
     records,
     extractor,
-    output_json_path: str,
+    output_json_path,
     ks=(1, 3, 5),
-    model_info: str = "bertsum",
-    evaluate_model: str = "chrf_sentence_retrieval",
+    model_info="bertsum",
+    evaluate_model="chrf_sentence_retrieval",
 ):
+
     precision_sum = {k: 0.0 for k in ks}
     document_results = []
-    total = 0
+
+    total_docs = 0
     total_claims = 0
+    total_statements = 0
+
+    # ------------------------------------------------
+    # 1) Collect ALL contexts first
+    # ------------------------------------------------
+    valid_records = []
+    all_contexts = []
 
     for rec in records:
-        context = rec.get("Context", "")
-        statement = rec.get("Statement", "")
+        ctx = rec.get("fake_context", "")
+        stmts = rec.get("statements", [])
+        if ctx.strip() and stmts:
+            valid_records.append(rec)
+            all_contexts.append(ctx)
+
+    # ------------------------------------------------
+    # 2) Run BERTSum ONCE
+    # ------------------------------------------------
+    print(f"Running BERTSum on {len(all_contexts)} documents ...")
+    all_pred_claims = extractor.batch_extract(all_contexts)
+
+    # ------------------------------------------------
+    # 3) Evaluate using cached predictions
+    # ------------------------------------------------
+    for rec, pred_claims in zip(valid_records, all_pred_claims):
+
+        # flatten safety
+        if len(pred_claims) == 1 and isinstance(pred_claims[0], list):
+            pred_claims = pred_claims[0]
+
+        context = rec["fake_context"]
+        statements = rec["statements"]
         index = rec.get("index")
+        topic = rec.get("topic")
 
-        if not context.strip() or not statement.strip():
-            continue
-
-        # 🔥 BERTSum extractor
-        pred_claims = extractor.extract(rec)
-
-        eval_result = evaluate_single_record_chrf(
-            statement=statement,
-            context=context,
-            predicted_claims=pred_claims,
-            ks=ks
-        )
-
-        for k in ks:
-            precision_sum[k] += eval_result[f"precision@{k}"]
-
-        total += 1
+        total_docs += 1
         total_claims += len(pred_claims)
+
+        per_doc_results = []
+
+        for st in statements:
+            gold_text = st.get("text", "")
+            if not gold_text.strip():
+                continue
+
+            total_statements += 1
+
+            eval_result = evaluate_single_record_chrf(
+                gold_text, context, pred_claims, ks
+            )
+
+            for k in ks:
+                precision_sum[k] += eval_result[f"precision@{k}"]
+
+            per_doc_results.append({
+                "gold_statement": gold_text,
+                "label": st.get("label"),
+                "gold_chrf_sentences": [
+                    {"text": s, "chrf": sc}
+                    for s, sc in eval_result["gold_chrf_sentences"]
+                ],
+                **{f"precision@{k}": eval_result[f"precision@{k}"] for k in ks}
+            })
 
         document_results.append({
             "index": index,
-            "statement": statement,
+            "topic": topic,
             "predicted_claims": pred_claims,
             "num_predicted_claims": len(pred_claims),
-            "gold_chrf_sentences": [
-                {"text": s, "chrf": sc}
-                for s, sc in eval_result["gold_chrf_sentences"]
-            ],
-            **{f"precision@{k}": eval_result[f"precision@{k}"] for k in ks}
+            "statement_results": per_doc_results
         })
 
     dataset_metrics = {
-        f"precision@{k}": precision_sum[k] / max(total, 1)
+        f"precision@{k}": precision_sum[k] / max(total_statements, 1)
         for k in ks
     }
+
     dataset_metrics.update({
-        "avg_claims_per_doc": total_claims / max(total, 1),
-        "num_docs": total
+        "avg_claims_per_doc": total_claims / max(total_docs, 1),
+        "num_docs": total_docs,
+        "num_statements": total_statements
     })
 
     output = {
@@ -178,53 +172,20 @@ def evaluate_and_log_claim_extraction_chrf(
 
     return dataset_metrics
 
-def sentence_ranking_by_BertSum(all_avail_url_files): 
-    # load configs 
-    configs = dict() 
-    configs['task'] = 'ext' 
-    configs['mode'] = 'test_text' 
-    configs['test_from'] = 'C:/Users/lebat/Documents/Github/Vietfactcheck/src/components/presumm/save_model/bertext_cnndm_transformer.pt' 
-    configs['text_src'] = 'C:/Users/lebat/Documents/Github/Vietfactcheck/data/verification/test.json' 
-    configs['result_path'] = 'C:/Users/lebat/Documents/Github/Vietfactcheck/src/components/presumm/results/ootb_output' 
-    configs['alpha'] = 0.95 
-    configs['log_file'] = 'C:/Users/lebat/Documents/Github/Vietfactcheck/src/components/presumm/logs/test.log' 
-    configs['visible_gpus'] = '0' 
-    # use BertSum to select candidate central sentences 
-    sent_with_score = train.main(configs) 
-
-    with open(all_avail_url_files, 'r', encoding='utf-8') as f: 
-        samples = json.load(f) 
-    
-    for idx, sample in enumerate(samples): 
-        # split the fulltext into sentences 
-        fulltext = sample['Context'] 
-        if fulltext[0] in ["“", "'", "”"] and fulltext[-1] in ["“", "'", "”"]: 
-            fulltext = fulltext[1:-1] 
-        sentences = sent_tokenize(fulltext) 
-        
-        sample['sents_id_selected_by_bertsum'] = sent_with_score[idx][2] 
-        sample['sents_selected_by_bertsum'] = sent_with_score[idx][0] 
-        sample['sents_with_scores_by_bertsum'] = sent_with_score[idx][1].tolist() 
-        sample['sents_order_by_bertsum'] = sent_with_score[idx][4] 
-        sample['sent_texts_order_by_bertsum'] = sent_with_score[idx][5] 
-        sample['sentences'] = sentences 
-        
-        print("Sample id={} with {} sentences, {} candidate central sentences selected by BertSum".format( idx, len(sentences), len(sample['sents_id_selected_by_bertsum']))) 
-        print(sentences) 
-    
-    return samples
+# ==================================================
+# Entry
+# ==================================================
 
 if __name__ == "__main__":
 
-    # 1️⃣ chạy BERTSum
-    json_input_path = os.path.join(
-        project_root, "data", "verification", "test.json"
+    json_input_path = os.path.join(project_root, "data", "extraction", "test_synthesis.json")
+
+    with open(json_input_path, "r", encoding="utf-8") as f:
+        samples = json.load(f)
+
+    extractor = BERTSumClaimExtractor(
+        model_path=os.path.join(project_root, "src", "weights", "BERTSum", "bertext_cnndm_transformer.pt")
     )
-
-    samples = sentence_ranking_by_BertSum(json_input_path)
-
-    # 2️⃣ dùng BERTSum làm extractor
-    extractor = BERTSumSentenceExtractor()
 
     output_eval_path = os.path.join(
         project_root,
@@ -239,9 +200,6 @@ if __name__ == "__main__":
         records=samples,
         extractor=extractor,
         output_json_path=output_eval_path,
-        ks=(1, 3, 5),
-        model_info="bertsum",
-        evaluate_model="chrf_sentence_retrieval"
     )
 
     for k, v in metrics.items():
