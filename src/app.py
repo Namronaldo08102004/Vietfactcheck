@@ -3,6 +3,7 @@ import os
 import streamlit as st
 import json
 import random
+import torch
 
 # --- XỬ LÝ PATH HỆ THỐNG ---
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -46,7 +47,6 @@ st.markdown("""
         color: #333;
         font-weight: 500;
     }
-    /* Style cho step indicator */
     .claim-step {
         padding: 10px;
         border-radius: 5px;
@@ -73,7 +73,6 @@ TOPIC_ICONS = {
 # --- HÀM KHỞI TẠO HỆ THỐNG ---
 @st.cache_data
 def load_recommendations():
-    """Lấy claim ví dụ"""
     path = settings.DATA_PATHS.get("train")
     recs = {}
     if os.path.exists(path):
@@ -87,7 +86,6 @@ def load_recommendations():
 
 @st.cache_data
 def load_news_recommendations():
-    """Lấy bản tin thời sự ví dụ"""
     path = settings.EXTRACTION_DATA_PATHS.get("train")
     recs = {}
     if os.path.exists(path):
@@ -113,8 +111,10 @@ def init_core_system():
             with open(p, "r", encoding="utf-8") as f:
                 for item in json.load(f): url_map[item['Url']] = item['Context']
     
-    # Khởi tạo Extractor (Sử dụng model path từ settings nếu có)
-    extractor = BERTSumClaimExtractor(model_path = getattr(settings, "EXTRACTOR_MODEL_PATH", "bertext_cnndm_transformer.pt"))
+    extractor = BERTSumClaimExtractor(
+        model_path = getattr(settings, "EXTRACTOR_MODEL_PATH", "bertext_cnndm_transformer.pt"),
+        visible_gpus = "-1" if torch.cuda.is_available() == False else "0"
+    )
                 
     return ret_mod, EvidenceSelectionModule(db), url_map, VietnameseReranker(), extractor
 
@@ -122,9 +122,8 @@ ret_mod, ev_mod, url_to_context, reranker, extractor = init_core_system()
 recs_dict = load_recommendations()
 news_dict = load_news_recommendations()
 
-# Quản lý Session State
 if "main_input" not in st.session_state: st.session_state["main_input"] = ""
-if "rec_mode" not in st.session_state: st.session_state["rec_mode"] = "claim" # 'claim' or 'news'
+if "rec_mode" not in st.session_state: st.session_state["rec_mode"] = "claim" 
 
 # --- SIDEBAR: ĐIỀU KHIỂN ---
 st.sidebar.title("🎮 Control Panel")
@@ -140,10 +139,14 @@ with st.sidebar.expander("1. Document Retrieval Settings", expanded=True):
     dr_w_bm25 = st.slider("BM25 Weight", 0.0, 1.0, 0.3, key="dr_bm25")
     dr_w_tfidf = 1.0 - dr_w_emb - dr_w_bm25
     st.slider("TF-IDF Weight (Cố định)", 0.0, 1.0, max(0.0, dr_w_tfidf), disabled=True)
+    
+    # --- YÊU CẦU 2: Cảnh báo UI cho DR ---
+    if dr_w_emb + dr_w_bm25 > 1.0:
+        st.error("⚠️ Tổng trọng số vượt quá 1.0!")
+
     dr_use_rerank = st.toggle("Sử dụng Reranker cho Document?")
     dr_top_k = st.number_input("Top K URLs", 1, 10, 3 if dr_use_rerank else 1)
 
-# Logic Model Mapping (Yêu cầu 1)
 MODEL_MAPPING = {
     "XLM-RoBERTa-base": "Vifactcheck-xlm-roberta-base",
     "XLM-RoBERTa-large": "Vifactcheck-xlm-roberta-large",
@@ -160,8 +163,6 @@ if target_stage == "Claim Verification":
     with st.sidebar.expander("3. Claim Verification Settings", expanded=True):
         v_mode = st.radio("Xác thực dựa trên:", ["Full Context", "Selected Evidences"])
         display_model_name = st.selectbox("Chọn Model PLM:", list(MODEL_MAPPING.keys()))
-        
-        # Build tên model HuggingFace dựa trên mode
         base_name = MODEL_MAPPING[display_model_name]
         suffix = "-gold-evidence" if v_mode == "Selected Evidences" else ""
         selected_hf_model = f"Namronaldo2004/{base_name}{suffix}"
@@ -171,6 +172,15 @@ if show_ev:
     with st.sidebar.expander("2. Evidence Selection Settings", expanded=True):
         ev_w_emb = st.slider("Evid. Embedding Weight", 0.0, 1.0, 0.6, key="ev_emb")
         ev_w_bm25 = st.slider("Evid. BM25 Weight", 0.0, 1.0, 0.2, key="ev_bm25")
+        
+        # --- YÊU CẦU 1: Bổ sung hiển thị TF-IDF Weight cho Evidence ---
+        ev_w_tfidf = 1.0 - ev_w_emb - ev_w_bm25
+        st.slider("Evid. TF-IDF Weight (Cố định)", 0.0, 1.0, max(0.0, ev_w_tfidf), disabled=True)
+        
+        # --- YÊU CẦU 2: Cảnh báo UI cho Evidence ---
+        if ev_w_emb + ev_w_bm25 > 1.0:
+            st.error("⚠️ Tổng trọng số vượt quá 1.0!")
+
         ev_use_rerank = st.toggle("Sử dụng Reranker cho Evidence?", value=True)
         if ev_use_rerank:
             ev_top_k_input = st.number_input("Số lượng bằng chứng trước Rerank:", 3, 20, 10)
@@ -179,9 +189,8 @@ if show_ev:
         else:
             ev_top_k_input = st.number_input("Số lượng bằng chứng (Top K):", 1, 10, 3)
 
-# --- KHU VỰC GỢI Ý (Yêu cầu 2: Chuyển đổi Claim/Bản tin) ---
+# --- KHU VỰC GỢI Ý ---
 col_title, col_nav = st.columns([0.8, 0.2])
-
 with col_title:
     if st.session_state["rec_mode"] == "claim":
         st.subheader("💡 Gợi ý Claim theo chủ đề")
@@ -215,11 +224,18 @@ st.divider()
 
 # --- GIAO DIỆN CHÍNH ---
 claim_text = st.text_area("Nhập nội dung cần kiểm chứng (Claim):", key="main_input", height=150)
-
-# Checkbox Tách Claim (Yêu cầu 2)
 use_extraction = st.checkbox("Chia nhỏ nội dung đầu vào thành các claim riêng biệt để kiểm chứng", value=False)
 
 if st.button("🚀 Bắt đầu thực hiện xử lý", type="primary"):
+    # --- YÊU CẦU 2: Kiểm tra trọng số trước khi xử lý ---
+    if dr_w_emb + dr_w_bm25 > 1.0:
+        st.error("❌ Không thể thực hiện: Tổng trọng số Document Retrieval vượt quá 1.0. Vui lòng điều chỉnh lại ở thanh bên!")
+        st.stop()
+    
+    if show_ev and (ev_w_emb + ev_w_bm25 > 1.0):
+        st.error("❌ Không thể thực hiện: Tổng trọng số Evidence Selection vượt quá 1.0. Vui lòng điều chỉnh lại ở thanh bên!")
+        st.stop()
+
     if not claim_text.strip():
         st.warning("Vui lòng nhập nội dung!")
         st.stop()
@@ -237,7 +253,6 @@ if st.button("🚀 Bắt đầu thực hiện xử lý", type="primary"):
     else:
         claims_to_process = [claim_text]
 
-    # UI Step-by-Step cho từng Claim (Sử dụng Tabs để người dùng có thể xem lại)
     claim_tabs = st.tabs([f"Claim {i+1}" for i in range(len(claims_to_process))])
 
     for idx, (current_claim, tab) in enumerate(zip(claims_to_process, claim_tabs)):
