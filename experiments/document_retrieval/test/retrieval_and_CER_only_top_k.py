@@ -57,7 +57,7 @@ def run_retrieval_cer_experiment():
     with open(test_data_path, "r", encoding = "utf-8") as f:
         test_records = json.load(f)
 
-    for top_k in range(1, 11):
+    for top_k in range(6, 11):
         correct_count = 0
         total_count = len(test_records)
         results_log = []
