@@ -140,12 +140,17 @@ with st.sidebar.expander("1. Document Retrieval Settings", expanded=True):
     dr_w_tfidf = 1.0 - dr_w_emb - dr_w_bm25
     st.slider("TF-IDF Weight (Cố định)", 0.0, 1.0, max(0.0, dr_w_tfidf), disabled=True)
     
-    # --- YÊU CẦU 2: Cảnh báo UI cho DR ---
     if dr_w_emb + dr_w_bm25 > 1.0:
         st.error("⚠️ Tổng trọng số vượt quá 1.0!")
 
     dr_use_rerank = st.toggle("Sử dụng Reranker cho Document?")
-    dr_top_k = st.number_input("Top K URLs", 1, 10, 3 if dr_use_rerank else 1)
+    
+    # CHỈNH SỬA 1: Ẩn Top K URLs khi không dùng Reranker
+    if dr_use_rerank:
+        st.info("""**Hình thức Rerank**: Lấy ra Top K URLs có điểm số sau khi Rerank cao nhất, sau đó chọn URL tốt nhất làm nguồn.""")
+        dr_top_k = st.number_input("Top K URLs", 1, 10, 3)
+    else:
+        dr_top_k = 1 # Mặc định lấy 1 khi không rerank
 
 MODEL_MAPPING = {
     "XLM-RoBERTa-base": "Vifactcheck-xlm-roberta-base",
@@ -173,16 +178,21 @@ if show_ev:
         ev_w_emb = st.slider("Evid. Embedding Weight", 0.0, 1.0, 0.6, key="ev_emb")
         ev_w_bm25 = st.slider("Evid. BM25 Weight", 0.0, 1.0, 0.2, key="ev_bm25")
         
-        # --- YÊU CẦU 1: Bổ sung hiển thị TF-IDF Weight cho Evidence ---
         ev_w_tfidf = 1.0 - ev_w_emb - ev_w_bm25
         st.slider("Evid. TF-IDF Weight (Cố định)", 0.0, 1.0, max(0.0, ev_w_tfidf), disabled=True)
         
-        # --- YÊU CẦU 2: Cảnh báo UI cho Evidence ---
         if ev_w_emb + ev_w_bm25 > 1.0:
             st.error("⚠️ Tổng trọng số vượt quá 1.0!")
 
-        ev_use_rerank = st.toggle("Sử dụng Reranker cho Evidence?", value=True)
+        # CHỈNH SỬA 2: Mặc định tắt (value=False)
+        ev_use_rerank = st.toggle("Sử dụng Reranker cho Evidence?", value=False)
+        
         if ev_use_rerank:
+            # CHỈNH SỬA 3: Bổ sung giải thích logic Rerank
+            st.info("""**Hình thức Rerank:**
+            - **T1 (Confidence):** Giữ lại các bằng chứng có điểm số vượt ngưỡng tin cậy này.
+            - **T2 (Gap):** Nếu không có bằng chứng nào vượt T1, hệ thống chọn bằng chứng tốt nhất và các bằng chứng tiếp theo nếu độ chênh lệch điểm số nhỏ hơn T2.""")
+            
             ev_top_k_input = st.number_input("Số lượng bằng chứng trước Rerank:", 3, 20, 10)
             t1 = st.slider("Confidence Threshold (T1)", 0.6, 1.0, 0.75)
             t2 = st.slider("Gap Threshold (T2)", 0.0, 0.15, 0.05)
@@ -227,7 +237,6 @@ claim_text = st.text_area("Nhập nội dung cần kiểm chứng (Claim):", key
 use_extraction = st.checkbox("Chia nhỏ nội dung đầu vào thành các claim riêng biệt để kiểm chứng", value=False)
 
 if st.button("🚀 Bắt đầu thực hiện xử lý", type="primary"):
-    # --- YÊU CẦU 2: Kiểm tra trọng số trước khi xử lý ---
     if dr_w_emb + dr_w_bm25 > 1.0:
         st.error("❌ Không thể thực hiện: Tổng trọng số Document Retrieval vượt quá 1.0. Vui lòng điều chỉnh lại ở thanh bên!")
         st.stop()
