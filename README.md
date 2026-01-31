@@ -1,6 +1,6 @@
 # VietFactCheck: A Comprehensive Vietnamese Fact-Checking Pipeline
 
-**VietFactCheck** is an end-to-end framework designed to verify the factual accuracy of Vietnamese claims. The project implements a multi-stage pipeline—ranging from claim detection and document retrieval to final verification—tailored specifically for the linguistic nuances of the Vietnamese language.
+**VietFactCheck** is an end-to-end framework designed to verify the factual accuracy of Vietnamese claims. The project implements a multi-stage pipeline - ranging from claim detection and document retrieval to final verification - tailored specifically for the linguistic nuances of the Vietnamese language.
 
 ## 📂 Project Structure
 
