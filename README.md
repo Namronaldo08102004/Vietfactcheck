@@ -4,23 +4,17 @@
 
 ## 📂 Project Structure
 
-This repository is organized into four main components.
+This repository is organized into four main components. For detailed documentation on each part, please refer to the `README.md` file within the respective folders.
 
-* **[`data/`](https://www.google.com/search?q=./data/)**: Contains all datasets used throughout the project. This includes raw and pre-processed data for **Extraction** (Claim Detection), **Retrieval**, and **Verification** modules. It also houses our custom-generated **ViNewsCheck** dataset.
-* **[`experiments/`](https://www.google.com/search?q=./experiments/)**: This is our research laboratory. We have conducted extensive testing here, covering not only individual modules (like Claim Extraction or Evidence Selection) but also **Combined Pipelines** (e.g., `DC+ES+CV`, `DC+CV`). These experiments help determine the most effective end-to-end configurations for the fact-checking task. Detailed results and analyses can be found in `Analysis.ipynb`.
-* **[`src/`](https://www.google.com/search?q=./src/)**: The core source code of the application. It contains the modular implementation of the pipeline, vector database configurations for document retrieval, and the main logic for the user interface.
-* **[`report/`](https://www.google.com/search?q=./report/)**: Technical reports, presentation slides, and comprehensive research documentation detailing our methodology and findings.
-
----
+* **[`data/`](./data/)**: Contains all datasets used throughout the project, including raw and pre-processed data for **Extraction**, **Retrieval**, and **Verification**. It also houses our custom-generated **ViNewsCheck** dataset.
+* **[`experiments/`](./experiments/)**: Our research laboratory. We conducted extensive testing on individual modules and **Combined Pipelines** (e.g., `DC+ES+CV`, `DC+CV`). Detailed results and analyses are available in `Analysis.ipynb`.
+* **[`src/`](./src/)**: The core source code. It contains the modular implementation of the pipeline, vector database configurations, and the main logic for the user interface.
+* **[`report/`](./report/)**: Technical reports, presentation slides, and comprehensive research documentation.
 
 ## 🔗 External Links
 
-We provide public access to our models and demonstrations to support reproducibility in the Vietnamese NLP community:
-
-* 🧠 **Model Collection**: [VietFactCheck PLMs on Hugging Face](https://huggingface.co/collections/Namronaldo2004/vifactcheck-plm) – A collection of Pre-trained Language Models fine-tuned for various stages of the pipeline.
+* 🧠 **Model Collection**: [VietFactCheck PLMs on Hugging Face](https://huggingface.co/collections/Namronaldo2004/vifactcheck-plm) – Fine-tuned models for various pipeline stages.
 * 📺 **Video Demo**: [Watch the demo](https://www.google.com/search?q=%23) *(Coming soon)*
-
----
 
 ## 🚀 Getting Started
 
@@ -35,12 +29,24 @@ pip install -r requirements.txt
 
 ```
 
-### 2. Prerequisites (Java)
+### 2. Model Weights (Claim Detection)
 
-The project utilizes the **VnCoreNLP** toolkit for Vietnamese language processing.
+To run the **Claim Detection** module, you need the **BERTSum** model weights.
+
+1. **Download** the weights from this [Google Drive Folder](https://drive.google.com/drive/u/0/folders/1WOkgwpu2gOnwBrSqM3ci-ayp6ZgKtajU).
+2. **Configure the path**: Open the file `src/settings/settings.py` and update the `EXTRACTOR_MODEL_PATH` variable with the local path to your downloaded model file:
+```python
+# Example in src/settings/settings.py
+EXTRACTOR_MODEL_PATH = "path/to/your/downloaded/bertsum_weights.pt"
+
+```
+
+### 3. Prerequisites (Java)
+
+The project utilizes the **VnCoreNLP** toolkit.
 
 > [!IMPORTANT]
-> You must have **Java Runtime Environment (JRE) >= 1.8** installed on your system. You can verify your version by running:
+> You must have **Java Runtime Environment (JRE) >= 1.8** installed. Verify your version:
 > ```bash
 > java -version
 > 
@@ -48,20 +54,16 @@ The project utilizes the **VnCoreNLP** toolkit for Vietnamese language processin
 > 
 > 
 
-### 3. Running the App
+### 4. Running the App
 
-Launch the interactive web interface using Streamlit:
+Launch the interactive interface using Streamlit:
 
 ```bash
 streamlit run src/app.py
 
 ```
 
----
-
 ## 🧑‍💻 Contributors
-
-This project was developed with passion by:
 
 * [Namronaldo08102004](https://github.com/Namronaldo08102004)
 * [CISTILY](https://github.com/CISTILY)
@@ -70,5 +72,5 @@ This project was developed with passion by:
 
 We would like to express our sincere gratitude to:
 
-* **Dr. Nguyen Truong Son** and **Dr. Nguyen Tien Huy** for their invaluable guidance, expert insights, and constant support throughout this research.
-* **HCMUS – University of Science, VNU-HCM**, for providing the academic foundation and resources necessary to bring this project to life.
+* **Dr. Nguyen Truong Son** and **Dr. Nguyen Tien Huy** for their invaluable guidance and expert insights throughout this research.
+* **HCMUS – University of Science, VNU-HCM**, for providing the academic foundation and resources.
