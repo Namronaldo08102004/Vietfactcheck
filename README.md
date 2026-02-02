@@ -14,7 +14,7 @@ This repository is organized into four main components. For detailed documentati
 ## 🔗 External Links
 
 * 🧠 **Model Collection**: [VietFactCheck PLMs on Hugging Face](https://huggingface.co/collections/Namronaldo2004/vifactcheck-plm) – Fine-tuned models for various pipeline stages.
-* 📺 **Video Demo**: [Watch the demo](https://www.google.com/search?q=%23) *(Coming soon)*
+* 📺 **Video Demo**: [Watch the demo]([https://www.google.com/search?q=%23](https://www.youtube.com/watch?v=SSNPT3oVPCI))
 
 ## 🚀 Getting Started
 
